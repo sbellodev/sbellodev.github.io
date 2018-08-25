@@ -1,4 +1,4 @@
-
+﻿
 # debello.main.github.io
 
 Chuletas CSS
@@ -147,6 +147,7 @@ https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-d
         
         
 * Resume
-https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-access/a/summary-dom-access-methods        
-
+https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-access/a/summary-dom-access-methods      
 https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/a/summary-dom-modification-techniques
+
+https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/a/summary-dom-events
