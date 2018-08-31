@@ -158,3 +158,5 @@ https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-d
 https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-animation/a/what-dom-animation-technique-should-you-use
 
 https://www.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-dom-access/a/review-dom-access-with-jquery
+
+https://www.khanacademy.org/computing/computer-programming/html-js-jquery/dom-modification-with-jquery/a/review-dom-modification-with-jquery
