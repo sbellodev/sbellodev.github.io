@@ -3,100 +3,51 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Debello's Web</title>
+        <title>Tienda de Sentimientos</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         
         <style>
 
-            h1  {
+            .img-fluid {
+                max-width: 200px;
+                height: 150px;
+            }
+            .flex-img {
+                background-color: white;
+                display: flex;
+                position: relative;
+                justify-content: space-evenly;
+                
+            
+
+            }
+            .thumbnail, img {
+                background-color: white;
+                padding: 10px 20px 10px 20px;
+
+                
+            }   
+            .thumbnail, p {
                 text-align: center;
-                font-style: italic;
-                font-size: 90px;
+            }
+            h1  {
+				
+                text-align: center;
+                font-size: 60px;
                 margin-top: 20px;
                 margin-bottom: 15px;
             }
-            
             #subtitle {
                 font-size: 20px;
                 margin-bottom: 40px;
-                text-align: center;
             }
-            
             #txt-container {
                 position: relative;
                 padding-bottom: 40px; 
                 border-bottom: 40px;
             }
-
-
-            /* Make sure that padding behaves as expected */
-            * {box-sizing:border-box}
-
-            /* Container for skill bars */
-            .container s-bar {
-            width: 100%; /* Full width */
-            background-color: #ddd; /* Grey background */
-            }
-
-            .skills {
             
-            text-align: right; /* Right-align text */
-            padding: 5px; /* Add some padding */
-            color: white; /* White text color */
-            }
-
-            .html {
-                width: 80%; 
-                background-color: #4CAF50;
-                margin-bottom: 20px;
-            } /* Green */
-
-            .css {
-                width: 80%; 
-                background-color: #2196F3;
-                margin-bottom: 20px;
-            } /* Blue */
-
-            .php {
-                width: 80%; 
-                /*background-color: #808080;*/
-                background-color:  #f44336;
-                margin-bottom: 20px;
-            } /* Dark Grey */
-
-            .bs {
-                width: 70%; 
-                background-color: #f4f434;
-                margin-bottom: 20px;
-            } /*  */
-
-            .js {
-                width: 65%; 
-                background-color: #aa09aa;
-                margin-bottom: 20px;
-            } /* Red */
-
-            .java {
-                width: 60%; 
-                background-color: #0ac2c2;
-                margin-bottom: 20px;
-            } /* Red */
-
-
-
-
-    
-
-            .all-skills {
-                padding: 50px;
-            }
-
-            .skill-name {
-                position: relative;
-                
-            }
-
         </style>
         
     </head>
@@ -116,12 +67,16 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Blog(WIP)</a>
+                        <a class="nav-link" href="#">Link</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Projects(WIP)</a>
+                        <a class="nav-link disabled" href="#">Disabled</a>
                       </li>
                     </ul>
+                
+                   
+                    
+
                   </div>
                 </nav>
                 </div>
@@ -132,10 +87,9 @@
 
         <div class='container'>
             <div class='page-header'>
-                <h1 id='title'>Debello</h1>
+                <h1 id='title'>Sentimientos</h1>
             </div>
-        <h2 id='subtitle'>Web Developer. Self-taught. Enthusiast.</h2>
-        <h2 id='subtitle'>ENG / ESP</h2>
+        <h2 id='subtitle'>Tu tienda de sentimientos de confianza.</h2>
 
         <div id='raya'></div>
  
@@ -144,53 +98,51 @@
             <div id='txt'><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
         </div>
         
-            <div class='container'>
-                <div class='jumbotron txt-container'>
-                
-                <p>Skills:</p>
-                    <ul>
-                        <li>Loving Cats *****</li>
-                        <li>Belona..... *****</li>
-                    </ul>
-                </div>
-            </div>
         
-
-
-        <div class="all-skills">
-            <p class='skill-name'>HTML</p>
-            <div class="container s-bar">
-            <div class="skills html">80%</div>
+        <div class='container flex-img'>
+            <div class='row'>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_sensitive.jpg' alt='sensitive'>
+                <p id='desc'>Image Sensitive</p>
             </div>
-            
-            <p class='skill-name'>CSS</p>
-            <div class="container s-bar">
-            <div class="skills css">80%</div>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_joy.jpg' alt='joy'>
+                <p id='desc'>Image Joy</p>
             </div>
-            
-            <p class='skill-name'>PHP</p>
-            <div class="container s-bar">
-            <div class="skills php">80%</div>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_love.jpg' alt='love'>
+                <p id='desc'>Image Love</p>
             </div>
-
-            <p class='skill-name'>Bootstrap</p>
-            <div class="container s-bar">
-            <div class="skills bs">70%</div>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_boredom.jpg' alt='boredom'>
+                <p id='desc'>Image Boredom</p>
             </div>
-
-            <p class='skill-name'>JavaScript</p>
-            <div class="container s-bar">
-            <div class="skills js">65%</div>
             </div>
+        </div>
 
-            <p class='skill-name'>Java</p>
-            <div class="container s-bar">
-            <div class="skills java">60%</div>
+        <div class='container flex-img'>
+            <div class='row'>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_calm.jpg' alt='Calm'>
+                <p id='desc'>Image Calm</p>
             </div>
-            
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_pride.jpg' alt='Pride'>
+                <p id='desc'>Image Pride</p>
+            </div>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_vitality.jpg' alt='Vitality'>
+                <p id='desc'>Image Vitality</p>
+            </div>
+            <div class='thumbnail' >
+                <img class="img-fluid img-thumbnail" src='img/img_grateful.jpg' alt='Grateful'>
+                <p id='desc'>Image Grateful</p>
+            </div>
+            </div>
+        </div>
 
 
-        </div>  
+
 
 
         <div id='footer'></div>
