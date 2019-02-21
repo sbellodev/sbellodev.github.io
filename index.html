@@ -1,103 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Debello's Web</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        
         <style>
-            p {
-                background-color:burlywood;
-                font-style:oblique;
-            }
-            #return-word {
-                font-size: 10px;
-                background-color: white;
-            }
-            #post-title1{
-                text-decoration: underline;
-                font-weight: bold;
-                font-family:sans-serif;
-            }
-            #post-title2{
-                text-decoration: underline;
-                font-weight: bold;
-                font-family:sans-serif;
-            }
-            thead {
-                background-color: aqua;
-            }
-            tbody {
-                background-color: aquamarine; 
-            }
-            #contents-list {
-                background-color:antiquewhite;
-                font-family: monospace;
-                line-height: 1.5;
-            }
-            h3 {
-                font-family: fantasy;
-            }
-            #Return {
+
+            h1  {
                 text-align: center;
                 font-style: italic;
-                
+                font-size: 90px;
+                margin-top: 20px;
+                margin-bottom: 15px;
             }
+            
+            #subtitle {
+                font-size: 20px;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+            
+            #txt-container {
+                position: relative;
+                padding-bottom: 40px; 
+                border-bottom: 40px;
+            }
+            
         </style>
+        
     </head>
+
     <body>
-        
-        <h1 id="Return">Paula's blog</h1>
+            <div class="container-fluid">
+	
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog(WIP)</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Projects(WIP)</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                </div>
+           
 
-        <h3>Contents</h3>
-        <ul id="contents-list">
-            <li><a href="#post-title1">First post: CSS Tags</a></li>
-            <li><a href="#post-title2">Second post: Tables</a></li>
-        </ul>
-        
-        <h2 id="post-title2">2nd Chapter: Tables</h2>
-        <h6>Posted 06/08/2018</h6>
-        
-        <p>Yesterday I learned about making tables. At first I got confused by the tags:         td, th, tr... but with patience and effort (also practicing on my own!) <br>
-        I managed to understand where I should use them. 
-        There's like two big parts:
-            First we use <strong><em>thead</em></strong> like we use <em>"head"</em>.
-            <br>
-And then there's <strong><em>tbody</em></strong>, same with <em>body</em> <br> Example:  </p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Table's head1</th>
-                    <th>Table's head2</th>
-                    <th>Table's head3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Table's body1</td>
-                    <td>Table's body2</td>
-                    <td>Table's body3</td>
-                </tr>
-                 <tr>
-                    <td>Table's bodyA</td>
-                    <td>Table's bodyB</td>
-                    <td>Table's bodyC</td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-                <p id="return-word"><a href="#Return"> Return </a> to the beginning of this page.</p>
 
+
+
+        <div class='container'>
+            <div class='page-header'>
+                <h1 id='title'>Debello</h1>
+            </div>
+        <h2 id='subtitle'>Web Developer. Self-taught. Enthusiast.</h2>
+        <h2 id='subtitle'>ENG / ESP</h2>
+
+        <div id='raya'></div>
+ 
+
+        <div class='jumbotron txt-container' >
+            <div id='txt'><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+        </div>
         
-        <h2 id="post-title1">1st Chapter: CSS tags</h2>
-        <h6>Posted 07/08/2018</h6>
+            <div class='container'>
+                <div class='jumbotron txt-container'>
+                
+                <p>Skills:</p>
+                    <ul>
+                        <li>Loving Cats *****</li>
+                        <li>Belona..... *****</li>
+                    </ul>
+                </div>
+            </div>
         
-        <p>Today I played around CSS and all of the tags avaiable (only the ones which changes fonts, lines, colors...)<br>
-            First I use <strong><em>font-family</em></strong> which I should decide between different types of font like <em>sans</em> or <em>sans-serif</em>. <br>
-            We also could change the boldness or lightness of the fond, underline it, changing it color... it was funny. This blog will be my background practice so I hope you can enjoy my font's changes also my color's choice!
-        </p>
-        
-        <p id="return-word"><a href="#Return"> Return </a> to the beginning of this page.</p>
-      
-        
-        
+
+
+
+
+
+
+        <div id='footer'></div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
+        
 </html>
