@@ -106,7 +106,7 @@
                 display: center;
                 font-size: 130px;
                 margin-bottom: 20px;
-                background-color: red;
+                
                 
 
             }
@@ -144,6 +144,11 @@
             text-align: left; /* Right-align text */
             padding: 5px; /* Add some padding */
             color: white; /* White text color */
+            }
+            .skills img {
+                position: relative;
+                top: 10px;
+                margin-bottom: 17px;
             }
 
 
@@ -202,6 +207,7 @@
             }
             .skill-names p {
                 padding: 6.5px;
+                font-size: 25px;
             }
 
             .flex-container {
@@ -301,20 +307,34 @@
                 display: right;
                 text-align: right;
             }
-            @media screen and (max-wdwidth: 600px) {
+            @media screen and (max-width: 600px) {
             .rwd-line { display: block;
                         line-height: 20px; }
 
-            .page-header {
-                display: block;
-            }
+
             h1 {
-                font-size: 20px;
-            }
-            #title {
-                font-size: 20px;
+                font-size: 120px;
             }
 
+
+        }
+        h1, h2 {
+            text-align: center;
+            display: center;
+
+        }
+
+        #sb1 {
+            margin: 200px 100px 400px 100px;
+        }
+        h2:hover {
+            color: yellow;
+        }
+        .hover-2 {
+            color: yellow;
+        }
+        .hover-2:hover{
+            color: green;
         }
 
         </style>
@@ -329,19 +349,16 @@
        <!-- <img class="first heart hred" src=img/heart_red.png />-->
 
 
-
-
-
-
-        <div class='container' id='titule';>
-            <div class='page-header'>
-                <h1 id='title'>Santi BELLO</h1>
-            
-        <h2 id='subtitle'>Desarrollador Web Backend.</h2>
-        <h2 id='subtitle'>Autodidacta.</h2>
-        <h2 id='subtitle' style='color:yellow;'>* PHP</h2>
+    
+        <div id='sb1'>
+            <h1 id='sb2'>Santi Bello</h1>
+            <h2>Desarrollador Web Backend.</h2>
+            <h2>Autodidacta.</h2>
+            <h2 class='hover-2'>* PHP</h2>
         </div>
-    </div>
+    
+
+
 
 
 
