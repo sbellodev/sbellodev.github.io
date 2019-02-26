@@ -135,22 +135,22 @@
 
             .skills {
 
-            text-align: right; /* Right-align text */
+            text-align: left; /* Right-align text */
             padding: 5px; /* Add some padding */
             color: white; /* White text color */
             }
 
-            .htmla {
+
+            /*.htmla {
                 width: 80%;
                 background-color: #4CAF50;
                 margin-bottom: 20px;
-                padding-top: 13px;
-                padding-bottom: 13px;
+
             } /* Green */
 
             .css-bara { /* For some reason I need to give it padding */
                 width: 80%;
-                background-color: #2196F3;
+                
                 margin-bottom: 20px;
 
             } /* Blue */
@@ -158,45 +158,52 @@
             .php {
                 width: 85%;
                 /*background-color: #808080;*/
-                background-color:  #f44336;
+                
                 margin-bottom: 20px;
             } /* Dark Grey */
 
             .bs {
                 width: 70%;
-                background-color: #f4f434;
+                
                 margin-bottom: 20px;
             } /*  */
 
             .js {
                 width: 65%;
-                background-color: #aa09aa;
+                
                 margin-bottom: 20px;
             } /* Red */
 
             .java {
                 width: 60%;
-                background-color: #0ac2c2;
+                
                 margin-bottom: 20px;
             } /* Red */
 
 
 
-            .all-skills {
-                padding: 50px;
+            .all-skills { /* Colocar corazones en horizontal, sin nueva linea*/
+                width: 250px;
+                
             }
 
-            .skill-name {
+
+            .skill-names {
                 position: relative;
+                
+                
 
             }
+            .skill-names p {
+                padding: 6.5px;
+            }
 
-            .grid-list {
+            .flex-container {
                 display: grid;
                 grid-template-columns: 1fr 1fr ;
-                grid-gap: 10px;
+                
                 justify-items: center;
-                padding: 60px;
+                padding: 150px;
                 padding-top: 100px;
                 padding-bottom: 100px;
 
@@ -210,11 +217,7 @@
                 margin-top: 30px;
 
             }
-            #php-title  {
-                background-color: rgb(15, 145, 252);
-                border-radius: 4px;
-                padding: 4px 9px 4px 9px;
-            }
+
             #js-title {
                 background-color: goldenrod;
                 border-radius: 4px;
@@ -256,8 +259,8 @@
                 position: relative;
                 right: 10px;
                 bottom: 5px;
-                text-align: right;
-                display: right;
+                text-align: center;
+                display: center;
                 
                 color: white;
             }
@@ -266,11 +269,43 @@
                 padding-top: 220px;
             }
 
+            .heart {
+                width: 20px;
+                height: 20px;
+            }
+
+            .fin {
+                position: relative;
+                display: center;
+                text-align: center;
+            }
+
+            #end-heart {
+                
+                position: relative;
+                display: center;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .first {
+                position: relative;
+                top: 10px;
+                left: 10px;
+                display: right;
+                text-align: right;
+            }
+
         </style>
 
     </head>
 
     <body>
+
+
+
+
+        <img class="first heart hred" src=img/heart_red.png />
 
 
 
@@ -313,43 +348,69 @@
                 <div id='separacion'></div>
 
 
-<div class = 'container'>
+
+<div class = 'container flex-container'>
+
+        <div class="skill-names">
+        <p>PHP Laravel</p>
+        <p>Bootstrap</p>
+        <p>HTML/CSS</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        </div>
+
         <div class="all-skills">
 
-            <p class='skill-name'>PHP</p>
+            
             <div class="container s-bar">
-            <div class="skills php">85%</div>
+            <div class="skills php">
+                    <img class="heart hgreen" src=img/heart_green.png />
+                    <img class="heart hgreen" src=img/heart_green.png />
+                    <img class="heart hgreen" src=img/heart_green.png />
+                    <img class="heart hgreen" src=img/heart_green.png />
+                    <img class="heart hgreen" src=img/heart_green.png />
+            </div>
             </div>
 
-            <p class='skill-name'>HTML</p>
             <div class="container s-bar">
-            <div class="skills htmla">80%</div>
+            <div class="skills bs">
+                <img class="heart hyellow" src=img/heart_yellow.png />
+                <img class="heart hyellow" src=img/heart_yellow.png />
+                <img class="heart hyellow" src=img/heart_yellow.png />
+                <img class="heart hyellow" src=img/heart_yellow.png />
+
+            </div>
             </div>
 
-            <p class='skill-name'>CSS</p>
             <div class="container s-bar">
-            <div class="skills css-bara">80%</div>
+                
+            <div class="skills css-bara">
+                <img class="heart hred" src=img/heart_red.png />
+                <img class="heart hred" src=img/heart_red.png />
+                <img class="heart hred" src=img/heart_red.png />
+                <img class="heart hred" src=img/heart_red.png />
+            </div>
             </div>
 
-            <p class='skill-name'>Bootstrap</p>
             <div class="container s-bar">
-            <div class="skills bs">70%</div>
+            <div class="skills js">
+                <img class="heart hviolet" src=img/heart_violet.png />
+                <img class="heart hviolet" src=img/heart_violet.png />
+                <img class="heart hviolet" src=img/heart_violet.png />
+            </div>
             </div>
 
-            <p class='skill-name'>JavaScript</p>
             <div class="container s-bar">
-            <div class="skills js">65%</div>
+            <div class="skills java">
+                <img class="heart hblue" src=img/heart_blue.png />
+                <img class="heart hblue" src=img/heart_blue.png />
             </div>
-
-            <p class='skill-name'>Java</p>
-            <div class="container s-bar">
-            <div class="skills java">60%</div>
             </div>
 
 
 
         </div>
-    </div>
+    
     </div>
 
         <div id='raya'></div>
@@ -372,7 +433,18 @@
     <p id='txt-contact'><i>santidebello@gmail.com</i></p>
 
     <div id='raya'></div>
+
+
     <div id='pie2'></div>
+
+    <div id='end-heart'>
+            <img class="fin heart hgreen" src=img/heart_green.png />
+            <img class="fin heart hyellow" src=img/heart_yellow.png />
+            <img class="fin heart hred" src=img/heart_red.png />
+            <img class="fin heart hviolet" src=img/heart_violet.png />
+            <img class="fin heart hblue" src=img/heart_blue.png />
+        </div>
+
     <p id='credits'>Font y temática inspirada en Undertale de Toby Fox.</p>
 
 </html>
