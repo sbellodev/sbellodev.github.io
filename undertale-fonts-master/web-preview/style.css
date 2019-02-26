@@ -1,0 +1,83 @@
+* {
+    margin:0; padding:0;
+    -webkit-font-smoothing: none;
+}
+
+body {
+    background-color:black;
+    color:white;
+    
+    font-family: "Determination Mono", sans-serif;
+    font-size:16px;
+    
+    max-width:20em;
+    margin:auto;
+    margin-top:2em;
+    margin-bottom:2em;
+    
+    padding:2em;
+    border: 4px solid white;
+}
+
+h1 {
+    font-size:2em;
+    font-weight: normal;
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:center;
+}
+
+main {
+    padding:1em;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom:1em;
+}
+
+h2 {
+    font-weight:normal;
+    font-size:2em;
+    margin-top:1em;
+}
+
+main div{
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+#sans {
+    font-family: "Undertale Sans";
+}
+
+#papyrus {
+    font-family: "Undertale Papyrus";
+}
+
+code {
+    font-size:12px;
+    word-break: break-all;
+}
+
+@media (min-resolution: 2dppx) and  (min-width: 600px) {
+    body {
+        font-size:24px;
+    }
+    code {
+        font-size:18px;
+    }
+}
+
+@media (min-width: 800px) and (max-resolution: 1.9dppx) {
+    body {
+        font-size:32px;
+    }
+    code {
+        font-size:24px;
+    }
+}

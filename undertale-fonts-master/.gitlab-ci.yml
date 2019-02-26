@@ -1,0 +1,14 @@
+services: []
+
+pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - cp -r webfonts .public
+  - cp -r web-preview/* .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

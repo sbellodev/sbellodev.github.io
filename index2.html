@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
 
         <title>Santi Bello's Web</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,12 +10,8 @@
 
 
         <style>
-            @font-face {
-  font-family: 'Determination Mono';
-  src: url('DeterminationMonoWeb.ttf'); /* IE9 Compat Modes */
-            }
             .txt {
-                line-height: 10px;
+                line-height: 20px;
             }
         @media screen and (max-wdwidth: 600px) {
             .rwd-line { display: block;
@@ -76,7 +71,7 @@
 }
 
 #raya {
-    
+    background-color:wheat;
     position: relative;
     left: 10%;
     width: 80%;
@@ -86,26 +81,18 @@
     margin-bottom: 100px;
 }
 
-            body {
-                font-family: 'Determination Mono', cursive;
-                background-color: black;
-                color: white;
-            }
+
             h1  {
                 text-align: center;
-                
-                font-size: 100px;
+                font-style: italic;
+                font-size: 200px;
                 margin-bottom: 20px;
-                
-
             }
 
             #subtitle {
-                font-size: 20px;
+                font-size: 30px;
                 margin-bottom: 20px;
                 text-align: center;
-                
-
             }
 
             #subtitle:nth-of-type(2) {
@@ -174,6 +161,9 @@
 
 
 
+
+
+
             .all-skills {
                 padding: 50px;
             }
@@ -196,10 +186,9 @@
 
 
             #pie2 {
-                
+                background-color: white;
                 width: 100%;
-                height: 180px;
-                margin-top: 30px;
+                height: 40px;
 
             }
             #php-title  {
@@ -219,47 +208,49 @@
                 margin-bottom: 400px;
                 bottom: 80px;
             }
-            .jumbotron {
-                background-color: black;
-            }
-
-            ul {
-                list-style: none; /* Remove HTML bullets */
-                padding: 0;
-                margin: 0;
-            }
-
-            li { 
-                padding-left: 14px; 
-            }
-
-            li::before {
-                content: "*"; /* Insert content that looks like bullets */
-                padding-right: 10px;
-                
-            }
-
-            #titule {
-                padding-top: 120px;
-            }
 
         </style>
 
     </head>
 
     <body>
+            <div class="container-fluid" style="background-color:greenyellow">
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Spanish(WIP)</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Blog(WIP)</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Projects(WIP)</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                </div>
 
 
 
 
 
-
-        <div class='container' id='titule';>
+        <div class='container' style=background-color:red;>
             <div class='page-header'>
                 <h1 id='title'>Santi Bello</h1>
             
         <h2 id='subtitle'>Desarrollador Web. Autodidacta.</h2>
-        <h2 id='subtitle'>Backend.</h2>
+        <h2 id='subtitle'><span id='php-title'>PHP</span> & <span id='js-title'>JavaScript</span></h2>
         </div>
     </div>
 
@@ -267,42 +258,47 @@
 
 
 
-    <div class='container' >
+    <div class='container' style=background-color:green;>
         <div class='jumbotron'>
             <div id='txt'>
 
 
-        <p class='rwd-line'>Soy un estudiante autodidacta de Galicia, España. Preferencia por el Backend PHP.
+        <p class='rwd-line'>(WIP - En Construcción)English/Spanish. Self-taught student from Galicia, Spain.
             </p>
-             <p class='rwd-line'>Hace más de un año empecé a trastear con Java tras verle las 'tripas' a un 
-                 videojuego...</p>
-             <p class='rwd-line'>y aquello inició una jornada que llevaría a descubrir el mundo del Desarrollo Web.</p>
-             <p class='rwd-line'>Del impacto que puede producir un proyecto.</p>
+             <p class='rwd-line'>Started 2 years ago learning Java then on June '18 I enroled HTML, CSS and JS courses on Khan Academy and FreeCodeCamp.</p>
+             <p class='rwd-line'>After that on September '18 PHP was the backend languaje I was being taught and currently the most I'm comfortable with.  </p>
 
-         <p class='rwd-line'>Tras un sinfín de cursos, libros, documentación y mucha paciencia ahora me dispongo a lanzarme a cualquier aventura que se avecine.</p>
-          <p class='rwd-line'>Busco un trabajo para, acompañado de otros compañeros, potenciar nuestras capacidades mientras sigo formándome.</p>               
+         <p class='rwd-line'>Currently sharping my JavaScript
+             and PHP skills.</p>
+          <p class='rwd-line'>Also I own two cats! Perla and Luna.</p>               
             </div>
         </div>
     </div>
 
-            <div class='container' >
+            <div class='container' style='background-color: blue;'>
                 <div class='jumbotron grid-list'>
                     <div id='list1'>
-                        <p>Con qué me identifico</p>
+                        <p>What I like:</p>
                             <ul>
-                                <li>Mejorar profesionalmente</li>
-                                <li>Buen humor</li>
-                                <li>Mejorar como persona</li>
-                                <li>Aprender constantemente</li>
+                                <li>Cats</li>
+                                <li>Coffee</li>
+                                <li>Having a laugh</li>
+                                <li>Self-growth</li>
+                                <li>Learn from people</li>
+                                <li>Learn from Internet</li>
+                                <li>Developing my skills</li>
+                                <li>...dogs</li>
                             </ul>
                     </div>
                     <div id='list2'>
-                        <p>Qué busco:</p>
+                        <p>Things I'm looking for:</p>
                             <ul>
-                                <li>Conocer gente que comparta mis ambiciones</li>
-                                <li>Contribuír, hacer un impacto en la sociedad</li>
-                                <li>No dejar de aprender</li>
-                                <li>Poner a prueba mis límites </li>
+                                <li>Know people</li>
+                                <li>Contribute to others projects</li>
+                                <li>Never stop learning </li>
+                                <li>Create my blog </li>
+                                <li>Certificate of HNC in Spain</li>
+                                <li>A job that tests my skills</li>
                             </ul>
                         </div>
                     </div>
@@ -355,9 +351,9 @@
         <div id='raya'></div>
 
 
-        <div id='footer pie' style='padding-top: 120px;'></div>
+        <div id='footer pie'></div>
         <div id='pie2'></div>
-        <p id='txt-contact'><strong>Connect</strong></p>
+        <p id='txt-contact'><strong>Connect :)</strong></p>
         <div id='social-buttons'>
 
             <a href="https://twitter.com/debelloweb" class="fa fa-twitter"></a>
@@ -372,6 +368,5 @@
     <p id='txt-contact'><i>santidebello@gmail.com</i></p>
 
     <div id='raya'></div>
-    <div id='pie2'></div>
 
 </html>
