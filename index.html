@@ -14,14 +14,18 @@
             @font-face {
                 font-family: 'Determination Mono';
                 src: url('DeterminationMonoWeb.ttf'); /* IE9 Compat Modes */
+                font-family: 'Flipps-Regular';
+                src: url('Flipps-Regular.otf');
             }
 
 
 
 
             .txt {
-                line-height: 10px;
+                font-family: 'Flipps-Regular', sans-serif;
+                line-height: 1pt;
             }
+ 
         @media screen and (max-wdwidth: 600px) {
             .rwd-line { display: block;
                         line-height: 20px; }
@@ -257,6 +261,10 @@
                 
                 color: white;
             }
+            #separacion {
+                width: 80px;
+                padding-top: 220px;
+            }
 
         </style>
 
@@ -283,16 +291,15 @@
 
 
     <div class='container' >
-        <div class='jumbotron'>
-            <div id='txt'>
+        <div class='jumbotron' style='line-height: 20px;' >
+            <div id='txt' >
 
 
         <p class='rwd-line'>Soy un estudiante autodidacta de Galicia. Escribo código a diario.
             </p>
              <p class='rwd-line'>Hace más de un año empecé a trastear con Java tras verle las 'tripas' a un 
-                 videojuego...</p>
-             <p class='rwd-line'>y aquello inició una jornada que llevaría a descubrir el mundo del Desarrollo Web.</p>
-             <p class='rwd-line'>Del impacto que puede producir un proyecto.</p>
+                 videojuego... y aquello inició una jornada que llevaría a descubrir el mundo del Desarrollo Web.</p></br>
+             <p class='rwd-line'>Del valor que podemos aportar a la sociedad.</p></br>
 
          <p class='rwd-line'>Tras un sinfín de cursos, libros, documentación y mucha paciencia ahora busco pasar al siguiente nivel.</p>
           <p class='rwd-line'>Busco un trabajo para, acompañado de otros compañeros, potenciar nuestras capacidades mientras seguimos formándonos.</p>
@@ -301,6 +308,10 @@
             </div>
         </div>
     </div>
+
+
+<div id='separacion'></div>
+
 
             <div class='container' >
                 <div class='jumbotron grid-list'>
@@ -311,13 +322,14 @@
                                 <li>Buen humor</li>
                                 <li>Mejorar como persona</li>
                                 <li>Aprender constantemente</li>
+                                <li>Responsable</li>
                             </ul>
                     </div>
                     <div id='list2'>
                         <p>Qué busco:</p>
                             <ul>
-                                <li>Conocer gente que comparta mis ambiciones</li>
-                                <li>Contribuír, hacer un impacto en la sociedad</li>
+                                <li>Conocer gente que comparta mis objetivos</li>
+                                <li>Contribuír, impactar en la sociedad</li>
                                 <li>No dejar de aprender</li>
                                 <li>Poner a prueba mis límites </li>
                             </ul>
@@ -327,7 +339,7 @@
             
 
 
-
+                <div id='separacion'></div>
 
 
 <div class = 'container'>
