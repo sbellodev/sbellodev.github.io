@@ -11,24 +11,42 @@
 
 
         <style>
-
+                @font-face {
+                font-family: 'Determination Mono';
+                src: url(ttf/DeterminationMonoWeb.ttf);
+                }
             body {
-                font-family: 'Determination Mono', 'Fipps-Regular';
+                font-family: 'Determination Mono', 'Fipps-Regular', 'monospace';
                 background-color: black;
                 color: white;
-            }
-
-
-
-            .txt {
+                display: center;
                 
-                line-height: 1pt;
             }
+
+
+
+ 
+            .rwd-line {
+                font-size: 25px;
+                
+                
+                line-height: 25px;
+            }
+
  
         @media screen and (max-wdwidth: 600px) {
             .rwd-line { display: block;
                         line-height: 20px; }
+
+            .page-header {
+                display: block;
+            }
+            h1 {
+                font-size: 50px;
+            }
         }
+
+        
 
             /* Style all font awesome icons */
         #social-buttons {
@@ -96,15 +114,15 @@
 
             h1  {
                 text-align: center;
-                
-                font-size: 100px;
+                display: center;
+                font-size: 130px;
                 margin-bottom: 20px;
                 
 
             }
 
             #subtitle {
-                font-size: 20px;
+                font-size: 40px;
                 margin-bottom: 20px;
                 text-align: center;
                 
@@ -224,6 +242,8 @@
                 margin: 100px;
                 margin-bottom: 400px;
                 bottom: 80px;
+                display: center;
+                text-align: center;
             }
             .jumbotron {
                 background-color: black;
@@ -300,7 +320,7 @@
 
 
 
-        <img class="first heart hred" src=img/heart_red.png />
+       <!-- <img class="first heart hred" src=img/heart_red.png />-->
 
 
 
@@ -311,7 +331,8 @@
             <div class='page-header'>
                 <h1 id='title'>Santi BELLO</h1>
             
-        <h2 id='subtitle'>Desarrollador Web Backend. Autodidacta.</h2>
+        <h2 id='subtitle'>Desarrollador Web Backend.</h2>
+        <h2 id='subtitle'>Autodidacta.</h2>
         <h2 id='subtitle' style='color:yellow;'>* PHP</h2>
         </div>
     </div>
@@ -328,14 +349,15 @@
         <p class='rwd-line'>Soy un estudiante autodidacta en Galicia. Programo a diario.
             </p></br>
              <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las 
-                 'tripas' a un videojuego... 
-                 y aquello inició una jornada que me llevaría a descubrir la programación Web.
-             </br>Me fascinó el valor que podemos aportar a la sociedad mediante código y un objetivo.
-            </p></br>
-             
+                 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
+             </br></br>Me fascinó el valor que podemos aportar a la sociedad mediante código y un objetivo.
+            </p></br></br>
+            <div id='end-heart'>
 
-            <p class='rwd-line'>Actualmente busco un trabajo para seguir formándome, ponerme a prueba 
-                y abrirme a nuevas posibilidades.</p>
+                    <img class="fin heart hred" src=img/heart_red.png />
+                </div>
+
+            <p class='rwd-line'>Actualmente busco un trabajo para seguir formándome y abrirme a nuevas posibilidades.</p>
         </br><p class='rwd-line'>Me considero responsable, organizado, trabajo en equipo y buena trata
              con la gente, 
             habiendo participado en la organización de más de 50 eventos de ocio a nivel regional 
