@@ -3,282 +3,103 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-
         <title>Santi Bello's Web</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
         <style>
-                @font-face {
+            @font-face {
                 font-family: 'Determination Mono';
                 src: url(ttf/DeterminationMonoWeb.ttf);
-                }
+            }
+
             body {
                 font-family: 'Determination Mono', 'Fipps-Regular', 'monospace';
                 background-color: black;
                 color: white;
-                display: center;
-                
             }
 
-
-
- 
             .rwd-line {
-                font-size: 25px;
-                
-                
+                font-size: 25px; 
                 line-height: 25px;
             }
 
 
-
-        
-
             /* Style all font awesome icons */
-        #social-buttons {
-            display: flex;
-            justify-content: center;
+            #social-buttons {
+                display: flex;
+                justify-content: center;
 
-        }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 30%;
-  align-content: center;
-}
+            }
+            .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 70px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30%;
+            align-content: center;
+            }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
+            /* Add a hover effect if you want */
+            .fa:hover {
+            opacity: 0.7;
+            }
 
-/* Set a specific color for each brand */
+            /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-github {
-  background: #444444;
-  color: white;
-}
+            /* Facebook */
+            .fa-github {
+            background: #444444;
+            color: white;
+            }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-#txt-contact {
-    font-size: 20px;
-    text-align: center;
-}
-#txt-contact:nth-of-type(2){ /* Contact */
-    margin-top: 30px;
-}
-
-#txt-contact:nth-of-type(1){
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#txt-contact:nth-of-type(4){ /* Mail */
-    font-size: 20px;
-
-}
-
-#raya {
-    
-    position: relative;
-    left: 10%;
-    width: 80%;
-    height: 5px;
-    border-radius: 20%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+            /* Twitter */
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
 
 
-            h1  {
+            /* Dos tipos de separadores */
+            #raya {
+                position: relative;
+                width: 200px;
+                height: 5px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+            #mini-raya {
+                position: relative;
+                width: 200px;
+                height: 5px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+
+            /* Titulo y Subtitulo */ 
+            h1 {
+                font-size: 120px;
+            }
+            h1, h2 {
                 text-align: center;
                 display: center;
-                font-size: 130px;
-                margin-bottom: 20px;
-                
-                
-
-            }
-
-             
-
-
-            #subtitle {
-                font-size: 40px;
-                margin-bottom: 20px;
-                text-align: center;
-                
-
-            }
-
-            #subtitle:nth-of-type(2) {
-                padding-bottom: 30px;
             }
 
 
-
-
-
-            /* Make sure that padding behaves as expected */
-            * {box-sizing:border-box}
-
-            /* Container for skill bars */
-            .container s-bar {
-            width: 100%; /* Full width */
-            background-color: #ddd; /* Grey background */
+            h2:hover {
+                color: yellow;
             }
-
-            .skills {
-
-            text-align: left; /* Right-align text */
-            padding: 5px; /* Add some padding */
-            color: white; /* White text color */
+            .hover-2 {
+                color: yellow;
             }
-            .skills img {
-                position: relative;
-                top: 10px;
-                margin-bottom: 17px;
+            .hover-2:hover{
+                color: green;
             }
 
 
-            /*.htmla {
-                width: 80%;
-                background-color: #4CAF50;
-                margin-bottom: 20px;
-
-            } /* Green */
-
-            .css-bara { /* For some reason I need to give it padding */
-                width: 80%;
-                
-                margin-bottom: 20px;
-
-            } /* Blue */
-
-            .php {
-                width: 85%;
-                /*background-color: #808080;*/
-                
-                margin-bottom: 20px;
-            } /* Dark Grey */
-
-            .bs {
-                width: 70%;
-                
-                margin-bottom: 20px;
-            } /*  */
-
-            .js {
-                width: 65%;
-                
-                margin-bottom: 20px;
-            } /* Red */
-
-            .java {
-                width: 60%;
-                
-                margin-bottom: 20px;
-            } /* Red */
-
-
-
-            .all-skills { /* Colocar corazones en horizontal, sin nueva linea*/
-                width: 250px;
-                
-            }
-
-
-            .skill-names {
-                position: relative;
-                
-                
-
-            }
-            .skill-names p {
-                padding: 6.5px;
-                font-size: 25px;
-            }
-
-            .flex-container {
-                display: grid;
-                grid-template-columns: 1fr 1fr ;
-                
-                justify-items: center;
-                padding: 150px;
-                padding-top: 100px;
-                padding-bottom: 100px;
-
-            }
-
-
-            #pie2 {
-                
-                width: 100%;
-                height: 180px;
-                margin-top: 30px;
-
-            }
-
-            #js-title {
-                background-color: goldenrod;
-                border-radius: 4px;
-                padding: 4px 9px 4px 9px;
-     
-            }
-
-            .page-header {
-                margin: 100px;
-                margin-bottom: 400px;
-                bottom: 80px;
-                display: center;
-                text-align: center;
-            }
             .jumbotron {
                 background-color: black;
-            }
-
-            ul {
-                list-style: none; /* Remove HTML bullets */
-                padding: 0;
-                margin: 0;
-            }
-
-            li { 
-                padding-left: 14px; 
-            }
-
-            li::before {
-                content: "*"; /* Insert content that looks like bullets */
-                padding-right: 10px;
-                
-            }
-
-
-
-            #credits {
-                font-size: 15px;
-                position: relative;
-                right: 10px;
-                bottom: 5px;
-                text-align: center;
-                display: center;
-                
-                color: white;
-            }
-            #separacion {
-                width: 80px;
-                padding-top: 220px;
             }
 
             .heart {
@@ -286,27 +107,10 @@
                 height: 20px;
             }
 
-            .fin {
-                position: relative;
-                display: center;
-                text-align: center;
-            }
 
-            #end-heart {
-                
-                position: relative;
-                display: center;
-                text-align: center;
-                margin-bottom: 40px;
-            }
 
-            .first {
-                position: relative;
-                top: 10px;
-                left: 10px;
-                display: right;
-                text-align: right;
-            }
+
+            /* Mobile Responsive */
             @media screen and (max-width: 600px) {
             .rwd-line { display: block;
                         line-height: 20px; }
@@ -314,28 +118,61 @@
 
             h1 {
                 font-size: 120px;
+                margin: 0px;
+            }
+            
+            @media screen and (max-width: 370px) {
+                h1 {
+                    font-size: 100px;
+                    display: block;
+                }
+                .flex-container {
+                    padding: 0px;
+                    display: center;
+                }
+            }
+        }
+
+
+            /* GRID Hearts y Skills */
+            .flox-all {
+                display: grid;
+                height: 400px;
+                grid-template-columns: 50% 50%;
+                grid-column-gap: 40px; 
             }
 
+            .sk-hearts {
+                position: relative;
+                top: 10px;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                justify-self: start; 
+            }
 
-        }
-        h1, h2 {
-            text-align: center;
-            display: center;
+            .sk-names {
+                font-size: 25px;
+                justify-self: end;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            }
+            /* End GRID*/
 
-        }
+            #pie-pagina {
+                position: relative;
+                display: center;
+                text-align: center;
+            }
+            #pie-pagina {
+                font-size: 40px;
+            }
 
-        #sb1 {
-            margin: 200px 100px 400px 100px;
-        }
-        h2:hover {
-            color: yellow;
-        }
-        .hover-2 {
-            color: yellow;
-        }
-        .hover-2:hover{
-            color: green;
-        }
+            #credits {
+                position: relative;
+                left: 2%;
+                bottom: 2%;
+                font-size: 15px;
+            }
 
         </style>
 
@@ -343,155 +180,146 @@
 
     <body>
 
-
-
-
        <!-- <img class="first heart hred" src=img/heart_red.png />-->
 
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='sb1'>
+        <h1 id='sb2'>Santi Bello</h1>
+        <h2>Desarrollador Web Backend.</h2>
+        <h2>Autodidacta.</h2>
+        <h2 class='hover-2'>* PHP</h2>
+    </div>
 
-    
-        <div id='sb1'>
-            <h1 id='sb2'>Santi Bello</h1>
-            <h2>Desarrollador Web Backend.</h2>
-            <h2>Autodidacta.</h2>
-            <h2 class='hover-2'>* PHP</h2>
-        </div>
-    
-
-
-
-
-
-
+    <div id='raya'></div>
+    <div id='raya'></div>
 
     <div class='container' >
         <div class='jumbotron' style='line-height: 20px;' >
             <div id='txt' >
 
-
-        <p class='rwd-line'>Soy un estudiante autodidacta en Galicia. Programo a diario.
-            </p></br>
-             <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las 
+                <p class='rwd-line'>Soy un estudiante autodidacta en Galicia. Programo a diario.
+                </p></br>
+                <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las 
                  'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
-             </br></br>Me fascinó el valor que podemos aportar a la sociedad mediante código y un objetivo.
-            </p></br></br>
-            <div id='end-heart'>
-
+                </br></br>Me fascinó el valor que podemos aportar a la sociedad mediante código y un objetivo.
+                </p></br></br>
+                <div id='end-heart'>
                     <img class="fin heart hred" src=img/heart_red.png />
                 </div>
-
-            <p class='rwd-line'>Actualmente busco un trabajo para seguir formándome y abrirme a nuevas posibilidades.</p>
-        </br><p class='rwd-line'>Me considero responsable, organizado, trabajo en equipo y buena trata
-             con la gente, 
-            habiendo participado en la organización de más de 50 eventos de ocio a nivel regional 
-            desde 2014 en dos organizaciones diferentes.</p>
-          
-                         
+                <p class='rwd-line'>Actualmente busco un trabajo para seguir formándome y 
+                abrirme a nuevas posibilidades.</p>
+                </br><p class='rwd-line'>Me considero responsable, organizado, trabajo en equipo y buena trata
+                con la gente, habiendo participado en la organización de más de 50 eventos de ocio a nivel regional 
+                desde 2014 en dos organizaciones diferentes. </p>                         
             </div>
         </div>
     </div>
 
 
-                <div id='separacion'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
 
+                <div class = 'flox-all'>
 
-
-<div class = 'container flex-container'>
-
-        <div class="skill-names">
-        <p>PHP Laravel</p>
-        <p>Bootstrap</p>
-        <p>HTML/CSS</p>
-        <p>JavaScript</p>
-        <p>Java</p>
-        </div>
-
-        <div class="all-skills">
-
-            
-            <div class="container s-bar">
-            <div class="skills php">
-                    <img class="heart hgreen" src=img/heart_green.png />
-                    <img class="heart hgreen" src=img/heart_green.png />
-                    <img class="heart hgreen" src=img/heart_green.png />
-                    <img class="heart hgreen" src=img/heart_green.png />
-                    <img class="heart hgreen" src=img/heart_green.png />
-            </div>
-            </div>
-
-            <div class="container s-bar">
-            <div class="skills bs">
-                <img class="heart hyellow" src=img/heart_yellow.png />
-                <img class="heart hyellow" src=img/heart_yellow.png />
-                <img class="heart hyellow" src=img/heart_yellow.png />
-                <img class="heart hyellow" src=img/heart_yellow.png />
-
-            </div>
-            </div>
-
-            <div class="container s-bar">
+                        <div class="sk-names">
+                            <div><p>PHP Laravel</p></div>
+                            <div><p>Bootstrap</p></div>
+                            <div><p>HTML/CSS</p></div>
+                            <div><p>JavaScript</p></div>
+                            <div><p>Java</p></div>
+                        </div>
                 
-            <div class="skills css-bara">
-                <img class="heart hred" src=img/heart_red.png />
-                <img class="heart hred" src=img/heart_red.png />
-                <img class="heart hred" src=img/heart_red.png />
-                <img class="heart hred" src=img/heart_red.png />
-            </div>
-            </div>
-
-            <div class="container s-bar">
-            <div class="skills js">
-                <img class="heart hviolet" src=img/heart_violet.png />
-                <img class="heart hviolet" src=img/heart_violet.png />
-                <img class="heart hviolet" src=img/heart_violet.png />
-            </div>
-            </div>
-
-            <div class="container s-bar">
-            <div class="skills java">
-                <img class="heart hblue" src=img/heart_blue.png />
-                <img class="heart hblue" src=img/heart_blue.png />
-            </div>
-            </div>
-
-
-
-        </div>
+                        <div class="sk-hearts">
+                
+                            
+                            
+                            <div class="sk-heart">
+                                    <img class="heart" src=img/heart_green.png />
+                                    <img class="heart" src=img/heart_green.png />
+                                    <img class="heart" src=img/heart_green.png />
+                                    <img class="heart" src=img/heart_green.png />
+                                    <img class="heart" src=img/heart_green.png />
+                            </div>
+                            
+                
+                            
+                            <div class="sk-heart">
+                                <img class="heart" src=img/heart_yellow.png />
+                                <img class="heart" src=img/heart_yellow.png />
+                                <img class="heart" src=img/heart_yellow.png />
+                                <img class="heart" src=img/heart_yellow.png />
+                            </div>
+                            
     
-    </div>
+                                
+                            <div class="sk-heart">
+                                <img class="heart" src=img/heart_red.png />
+                                <img class="heart" src=img/heart_red.png />
+                                <img class="heart" src=img/heart_red.png />
+                                <img class="heart" src=img/heart_red.png />
+                            </div>
+                            
+                
+                            
+                            <div class="sk-heart">
+                                <img class="heart" src=img/heart_violet.png />
+                                <img class="heart" src=img/heart_violet.png />
+                                <img class="heart" src=img/heart_violet.png />
+                            </div>
+                            
+                
+                            
+                            <div class="sk-heart">
+                                <img class="heart" src=img/heart_blue.png />
+                                <img class="heart" src=img/heart_blue.png />
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
 
-        <div id='raya'></div>
 
 
-        <div id='footer pie' style='padding-top: 120px;'></div>
-        <div id='pie2'></div>
-        <p id='txt-contact'><strong>Connect</strong></p>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+
+    <div id='pie-pagina'>
+        <p><strong>Connect</strong></p>
         <div id='social-buttons'>
-
             <a href="https://twitter.com/debelloweb" class="fa fa-twitter"></a>
             <a href="https://github.com/debello/" class="fa fa-github"></a>
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    </body>
+        <div id='mini-raya'></div>
+        <p><strong>Contact</strong></p>
+        <p id='txt-mail' style='font-size: 30px;'>santidebello@gmail.com</p>
+    
 
-    <p id='txt-contact'><strong>Contact</strong></p>
-    <p id='txt-contact' style='font-size: 30px;'>santidebello@gmail.com</p>
-
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
+    <div id='raya'></div>
     <div id='raya'></div>
 
 
-    <div id='pie2' style='padding-top: 650px;'></div>
-
     <div id='end-heart'>
-            <img class="fin heart hgreen" src=img/heart_green.png />
-            <img class="fin heart hyellow" src=img/heart_yellow.png />
-            <img class="fin heart hred" src=img/heart_red.png />
-            <img class="fin heart hviolet" src=img/heart_violet.png />
-            <img class="fin heart hblue" src=img/heart_blue.png />
-        </div>
-
+        <img class="fin heart hgreen" src=img/heart_green.png />
+        <img class="fin heart hyellow" src=img/heart_yellow.png />
+        <img class="fin heart hred" src=img/heart_red.png />
+        <img class="fin heart hviolet" src=img/heart_violet.png />
+        <img class="fin heart hblue" src=img/heart_blue.png />
+        </div></div>
+    <div id='raya'></div>
     <p id='credits'>Font y temática inspirada en Undertale de Toby Fox.</p>
-
+</body>
 </html>
