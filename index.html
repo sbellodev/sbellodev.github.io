@@ -73,7 +73,7 @@
 
 
             /* Dos tipos de separadores */
-            #raya {
+            #raya, #raya_primera {
                 position: relative;
                 width: 200px;
                 height: 5px;
@@ -133,16 +133,22 @@
 
             /* Mobile Responsive */
             @media screen and (max-width: 600px) {
-            .rwd-line { display: block;
-                        line-height: 20px; }
+                .rwd-line { 
+                    display: block;
+                     line-height: 20px; 
+                    }
+                    
+                h1 {
+                    font-size: 120px;
+                    margin: 0px;
+                }
 
+                #raya_primera {
+                    margin-top: 80px;
+                    margin-bottom: 80px;
+                }
 
-            h1 {
-                font-size: 120px;
-                margin: 0px;
-            }
-
-            @media screen and (max-width: 370px) {
+            @media screen and (max-width: 375px) {
                 h1 {
                     font-size: 100px;
                     display: block;
@@ -150,6 +156,10 @@
                 .flex-container {
                     padding: 0px;
                     display: center;
+                }
+                #raya_primera {
+                    margin-top: 0x;
+                    margin-bottom: 0px;
                 }
             }
         }
@@ -216,8 +226,8 @@
 
        <!-- <img class="first heart hred" src=img/heart_red.png />-->
 
-    <div id='raya'></div>
-    <div id='raya'></div>
+    <div id='raya_primera'></div>
+    <div id='mini-raya'></div>
     <div>
         <h1 >SANTI BELLO</h1>
         <h2 class='hover-1'>Desarrollador Web.</h2>
