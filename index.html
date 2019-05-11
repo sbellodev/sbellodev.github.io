@@ -41,7 +41,7 @@
             }
 
             .rwd-line {
-                font-size: 25px; 
+                font-size: 25px;
                 line-height: 25px;
             }
 
@@ -99,7 +99,7 @@
             }
 
 
-            /* Titulo y Subtitulo */ 
+            /* Titulo y Subtitulo */
             h1 {
                 font-size: 120px;
                 font-family: 'Endless Boss Battle';
@@ -158,8 +158,8 @@
                 display: block;
                 padding: 10px;
 
-                
-                
+
+
                 }
                 #navbar a {
                     padding-left: 15px;
@@ -171,11 +171,11 @@
 
             /* Mobile Responsive */
             @media screen and (max-width: 600px) {
-                .rwd-line { 
+                .rwd-line {
                     display: block;
-                     line-height: 20px; 
+                     line-height: 20px;
                     }
-                    
+
                 h1 {
                     font-size: 120px;
                     margin: 0px;
@@ -210,13 +210,46 @@
             }
         }
 
+            /* Grid Proyectos*/
+            .projects-grid {
+                width: 500px;
+                height: 220px;
+                display: grid;
+                grid-template-columns: 30vw 30vw 30vw;
+                grid-template-rows: 70px 50px ;
+                grid-template-areas:
+                "primero segundo tercero"
+                " . cuarto . ";
+                grid-gap: 10px;
+                grid-row-gap: 30px;
+                justify-content: space-around;
+                align-self: center;
+ 
+            }
+                .p-1 {
+                    grid-area: primero;
+                    align-self: center;
+                }
+                .p-2 {
+                    grid-area: segundo;
+                    align-self: center;
+                }
+                .p-3 {
+                    grid-area: tercero;
+                    align-self: center;
+                }
+                .p-4 {
+                    grid-area: cuarto;
+                }
+
+
 
             /* GRID Hearts y Skills */
             .flox-all {
                 display: grid;
                 height: 400px;
                 grid-template-columns: 50% 50%;
-                grid-column-gap: 40px; 
+                grid-column-gap: 40px;
             }
 
             .sk-hearts {
@@ -224,7 +257,7 @@
                 top: 8px;
                 display: grid;
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-                justify-self: start; 
+                justify-self: start;
             }
 
             .sk-names {
@@ -254,7 +287,7 @@
                 width: 20px;
                 height: 20px;
             }
-            .half-heart { 
+            .half-heart {
                 position: absolute;
                 left: 66.4px; /* Apunta al tercer corazón */
                 top: 240px;
@@ -262,19 +295,23 @@
                 width: 10px;
                 height: 26px;
             }
+
+        #projects-redirect, #profile-link, #destrezas, #quien-soy {
+            padding-top: 100px;
+        }
         </style>
 
     </head>
 
     <body>
-           
-            
+
+
 
        <!-- <img class="first heart hred" src=img/heart_red.png />-->
     <nav id='navbar'>
         <a href='#quien-soy'>Quién soy</a>
         <a href='#destrezas'>Destrezas</a>
-        <a href='#projects'>Proyectos</a>
+        <a href='#projects-redirect'>Proyectos</a>
         <a href='#profile-link'>Contacto</a>
 
     </nav>
@@ -297,7 +334,7 @@
 
                 <p class='rwd-line'>Soy un estudiante <span class='hover-2'>autodidacta</span> en Galicia. Programo a diario.
                 </p></br>
-                <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las 
+                <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las
                  'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
                 </br></br>
                 Me fascinó el <span class='hover-2'>valor</span> que podemos aportar a la sociedad mediante un código y un objetivo conjunto.
@@ -307,16 +344,16 @@
                     <img class="heart" src=img/heart_red.png />
                 </div>
                 </br></br></br>
-                <p class='rwd-line'>Actualmente busco un trabajo que permita seguir formándome y 
+                <p class='rwd-line'>Actualmente busco un trabajo que permita seguir formándome y
                 abrirme a nuevas posibilidades.
                 </p>
                 </br>
-                <p class='rwd-line'>Me considero <span class='hover-2'>responsable</span>, organizado, trabajo en equipo y social, 
-                habiendo participado en la planificación y ejecución de más de <span class='hover-2'>140 eventos</span> de ocio a nivel 
-                regional desde 2014 en dos organizaciones diferentes. 
+                <p class='rwd-line'>Me considero <span class='hover-2'>responsable</span>, organizado, trabajo en equipo y social,
+                habiendo participado en la planificación y ejecución de más de <span class='hover-2'>140 eventos</span> de ocio a nivel
+                regional desde 2014 en dos organizaciones diferentes.
                 </p>
-                <p class='rwd-line'>Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme! 
-                </p>                         
+                <p class='rwd-line'>Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!
+                </p>
             </div>
         </div>
     </div>
@@ -335,52 +372,52 @@
                             <div><p>Bootstrap</p></div>
                             <div><p>Java</p></div>
                         </div>
-                
+
                         <div class="sk-hearts">
-                
-                            
-                            
+
+
+
                             <div class="sk-heart">
                                     <img class="heart" src=img/heart_green.png />
                                     <img class="heart" src=img/heart_green.png />
                                     <img class="heart" src=img/heart_green.png />
                                     <img class="heart" src=img/heart_green.png />
                             </div>
-                            
-                
-                            
+
+
+
                             <div class="sk-heart">
                                 <img class="heart" src=img/heart_yellow.png />
                                 <img class="heart" src=img/heart_yellow.png />
                                 <img class="heart" src=img/heart_yellow.png />
                             </div>
-                            
-    
-                                
+
+
+
                             <div class="sk-heart">
                                 <img class="heart" src=img/heart_red.png />
                                 <img class="heart" src=img/heart_red.png />
-                                <img class="heart" src=img/heart_red.png /> 
+                                <img class="heart" src=img/heart_red.png />
                             </div>
-                            
-                
-                            
+
+
+
                             <div class="sk-heart">
                                 <img class="heart" src=img/heart_violet.png />
                                 <img class="heart" src=img/heart_violet.png />
                                 <img class="heart" src=img/heart_violet.png />
                             </div>
-                            
-                
-                            
+
+
+
                             <div class="sk-heart">
                                 <img class="heart" src=img/heart_blue.png />
                                 <img class="heart" src=img/heart_blue.png />
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
 
     <div id='raya'></div>
     <div id='raya'></div>
@@ -388,11 +425,13 @@
     <div id='raya'></div>
     <div id='raya'></div>
     <!-- Projects -->
-    <h2>Proyectos.</h2> 
-    <section id='projects'>
-        <a class='project-tile' href='https://debello.github.io/LandingPage/' target="_blank">Landing Page</a>
-        <a class='project-tile' href='http://debello.github.io/' target="_blank">Portfolio</a>
-        <a class='project-tile' href='https://debello.github.io/technicalpage/' target="_blank">Technical Page</a>
+    <div id='projects-redirect'></div>
+    <h2>Proyectos.</h2>
+    <section id='projects' class='projects-grid'>
+        <a class='p-1' href='https://debello.github.io/todolist/' target="_blank">To do List </a>
+        <a class='p-2' href='https://debello.github.io/kanban_bello/' target="_blank">Kanban </a>
+        <a class='p-3' href='http://debello.github.io/' target="_blank">Portfolio</a>
+        <a class='p-4 hover-3' href='https://github.com/debello?tab=repositories' target="_blank">Más proyectos</a>
     </section>
 
 
@@ -401,19 +440,19 @@
     <div id='raya'></div>
     <div id='raya'></div>
     <div id='raya'></div>
-    
+
 
 
     <div id='pie-pagina'>
-        <p><strong>Connect</strong></p>
+        <p id='profile-link'><strong>Connect</strong></p>
         <div id='social-buttons'>
             <a href="https://twitter.com/debelloweb" class="fa fa-twitter" target="_blank"></a>
-            <a id='profile-link' target="_blank" href="https://github.com/debello/" class="fa fa-github"></a>
+            <a  target="_blank" href="https://github.com/debello/" class="fa fa-github"></a>
         </div>
         <div id='mini-raya'></div>
         <p><strong>Contact</strong></p>
         <p id='txt-mail' style='font-size: 30px;'>santidebello@gmail.com</p>
-    
+
 
     <div id='raya'></div>
     <div id='raya'></div>
