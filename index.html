@@ -149,10 +149,44 @@
                 padding-top: 30px;
             }
 
+            /* Grid Proyectos*/
+            .projects-grid {
+                width: auto;
+                height: 220px;
+                margin-left: auto;
+                margin-right: auto;
+                display: grid;
+                grid-template-columns: 30vw 30vw 30vw;
+                grid-template-rows: 70px 50px ;
+                grid-template-areas:
+                "primero segundo tercero"
+                " . cuarto . ";
+                grid-gap: 10px;
+                grid-row-gap: 30px;
+                justify-content: space-around;
+                align-self: center;
+ 
+            }
+                .p-1 {
+                    grid-area: primero;
+                    align-self: center;
+                }
+                .p-2 {
+                    grid-area: segundo;
+                    align-self: center;
+                }
+                .p-3 {
+                    grid-area: tercero;
+                    align-self: center;
+                }
+                .p-4 {
+                    grid-area: cuarto;
+                }
+
             #navbar {
                 top: 0px;
                 height: 50px;
-                width: 100%;
+                width: auto;
                 background-color: black;
                 position: fixed;
                 display: block;
@@ -210,37 +244,7 @@
             }
         }
 
-            /* Grid Proyectos*/
-            .projects-grid {
-                width: 500px;
-                height: 220px;
-                display: grid;
-                grid-template-columns: 30vw 30vw 30vw;
-                grid-template-rows: 70px 50px ;
-                grid-template-areas:
-                "primero segundo tercero"
-                " . cuarto . ";
-                grid-gap: 10px;
-                grid-row-gap: 30px;
-                justify-content: space-around;
-                align-self: center;
- 
-            }
-                .p-1 {
-                    grid-area: primero;
-                    align-self: center;
-                }
-                .p-2 {
-                    grid-area: segundo;
-                    align-self: center;
-                }
-                .p-3 {
-                    grid-area: tercero;
-                    align-self: center;
-                }
-                .p-4 {
-                    grid-area: cuarto;
-                }
+
 
 
 
