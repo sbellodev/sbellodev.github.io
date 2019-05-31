@@ -39,8 +39,15 @@
                 background-color: black;
                 color: white;
                 z-index: 9;
+                
             }
 
+            /* #all-this-web {
+                display: none;
+            } */
+            /* #preload {
+                display:grid;
+            } */
             .rwd-line {
                 font-size: 25px;
                 line-height: 25px;
@@ -324,7 +331,44 @@
     </head>
 
     <body>
+        <script>
+    // let waitEl = document.body.innerHTML
+    // let msg = "Loading... please wait..."
+    // waitEl
+    console.log('test')
+    let waitMessage = document.createElement("div")
+    let waitNode = document.createTextNode("Cargando... por favor espera")
+    waitMessage.appendChild(waitNode)
+    document.body.appendChild(waitMessage)
 
+    console.log('o biche')
+
+    function quitarLoading() {
+
+        document.body.removeChild(waitMessage)
+        //allthisweb.style.display = " ";
+        console.log(allthisweb)
+    }
+    setTimeout(quitarLoading, 1500);
+    
+    
+
+    function webBack() {
+        console.log('lelelel')
+        let allthisweb = document.getElementById("all-this-web")
+        allthisweb.setAttribute("style", "display:block")
+        }
+    setTimeout(webBack, 1800);
+        
+        
+            //document.body.innerHTML = "Loading... Please wait...";
+            
+        </script>
+<!-- <div id="preload">
+    <img src="img/heart.png" />
+    <img src=img/heart_red.png />
+</div> -->
+<div id="all-this-web" style="display:none" async >
 
 
        <!-- <img class="first heart hred" src=img/heart_red.png />-->
@@ -491,5 +535,17 @@
     <div id='raya'></div>
     <p id='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
     <p id='credits'>© Santi Bello</p>
+</div>
+<script>
+    // Borramos el script del principio ('Loading... please wait');
+    // let waitMessage = document.createElement("div")
+    // let waitNode = document.createTextNode("Loading... please wait...")
+    // waitMessage.appendChild(waitNode)
+    // document.body.appendChild(waitMessage)
+
+
+
+
+</script>
 </body>
 </html>
