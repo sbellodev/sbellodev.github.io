@@ -1,5 +1,5 @@
 # debello.main.github.io
 
-This is my main web. Here I'll try to upload whatever I learn on the road. Thanks for visiting!
+Web que enlaza a mi nueva web hecha en React.
 
 @ debello
