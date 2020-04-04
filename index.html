@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545927-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-135545927-1');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Santi Bello's Web</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @font-face {
+            font-family: 'Determination Mono';
+            src: url(ttf/DeterminationMonoWeb.ttf);
+        }
+        @font-face {
+            font-family: 'Monster Friend Fore';
+            src: url(ttf/MonsterFriendFore.ttf);
+        }
+        @font-face {
+            font-family: 'Endless Boss Battle';
+            src: url(ttf/EndlessBossBattle.ttf);
+        }
+        @font-face {
+            font-family: 'Super_Plumber_Brothers';
+            src: url(ttf/SuperPlumberBrothers.ttf);
+        }
+
+        body {
+            font-family: 'Determination Mono', monospace;
+            background-color: black;
+            color: white;
+            z-index: 9;
+            
+        }
+
+        /* #all-this-web {
+            display: none;
+        } */
+        /* #preload {
+            display:grid;
+        } */
+        .rwd-line {
+            font-size: 25px;
+            line-height: 25px;
+        }
+
+
+        /* Style all font awesome icons */
+        #social-buttons {
+            display: flex;
+            justify-content: center;
+
+        }
+        .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30%;
+        align-content: center;
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+        opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-github {
+        background: #444444;
+        color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        }
+
+        /* Dos tipos de separadores */
+        #raya, #raya_primera {
+            position: relative;
+            width: 50px;
+            height: 5px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        #raya {
+            width: 300px;
+        }
+
+        #mini-raya {
+            position: relative;
+            width: 50px;
+            height: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Titulo y Subtitulo */
+        h1 {
+            font-size: 120px;
+            font-family: 'Endless Boss Battle';
+            word-spacing: 40px;
+        }
+        h1, h2 {
+            text-align: center;
+            display: center;
+        }
+
+        .hover-1:hover {
+            letter-spacing: 10px;
+        }
+        h2:hover {
+            padding: 1px;
+            margin: 1px;
+            border: 1px;
+            color: rgba(255, 255, 0, 0.89);
+        }
+        .hover-2 {
+            color: rgba(255, 255, 0, 0.89);
+        }
+        .hover-2:hover{
+            color: rgba(2, 255, 2, 0.74);
+        }
+        .hover-3 {
+            color: rgba(2, 255, 2, 0.74);
+        }
+        .hover-3:hover {
+            color: rgba(255, 255, 0, 0.89);
+        }
+
+        .jumbotron {
+            background-color: black;
+        }
+
+        /* Proyectos */
+        #projects {
+            font-size: 20px;
+            text-align: center;
+            display: grid;
+            grid-auto-flow: row;
+            padding-top: 20px;
+        }
+        #projects a {
+            padding-top: 30px;
+        }
+
+        /* Grid Proyectos*/
+        .projects-grid {
+            width: 500px;
+            height: 220px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 15vw 15vw 15vw;
+            grid-template-rows: 70px 50px ;
+            grid-template-areas:
+            "primero segundo tercero"
+            " . cuarto . ";
+            grid-gap: 10px;
+            grid-row-gap: 30px;
+            justify-content: space-around;
+            align-self: center;
+
+        }
+            .p-1 {
+                grid-area: primero;
+                align-self: center;
+            }
+            .p-2 {
+                grid-area: segundo;
+                align-self: center;
+            }
+            .p-3 {
+                grid-area: tercero;
+                align-self: center;
+            }
+            .p-4 {
+                grid-area: cuarto;
+            }
+
+        #navbar {
+            top: 0px;
+            height: 60px;
+            width: 100%;
+            position: fixed;
+            display: block;
+
+            background-color: black;
+            padding: 10px;
+            z-index: 10;
+            font-size: 25px;
+            }
+            #navbar a {
+                padding-left: 15px;
+            }
+        #welcome-section {
+            height: 100vh;
+        }
+
+        /* Mobile Responsive */
+        @media screen and (max-width: 600px) {
+            .rwd-line {
+                display: block;
+                    line-height: 20px;
+                }
+
+            h1 {
+                font-size: 120px;
+                margin: 0px;
+            }
+
+            #navbar {
+                height: 60px;
+                font-size: 16px;
+            }
+
+            #raya_primera {
+                margin-top: 80px;
+                margin-bottom: 80px;
+            }
+
+        @media screen and (max-width: 375px) {
+            h1 {
+                font-size: 100px;
+                display: block;
+            }
+
+            #navbar {
+                height: 60px;
+                font-size: 16px;
+
+            }
+
+            #raya {
+                margin-bottom: 0px;
+                margin-top: 70px;
+            }
+
+            #raya_primera {
+                display: hidden;
+                margin-top: 0x;
+                margin-bottom: 0px;
+            }
+            #mini-raya {
+                height: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+        /* GRID Hearts y Skills */
+        .flox-all {
+            display: grid;
+            height: 400px;
+            grid-template-columns: 50% 50%;
+            grid-column-gap: 40px;
+        }
+
+        .sk-hearts {
+            position: relative;
+            top: 8px;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            justify-self: start;
+        }
+
+        .sk-names {
+            font-size: 25px;
+            justify-self: end;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        }
+        /* End GRID*/
+
+        #pie-pagina {
+            position: relative;
+            display: center;
+            text-align: center;
+        }
+        #pie-pagina {
+            font-size: 40px;
+        }
+
+        #credits {
+            position: relative;
+            left: 2%;
+            bottom: 2%;
+            font-size: 15px;
+        }
+        .heart {
+            width: 20px;
+            height: 20px;
+            z-index: 9;
+        }
+        .half-heart {
+            position: absolute;
+            left: 66.4px; /* Apunta al tercer corazón */
+            top: 240px;
+            background-color: black;
+            width: 10px;
+            height: 26px;
+        }
+
+    #projects-redirect, #profile-link, #destrezas, #quien-soy {
+        padding-top: 100px;
+    }
+    </style>
+
+</head>
+
+<body>
+<script>
+    let waitMessage = document.createElement("div")
+    waitMessage.style.fontSize = '30px';
+    waitMessage.style.padding = "15px 0px 0px 15px";
+    let waitNode = document.createTextNode("Cargando... por favor espera...")
+    waitMessage.appendChild(waitNode)
+    document.body.appendChild(waitMessage)
+
+    function quitarLoading() {
+        document.body.removeChild(waitMessage)
+        //allthisweb.style.display = " ";
+        //console.log(allthisweb)
+    }
+    setTimeout(quitarLoading, 1450);
+
+    function webBack() {
+        let allthisweb = document.getElementById("all-this-web")
+        allthisweb.setAttribute("style", "display:block")
+        }
+    setTimeout(webBack, 1800);    
+</script>
+
+<div id="all-this-web" style="display:none" async >
+    <nav id='navbar'>
+        <a href='#quien-soy'>Quién soy</a>
+        <a href='#destrezas'>Destrezas</a>
+        <a href='#projects-redirect'>Proyectos</a>
+        <a href='#profile-link'>Contacto</a>
+    </nav>
+    <div id='raya_primera'></div>
+    <div id='mini-raya'></div>
+    <div id='welcome-section'>
+        <h1 >SANTI BELLO</h1>
+        <h2 class='hover-1'>Desarrollador Web.</h2>
+        <!-- <h2 class='hover-1'>Autodidacta.</h2> -->
+        <h2 class='hover-2'>* JavaScript</h2>
+        <h2 class='hover-2'>* PHP</h2>
+        <h2 class='hover-2'>{{ DESACTUALIZADO }}</h2>
+        <h2 class='hover-2'>{{ NUEVA WEB EN CONSTRUCCION }}</h2>
+    </div>
+
+    <div id='raya'></div>
+
+    <div class='container' id='quien-soy'>
+        <div class='jumbotron' style='line-height: 20px;' >
+            <div id='txt' >
+
+                <p class='rwd-line'>Soy un estudiante <span class='hover-2'>autodidacta</span> en Galicia. Programo a diario.
+                </p></br>
+                <p class='rwd-line'>Hace más de un año empecé a trastear con Java después de verle las
+                 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
+                </br></br>
+                Me llamó la atención el <span class='hover-2'>valor</span> que podemos aportar mediante un código y un objetivo conjunto.
+                </p>
+                </br></br>
+                <div id='pie-pagina'>
+                    <img class="heart" src=img/heart_red.png />
+                </div>
+                </br></br></br>
+                <p class='rwd-line'>Actualmente <strike>busco un trabajo que permita seguir formándome y
+                    abrirme a nuevas posibilidades</strike> estoy empleado en JavaScript y React :)
+                </p>
+                </br>
+                <p class='rwd-line'>Me considero <span class='hover-2'>responsable</span>, organizado, trabajo en equipo y social,
+                habiendo participado en la planificación y ejecución de más de <span class='hover-2'>140 eventos</span> de ocio a nivel
+                regional desde 2014 en dos organizaciones diferentes.
+                </p>
+                <p class='rwd-line'>Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id='raya'></div>
+
+    <div class = 'flox-all' id='destrezas'>
+        <div class="sk-names">
+            <div><p>JavaScript (React)</p></div>
+            <div><p>PHP (CodeIgniter)</p></div>
+            <div><p>HTML/CSS</p></div>
+            <div><p>Bootstrap</p></div>
+            <div><p>Java</p></div>
+        </div>
+
+        <div class="sk-hearts">
+            <div class="sk-heart">
+                    <img class="heart" src=img/heart_green.png />
+                    <img class="heart" src=img/heart_green.png />
+                    <img class="heart" src=img/heart_green.png />
+                    <img class="heart" src=img/heart_green.png />
+            </div>
+            <div class="sk-heart">
+                <img class="heart" src=img/heart_yellow.png />
+                <img class="heart" src=img/heart_yellow.png />
+                <img class="heart" src=img/heart_yellow.png />
+            </div>
+            <div class="sk-heart">
+                <img class="heart" src=img/heart_red.png />
+                <img class="heart" src=img/heart_red.png />
+                <img class="heart" src=img/heart_red.png />
+            </div>
+            <div class="sk-heart">
+                <img class="heart" src=img/heart_violet.png />
+                <img class="heart" src=img/heart_violet.png />
+                <img class="heart" src=img/heart_violet.png />
+            </div>
+            <div class="sk-heart">
+                <img class="heart" src=img/heart_blue.png />
+                <img class="heart" src=img/heart_blue.png />
+            </div>
+        </div>
+    </div>
+    <div id='raya'></div>
+
+    <!-- Projects -->
+    <div id='projects-redirect'></div>
+    <h2>Proyectos.</h2>
+    <section id='projects' class='projects-grid'>
+        <a class='p-1' href='https://debello.github.io/todolist/' target="_blank">To do List </a>
+        <a class='p-2' href='https://debello.github.io/kanban_bello/' target="_blank">Kanban </a>
+        <a class='p-3' href='https://github.com/debello/API-Clima' target="_blank">API Clima</a>
+        <a class='p-4 hover-3' href='https://github.com/debello?tab=repositories' target="_blank">Más proyectos</a>
+    </section>
+    <div id='raya'></div>
+
+    <div id='pie-pagina'>
+        <p id='profile-link'><strong>Connect</strong></p>
+        <div id='social-buttons'>
+            <a href="https://twitter.com/debelloweb" class="fa fa-twitter" target="_blank"></a>
+            <a  target="_blank" href="https://github.com/debello/" class="fa fa-github"></a>
+        </div>
+        <div id='mini-raya'></div>
+        <p><strong>Contact</strong></p>
+        <p id='txt-mail' style='font-size: 30px;'>svazquez789@hotmail.com</p>
+        <div id='raya'></div>
+
+        <div>
+            <img class="fin heart hgreen" src=img/heart_green.png />
+            <img class="fin heart hyellow" src=img/heart_yellow.png />
+            <img class="fin heart hred" src=img/heart_red.png />
+            <img class="fin heart hviolet" src=img/heart_violet.png />
+            <img class="fin heart hblue" src=img/heart_blue.png />
+        </div>
+    </div>
+    <div id='raya'></div>
+
+    <p id='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
+    <p id='credits'>© Santi Bello - 2/2/2019</p>
+</div>
+</body>
+</html>
