@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Endless_Boss_Battle";
+    src: url(ttf/EndlessBossBattle.ttf);
+}
+@font-face {
+    font-family: "FreePixel";
+    src: url(ttf/FreePixel.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "FreePixel", monospace;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 0;
+}
+main {
+    display: grid;
+    justify-self: center;
+}
+nav {
+    padding-bottom: 150px;
+}
+section {   
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 400px;
+}
+section > p {
+    padding-bottom: 30px;
+}
+footer {
+    font-size: 16px;
+}
+h1 {
+    font-size: 80px;
+}
+h1, h2 {
+    padding-bottom: 18px;
+}
+ul {
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+a, span {
+    color: gold;
+}
+img {
+    width: 35px;
+}
+nav {
+    font-family: "Endless_Boss_Battle", monospace;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+#cabecera {
+    font-family: "Endless_Boss_Battle", monospace;
+    padding-top: 70px;
+}
+#quien-soy > div {
+    text-align: center;
+    padding-bottom: 26px;
+}
+#proyectos p {
+    font-weight: bold;
+}
+#habilidades {
+    display: flex;
+    flex-direction: column;
+}
+#habilidades > div {
+    display:flex;
+    justify-content: space-between;
+}
+#habilidades p {
+    padding-right: 18px;
+}
+#contacto img {
+    width: 50px;
+}

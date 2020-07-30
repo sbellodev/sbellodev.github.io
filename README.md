@@ -1,5 +1,5 @@
 # debello.main.github.io
 
-This is my main web. Here I'll try to upload whatever I learn on the road. Thanks for visiting!
+My portfolio. I'm a Frontend Dev with React, CSS, Node.js experience looking for working with FE or FullStack interesting projects.
 
-@ debello
+@debellodev

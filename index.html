@@ -1,49 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545927-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    gtag("js", new Date());
 
-    gtag('config', 'UA-135545927-1');
+    gtag("config", "UA-135545927-1");
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Santi Bello's Web</title>
+<title>Santi Bello"s Web</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     @font-face {
-        font-family: 'Determination Mono';
-        src: url(ttf/DeterminationMonoWeb.ttf);
-    }
-    @font-face {
-        font-family: 'Monster Friend Fore';
-        src: url(ttf/MonsterFriendFore.ttf);
-    }
-    @font-face {
-        font-family: 'Endless Boss Battle';
+        font-family: "Endless_Boss_Battle";
         src: url(ttf/EndlessBossBattle.ttf);
     }
     @font-face {
-        font-family: 'Super_Plumber_Brothers';
-        src: url(ttf/SuperPlumberBrothers.ttf);
+        font-family: "FreePixel";
+        src: url(ttf/FreePixel.ttf);
     }
 
+    * {
+        margin: 0;
+        padding: 0;
+    }
     body {
-        font-family: 'Determination Mono', monospace;
+        font-family: "FreePixel", monospace;
         background-color: black;
         color: white;
-        z-index: 9;
-        
+        font-size: 24px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    main {
+        display: grid;
+        justify-self: center;
+    }
+    nav {
+        padding-bottom: 150px;
+    }
+    section {   
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 400px;
+    }
+    section > p {
+        padding-bottom: 30px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h1, h2 {
+        padding-bottom: 18px;
+    }
+    ul {
+        margin-left: 40px;
+        margin-bottom: 60px;
+    }
+    a, span {
+        color: gold;
     }
     img {
         width: 35px;
     }
-
-    
+    nav {
+        font-family: "Endless_Boss_Battle", monospace;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+    #cabecera {
+        font-family: "Endless_Boss_Battle", monospace;
+        padding-top: 70px;
+    }
+    #quien-soy > div {
+        text-align: center;
+        padding-bottom: 26px;
+    }
+    #proyectos p {
+        font-weight: bold;
+    }
+    #habilidades {
+        display: flex;
+        flex-direction: column;
+    }
+    #habilidades > div {
+        display:flex;
+        justify-content: space-between;
+    }
+    #habilidades p {
+        padding-right: 18px;
+    }
+    #contacto img {
+        width: 50px;
+    }
 </style>
 
 </head>
@@ -51,7 +108,7 @@
 <body>
 <script>
     // let waitMessage = document.createElement("div")
-    // waitMessage.style.fontSize = '30px';
+    // waitMessage.style.fontSize = "30px";
     // waitMessage.style.padding = "15px 0px 0px 15px";
     // let waitNode = document.createTextNode("Cargando... por favor espera...")
     // waitMessage.appendChild(waitNode)
@@ -69,105 +126,121 @@
     // setTimeout(webBack, 1800);    
 </script>
 
-<div>
-    <nav>
-        <a href='#quien-soy'>Quién soy</a>
-        <a href='#destrezas'>Habilidades</a>
-        <a href='#projects-redirect'>Experiencia</a>
-        <a href='#profile-link'>Contacto</a>
-    </nav>
-
-    <div>
-        <h1 >SANTI BELLO</h1>
+<nav>
+    <a href="#quien-soy">Quién soy</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Experiencia</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+<main>
+    <section id="cabecera">
+        <h1>SANTI BELLO</h1>
         <h2>Desarrollador Frontend.</h2>
         <h2>* JavaScript</h2>
         <h2>* React</h2>
-    </div>
-
-    <div>
-        <div>
-            <p>Soy un estudiante <span>autodidacta</span> en Galicia. Programo a diario.</p>
-            <p>Hace más de un año empecé a trastear con Java después de verle las
-                'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.</p>
-            <p>Me llamó la atención el <span>valor</span> que podemos aportar mediante un código y un objetivo conjunto.</p>
-            <div>
-                <img src=img/heart_red.png />
-            </div>
-            <p>Actualmente <strike>busco un trabajo que permita seguir formándome y
-                abrirme a nuevas posibilidades</strike> estoy formándome y profundizando mis conocimientos de Frontend en Platzi.com</p>
-            <p>Me considero <span>responsable</span>, organizado, trabajo en equipo y social,
-            habiendo participado en la planificación y ejecución de más de <span>140 eventos</span> de ocio a nivel
-            regional desde 2014 en dos organizaciones diferentes.</p>
-            <p>Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <p>JavaScript (React)</p>
-            <p>PHP (CodeIgniter)</p>
-            <p>HTML/CSS</p>
-            <p>Bootstrap</p>
-            <p>Java</p>
-        </div>
-        <div>
-            <div>
-                <img src=img/heart_green.png />
-                <img src=img/heart_green.png />
-                <img src=img/heart_green.png />
-                <img src=img/heart_green.png />
-            </div>
-            <div>
-                <img src=img/heart_yellow.png />
-                <img src=img/heart_yellow.png />
-                <img src=img/heart_yellow.png />
-            </div>
-            <div>
-                <img src=img/heart_red.png />
-                <img src=img/heart_red.png />
-                <img src=img/heart_red.png />
-            </div>
-            <div>
-                <img src=img/heart_violet.png />
-                <img src=img/heart_violet.png />
-                <img src=img/heart_violet.png />
-            </div>
-            <div>
-                <img src=img/heart_blue.png />
-                <img src=img/heart_blue.png />
-            </div>
-        </div>
-    </div>
-
-    <h2>Proyectos.</h2>
-    <section>
-        <a href='https://debello.github.io/todolist/' target="_blank">To do List </a>
-        <a href='https://debello.github.io/kanban_bello/' target="_blank">Kanban </a>
-        <a href='https://github.com/debello/API-Clima' target="_blank">API Clima</a>
-        <a href='https://github.com/debello?tab=repositories' target="_blank">Más proyectos</a>
     </section>
 
-    <div>
-        <h2>Connect</h2>
+    <section id="quien-soy">
+        <h2>Quién soy.</h2>
+        <p>Soy un estudiante <span>autodidacta</span> en Galicia. Programo a diario.</p>
+        <p>Hace más de un año empecé a trastear con Java después de verle las
+            "tripas" a un videojuego, lo que poco a poco me llevaría a descubrir la programación Web.</p>
+        <p>Me llamó la atención el <span>valor</span> que podemos aportar mediante el código y remando juntos a un objetivo.</p>
         <div>
-            <a href="https://twitter.com/debelloweb" target="_blank"></a>
-            <a target="_blank" href="https://github.com/debello/"></a>
-        </div>
-        <h2>Contact</h2>
-        <p>svazquez789@hotmail.com</p>
-        <div>
-            <img src=img/heart_green.png />
-            <img src=img/heart_yellow.png />
             <img src=img/heart_red.png />
-            <img src=img/heart_violet.png />
-            <img src=img/heart_blue.png />
         </div>
-    </div>
+        <!-- <strike>busco un trabajo que permita seguir formándome y abrirme a nuevas posibilidades</strike> -->
+        <p>Actualmente estoy <span>profundizando</span> mis conocimientos de Frontend en Platzi.com</p>
+        <p>Sin estar buscando trabajo activamente, estaría interesado en trabajar en <span>remoto</span> o cercanías con React o Node.js y dispuesto a aprender Vue.js.</p>
+        <p>En mi tiempo libre, aparte de mantenerme al día del sector IT, planifico y organizo en equipo eventos
+        de ocio (torneos, videojuegos) a nivel regional desde 2014 en dos organizaciones diferentes, habiendo completado más de <span>140 eventos</span> a nivel regional.</span></p>
+        <p>¡Contáctame en twitter o gmail para cualquier cosa!</p>
+    </section>
 
-    <footer>
-        <p>Font and theme inspired by Undertale - Toby Fox.</p>
-        <p>©Santi Bello, 2018 - 2020</p>
-    </footer>
-</div>
+    <section id="habilidades">
+        <h2>Habilidades.</h2>
+        <div>
+            <p>JavaScript/React</p>
+            <div>
+                <img src=img/heart_green.png />
+                <img src=img/heart_green.png />
+                <img src=img/heart_green.png />
+            </div>
+        </div>
+        <div>
+            <p>CSS</p>
+            <div>
+                <img src=img/heart_yellow.png />
+                <img src=img/heart_yellow.png />
+            </div>
+        </div>
+        <div>
+            <p>PHP/CodeIgniter</p>
+            <div>
+                <img src=img/heart_red.png />
+                <img src=img/heart_red.png />
+            </div>
+        </div>
+        <div>
+            <p>Node.js</p>
+            <div>
+                <img src=img/heart_violet.png />                
+            </div>
+        </div>
+        <p><br>+Node.js, JQuery, Bootstrap</p>
+    </section>
+
+    <section id="proyectos">    
+        <h2>Proyectos.</h2>
+        <p>2020/Actualmente - Creado <a href="https://animalbrowsing.com" target="_blank" rel="noopener noreferrer">Animal Browsing</a></p>
+        <ul>
+            <li>Diseño y prototipado desde cero. FullStack.</li>
+            <li>Tablas rellenas a través de un JSON para manejar/filtrar con botones.</li>
+            <li>Creación e implementación de una API de twitter con filtrado de spam.</li>
+            <li>Clean Code. Diseño, UX, SEO.</li>
+            <li>React, Node.js, Tweepy, ReactHelmet.</li>
+        </ul>
+        <p>2019/2020 - Trabajando 3 meses en <span>Diariomotor</span></a></p>     
+        <ul>
+            <li>Experiencia de primera mano con un sitio web de alto tráfico. Frontend.</li>
+            <li>Afinar buenas prácticas y refactorizado.</li>
+            <li>Maquetación al detalle.</li>
+            <li>Gestión y manejo de API y del navegador.</li>
+            <li>Comunicación y pair programming/mentoría.</li>
+            <li>React, Frontity, CSS, Gitbucket, Clean Code.</li>
+        </ul>
+        <p>2019/Actualmente - Voluntariado de 2 años en <a href="https://smashbrosspain.com" target="_blank" rel="noopener noreferrer">SmashBrosSpain</a></p>
+        <ul>
+            <li>Infraestructura completa desde Gitlab. FullStack.</li>
+            <li>Pair Programming en Front y Back.</li>
+            <li>Implementación de features como Panel de Notificaciones.</li>
+            <li>Maquetación.</li>
+            <li>Vanilla JS, JQuery, PHP, CodeIgniter.</li>
+        </ul>
+        <p><a href="https://github.com/debello?tab=repositories" target="_blank" rel="noopener noreferrer">Ver más proyectos</a></p>
+    </section>
+
+    <section id="contacto">
+        <h2>Connect.</h2>
+        <div>
+            <a href="https://twitter.com/debellodev" target="_blank" rel="noopener noreferrer"><img src="/img/tw.png"></a>
+            <a href="https://github.com/debello/" target="_blank" rel="noopener noreferrer"><img src="/img/git.png"></a>
+        </div>
+        <h2>Contact.</h2>
+        <p></p>
+        <a HREF="mailto:svazquez789@hotmail.com">GMAIL</a>
+    </section>
+</main>
+<footer>
+    <div>
+        <img src=img/heart_green.png />
+        <img src=img/heart_yellow.png />
+        <img src=img/heart_red.png />
+        <img src=img/heart_violet.png />
+        <img src=img/heart_blue.png />
+    </div>
+    <p>Font and theme inspired by Undertale - Toby Fox.</p>
+    <p>©Santi Bello, 2018 - 2020</p>
+</footer>
 </body>
 </html>
