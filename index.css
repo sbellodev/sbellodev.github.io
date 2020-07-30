@@ -20,15 +20,16 @@ body {
     padding: 0;
 }
 main {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     justify-self: center;
 }
 nav {
-    padding-bottom: 150px;
+    margin-bottom: 100px;
 }
 section {   
-    max-width: 600px;
-    margin: 0 auto;
     padding-bottom: 400px;
 }
 section > p {
@@ -36,6 +37,7 @@ section > p {
 }
 footer {
     font-size: 16px;
+    padding: 16px;
 }
 h1 {
     font-size: 80px;
@@ -58,9 +60,9 @@ nav {
     padding: 16px;
     margin-bottom: 30px;
 }
+
 #cabecera {
     font-family: "Endless_Boss_Battle", monospace;
-    padding-top: 70px;
 }
 #quien-soy > div {
     text-align: center;
@@ -80,6 +82,21 @@ nav {
 #habilidades p {
     padding-right: 18px;
 }
+#contacto {
+    text-align: right;
+}
 #contacto img {
     width: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        font-size: 18px;
+    }
+    main {
+        width: 90%;
+    }
+    #habilidades img {
+        width: 26px;
+    }
 }
