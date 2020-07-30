@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545927-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135545927-1');
+    </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Santi Bello's Web</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @font-face {
+                font-family: 'Determination Mono';
+                src: url(ttf/DeterminationMonoWeb.ttf);
+            }
+            @font-face {
+                font-family: 'Monster Friend Fore';
+                src: url(ttf/MonsterFriendFore.ttf);
+            }
+            @font-face {
+                font-family: 'Endless Boss Battle';
+                src: url(ttf/EndlessBossBattle.ttf);
+            }
+            @font-face {
+                font-family: 'Super_Plumber_Brothers';
+                src: url(ttf/SuperPlumberBrothers.ttf);
+            }
+
+            body {
+                font-family: 'Determination Mono', monospace;
+                background-color: black;
+                color: white;
+            }
+
+
+
+            /* Grid Proyectos*/
+            .projects-grid {
+                background-color: red;
+                width: 500px;
+                height: 300px;
+                display: grid;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 50px 50px ;
+                grid-template-areas:
+                "primero segundo tercero"
+                " . cuarto . "
+            }
+                .p-1 {
+                    grid-area: primero;
+                }
+                .p-2 {
+                    grid-area: segundo;
+                }
+                .p-3 {
+                    grid-area: tercero;
+                }
+                .p-4 {
+                    grid-area: cuarto;
+                }
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+
+    <section id='projects' class='projects-grid'>
+        <a class='p-1' href='https://debello.github.io/todolist/' target="_blank">To do List - Abril '19</a>
+        <a class='p-2' href='https://debello.github.io/kanban_bello/' target="_blank">Kanban - Abril '19</a>
+        <a class='p-3' href='http://debello.github.io/' target="_blank">Portfolio</a>
+        <a class='p-4' href='https://github.com/debello?tab=repositories' target="_blank">Más proyectos</a>
+    </section>
+
+</body>
+</html>
