@@ -19,6 +19,9 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+#nav, #cabecera, section > h2 {
+    font-family: "Endless_Boss_Battle", monospace;
+}
 main {
     max-width: 600px;
     width: 80%;
@@ -56,14 +59,10 @@ img {
     width: 35px;
 }
 nav {
-    font-family: "Endless_Boss_Battle", monospace;
     padding: 16px;
     margin-bottom: 30px;
 }
 
-#cabecera {
-    font-family: "Endless_Boss_Battle", monospace;
-}
 #quien-soy > div {
     text-align: center;
     padding-bottom: 26px;
