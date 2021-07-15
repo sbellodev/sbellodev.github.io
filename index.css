@@ -6,7 +6,9 @@
     font-family: "FreePixel";
     src: url(ttf/FreePixel.ttf);
 }
-
+:root {
+    --main-black: rgb(24, 24, 24);
+}
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@ body {
     font-size: 24px;
     font-family: "FreePixel", monospace;
     color: white;
-    background-color: #181818;
+    background-color: var(--main-black);
 }
 main {
     display: grid;
@@ -40,8 +42,15 @@ nav {
     top: 0;
     width: 100%;
     padding: 16px;
-    padding-bottom: 30px;
-    background-color: #181818;
+    background-color: var(--main-black);
+    border-bottom: 5px solid white;
+}
+.darkmode-btn {
+    right: 0;
+    position: fixed;
+    padding-right:  16px;
+    cursor: pointer; 
+    text-decoration: underline;
 }
 footer {
     font-size: 16px;
@@ -75,10 +84,10 @@ a, span {
     display: flex;
     flex-direction: column;
 }
-    .positive:first-letter { /* Positive */
+    .positive { /* Positive */
         color: aqua;
     }
-    .negative:first-letter { /* Negative */
+    .negative { /* Negative */
         color: orangered;
     }
 
@@ -104,7 +113,6 @@ a, span {
         margin-top: 12px;
         margin-bottom: 12px;
         resize: none;
-        border: none;
         overflow: auto;
         outline: none;
     }
@@ -120,7 +128,9 @@ a, span {
         font-size: inherit;
         margin-top: 12px;
     }
-
+    .logos {
+        fill: black;
+    }
 
 @media only screen and (max-width: 480px) {
     nav {

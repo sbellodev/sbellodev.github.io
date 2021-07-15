@@ -13,6 +13,36 @@
     <title>Santi Bello Web</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function setDarkmode(){
+            let bodyEl = document.getElementsByTagName("BODY")[0]
+            let navEl = document.getElementsByTagName("NAV")[0]
+            let darkmode_btn = document.getElementsByClassName("darkmode-btn")[0]
+            let contact_logos = document.getElementsByClassName("logos")
+            console.log(contact_logos)
+            let color_black = "rgb(24, 24, 24)"
+            let color_white = "floralwhite"
+
+            if(darkmode_btn.innerHTML === "LightMode"){
+                darkmode_btn.innerHTML = "DarkMode"
+                bodyEl.style.backgroundColor = color_white
+                bodyEl.style.color = color_black
+                navEl.style.backgroundColor = "white"
+                navEl.style.color = color_black
+                navEl.style.borderBottom = "5px solid " + color_black
+                contact_logos[0].style.fill = "black"
+                contact_logos[1].style.fill = "white"
+            } else if(darkmode_btn.innerHTML === "DarkMode") {
+                darkmode_btn.innerHTML = "LightMode"
+                bodyEl.style.backgroundColor = color_black
+                bodyEl.style.color = color_white
+                navEl.style.backgroundColor = color_black
+                //navEl.style.color = color_white
+                navEl.style.borderBottom = "5px solid white"  
+                contact_logos[0].style.fill = "black"
+                contact_logos[1].style.fill = "white"            }
+        }
+    </script>
 </head>
 <body>
     <nav>
@@ -20,6 +50,7 @@
         <a href="#habilidades">Skills</a>
         <a href="#experiencia">EXP</a>
         <a href="#contacto">Where</a>
+        <span><a class="darkmode-btn" onClick=setDarkmode()>LightMode</a></span>
     </nav>
     <main>
         <section id="cabecera">
@@ -32,7 +63,7 @@
 
         <section id="quien-soy">
             <h2>Who I am.</h2>
-            <p>I'm a developer who began as a <span>self-taught</span> student in 2018, currently holding a <span>higher tecnician</span> certification 
+            <p>I'm a developer from Galicia (Spain) who began as a <span>self-taught</span> student in 2018, currently holding a <span>higher tecnician</span> certification 
                 with month of job experience and years of voluteering.</p>
             <p>I like working <span>FullStack</span> as much as <span>Backend</span>, being Backend my preferred choice for its vast abstraction level. Also I enjoy studying and applying good practices and metodologies.</p>
             <p>As as hobby, aside of staying up-to-date with tecnologies I arrange social gaming events since 2014, having performed more than <span>140 events</span> with our organisation.</p>
@@ -96,8 +127,8 @@
         <section id="contacto">
             <h2>Where are you?</h2>
             <div>
-                <a href="https://twitter.com/bellodev_" target="_blank" rel="me noopener noreferrer"><img src="/img/twitter.svg"></a>
-                <a href="https://github.com/debello/" target="_blank" rel="me noopener noreferrer"><img src="/img/github.svg"></a>
+                <a href="https://twitter.com/bellodev_" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/twitter.svg"></a>
+                <a href="https://github.com/debello/" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/github.svg"></a>
             </div>
             <form>
                 <label for="name">1.Your name:</label>
