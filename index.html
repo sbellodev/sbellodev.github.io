@@ -100,10 +100,10 @@
                 <a href="https://twitter.com/bellodev_" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/twitter.svg"></a>
                 <a href="https://github.com/debello/" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/github.svg"></a>
             </div>
-            <form>
+            <form action="mailto:svazquez789@hotmail.com" method="get" enctype="text/plain">
                 <label for="name">1.Your name:</label>
                 <br>
-                <input action="mailto:svazquez789@hotmail.com" type="name" id="name" name="name" required>
+                <input type="name" id="name" name="name" required>
                 <br>
                 <label for="email">2.Your email: </label>
                 <br>
@@ -162,7 +162,7 @@
     let form = document.querySelectorAll("form")[0]
     form.addEventListener('submit', function sentForm(e){
         e.preventDefault()
-        form.innerHTML = "<br><h3>Thanks for contacting me!</h3><h3>I'll do my best to respond as soon as I can</h3>"
+        form.innerHTML = "<br><h3>* Thanks for contacting me!</h3><h3>* I'll do my best to respond as soon as I can.</h3>"
     })
     
 </script>
