@@ -15,11 +15,10 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <script>
         function setDarkmode(){
-            let bodyEl = document.getElementsByTagName("BODY")[0]
-            let navEl = document.getElementsByTagName("NAV")[0]
+            let bodyEl = document.getElementsByTagName("body")[0]
+            let navEl = document.getElementsByTagName("nav")[0]
             let darkmode_btn = document.getElementsByClassName("darkmode-btn")[0]
             let contact_logos = document.getElementsByClassName("logos")
-            console.log(contact_logos)
             let color_black = "rgb(24, 24, 24)"
             let color_white = "floralwhite"
 
@@ -27,20 +26,22 @@
                 darkmode_btn.innerHTML = "DarkMode"
                 bodyEl.style.backgroundColor = color_white
                 bodyEl.style.color = color_black
+                bodyEl.style.fontWeight = "bold"
                 navEl.style.backgroundColor = "white"
                 navEl.style.color = color_black
-                navEl.style.borderBottom = "5px solid " + color_black
-                contact_logos[0].style.fill = "black"
-                contact_logos[1].style.fill = "white"
+                navEl.style.borderBottom = "2px solid " + color_black
+                contact_logos[0].src = "/img/twitter_black.svg"
+                contact_logos[1].src = "/img/github_black.svg"
             } else if(darkmode_btn.innerHTML === "DarkMode") {
                 darkmode_btn.innerHTML = "LightMode"
                 bodyEl.style.backgroundColor = color_black
                 bodyEl.style.color = color_white
+                bodyEl.style.fontWeight = "normal"
                 navEl.style.backgroundColor = color_black
                 //navEl.style.color = color_white
-                navEl.style.borderBottom = "5px solid white"  
-                contact_logos[0].style.fill = "black"
-                contact_logos[1].style.fill = "white"            }
+                navEl.style.borderBottom = "2px solid white"  
+                contact_logos[0].src = "/img/twitter.svg"
+                contact_logos[1].src = "/img/github.svg"            }
         }
     </script>
 </head>
@@ -99,27 +100,27 @@
             <h2>Experience and volunteering</h2>
             <p>2019/Now - Volunteering at <a href="https://smashbrosspain.com" target="_blank" rel="noopener noreferrer">SmashBrosSpain</a></p>
             <ul>
-                <li>FullStack from top html to deployment on Gitlab.</li>
-                <li>Pair Programming.</li>
-                <li>Implementing features as 'notification panel' or 'like system'</li>
-                <li>CSS Layout from a given design.</li>
-                <li>Tech: PHP, Codeigniter, MySQL, Vanilla JS, JQuery.</li>
+                <li>> FullStack from top html to deployment on Gitlab.</li>
+                <li>> Pair Programming.</li>
+                <li>> Implementing features as 'notification panel'.</li>
+                <li>> CSS Layout from a given design.</li>
+                <li>> Tech: PHP, Codeigniter, MySQL, JS, JQuery.</li>
             </ul>
             <p>2019/2020 - Worked 3 months at <a href="https://diariomotor.com" target="_blank" rel="noopener noreferrer">Diariomotor</a></p>     
             <ul>
-                <li>First-hand experience with a high traffic web.</li>
-                <li>Tuned up good practices and refactoring.</li>
-                <li>Coded detailed web layout.</li>
-                <li>Comunication and pair programming/mentored.</li>
-                <li>Tech: React, Frontity, CSS, Gitbucket, Clean Code.</li>
+                <li>> First-hand experience with a high traffic web.</li>
+                <li>> Tuned up good practices and refactoring.</li>
+                <li>> Coded detailed web layout.</li>
+                <li>> Pair programming/mentored.</li>
+                <li>> Tech: React, Frontity, CSS, Gitbucket.</li>
             </ul>
             <p>2020/Now - Coded my project <a href="https://animalbrowsing.com" target="_blank" rel="noopener noreferrer">Animal Browsing</a></p>
             <ul>
-                <li>Design and coded from scratch alone</li>
-                <li>Managed, filtered and showed data from JSONs.</li>
-                <li>Creation and implementatión of an Twitter API with filtered spam.</li>
-                <li>Clean Code. Design, UX, SEO.</li>
-                <li>Tech: React, Node.js, Tweepy, ReactHelmet.</li>
+                <li>> Design and coded from scratch alone</li>
+                <li>> Managed data from JSONs.</li>
+                <li>> Implementation of an Twitter API.</li>
+                <li>> Clean Code. Design, UX, SEO.</li>
+                <li>> Tech: React, Node.js, Tweepy, ReactHelmet.</li>
             </ul>
             <p><a href="https://github.com/debello?tab=repositories" target="_blank" rel="noopener noreferrer">More projects</a></p>
         </section>

@@ -43,7 +43,7 @@ nav {
     width: 100%;
     padding: 16px;
     background-color: var(--main-black);
-    border-bottom: 5px solid white;
+    border-bottom: 2px solid white;
 }
 .darkmode-btn {
     right: 0;
