@@ -11,7 +11,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Santi Bello Web</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
@@ -107,25 +106,17 @@
                 <a href="https://twitter.com/bellodev_" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/twitter.svg"></a>
                 <a href="https://github.com/debello/" target="_blank" rel="me noopener noreferrer"><img class="logos" src="/img/github.svg"></a>
             </div>
-            <div>
-                
-                <a href="mailto:sbellodev@gmail.com" target="_blank" rel="me noopener noreferrer"><p><span>Email</span></p></a>
-            </div>
-            <!-- <form action="mailto:sbellodev@gmail.com" method="get" enctype="text/plain">
-                <label for="name">1.Your name:</label>
+            <form method="post" enctype="text/plain">
+                <label for="subject">1.Email Subject:</label>
                 <br>
-                <input type="name" id="name" name="name" required>
+                <input type="subject" id="subject" name="subject" required>
                 <br>
-                <label for="email">2.Your email: </label>
+                <label for="body">2.Message:</label>
                 <br>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="comentario">3.Leave me a message:</label>
-                <br>
-                <textarea name="comentario" rows="6" cols="10" required></textarea>
+                <textarea name="body" rows="6" cols="10" required></textarea>
                 <br>
                 <input type="submit" value="Send">
-            </form> -->
+            </form>
         </section>
     </main>
     <footer>
@@ -172,8 +163,11 @@
 
     let form = document.querySelectorAll("form")[0]
     form.addEventListener('submit', function sentForm(e){
+        let subject = document.querySelectorAll("form input[name='subject']")[0].value
+        let body = document.querySelectorAll("form textarea[name='body']")[0].value
+
+        form.action = "mailto:sbellodev@gmail.com?subject=" +subject+ "&body=" +body 
         form.innerHTML = "<br><h3>*  Thanks for contacting me!</h3><h3>* I'll do my best to respond as soon as I can.</h3>"
     })
-    
 </script>
 </html>
