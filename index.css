@@ -72,6 +72,7 @@ a, span {
 }
 
 
+
 #quien-soy img {
     width: 35px;
 }
@@ -94,43 +95,43 @@ a, span {
 #experiencia p{
     font-weight: bold;
 }
-#contacto {
-    text-align: center;
+
+
+#contacto img {
+    width: 50px;
 }
-    #contacto img {
-        width: 50px;
-    }
-    #contacto form {
-        text-align: left;
-    }
-    #contacto input {
-        margin-top: 12px;
-        margin-bottom: 12px;
-        padding: 6px;
-    }
-    #contacto textarea {
-        width: 100%;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        resize: none;
-        overflow: auto;
-        outline: none;
-    }
-    #contacto input[type=submit]{
-        background-color: var(--main-black);
-        border: 4px solid white;
-        color: white;
-        padding: 12px 24px;
-        text-decoration: none;
-        cursor: pointer;
-        font-family: inherit;
-        font-weight: bold;
-        font-size: inherit;
-        margin-top: 12px;
-    }
-    .logos {
-        fill: black;
-    }
+#contacto form {
+    text-align: left;
+}
+#contacto input {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+#contacto textarea {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    resize: none;
+    overflow: auto;
+    outline: none;
+}
+#contacto input[type=submit]{
+    background-color: var(--main-black);
+    border: 4px solid white;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    margin-top: 12px;
+}
+.logos {
+    text-align: center;
+    fill: black;
+}
 
 @media only screen and (max-width: 480px) {
     nav {
