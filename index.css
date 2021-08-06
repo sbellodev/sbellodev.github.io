@@ -6,6 +6,7 @@
     font-family: "FreePixel";
     src: url(ttf/FreePixel.ttf);
 }
+
 :root {
     --main-black: rgb(24, 24, 24);
 }
@@ -71,44 +72,31 @@ a, span {
     color: gold;
 }
 
-
-
-#quien-soy img {
+#who img {
     width: 35px;
 }
-#quien-soy > div {
+#who > div {
     text-align: center;
     padding-bottom: 26px;
     line-height: 0;
 }
-#habilidades {
-    display: flex;
-    flex-direction: column;
-}
-    .positive { /* Positive */
-        color: aqua;
-    }
-    .negative { /* Negative */
-        color: orangered;
-    }
 
-#experiencia p{
+#experience p{
     font-weight: bold;
 }
 
-
-#contacto img {
+#contact img {
     width: 50px;
 }
-#contacto form {
+#contact form {
     text-align: left;
 }
-#contacto input {
+#contact input {
     margin-top: 12px;
     margin-bottom: 12px;
     padding: 6px;
 }
-#contacto textarea {
+#contact textarea {
     width: 100%;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -116,7 +104,7 @@ a, span {
     overflow: auto;
     outline: none;
 }
-#contacto input[type=submit]{
+#contact input[type=submit]{
     background-color: var(--main-black);
     border: 4px solid white;
     color: white;
@@ -139,8 +127,5 @@ a, span {
     }
     main {
         width: 90%;
-    }
-    #habilidades img {
-        width: 25px;
     }
 }
