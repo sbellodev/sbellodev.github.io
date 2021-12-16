@@ -1,137 +1,146 @@
 @font-face {
-    font-family: "Endless_Boss_Battle";
-    src: url(ttf/EndlessBossBattle.ttf);
+  font-family: "Endless_Boss_Battle";
+  src: url(ttf/EndlessBossBattle.ttf);
 }
 @font-face {
-    font-family: "FreePixel";
-    src: url(ttf/FreePixel.ttf);
+  font-family: "FreePixel";
+  src: url(ttf/FreePixel.ttf);
 }
 
 :root {
-    --main-black: rgb(24, 24, 24);
+  --main-black: rgb(24, 24, 24);
 }
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    display: grid;
-    row-gap: 200px;
-    margin: 0 auto;
-    padding: 0;
-    font-size: 24px;
-    font-family: "FreePixel", monospace;
-    color: white;
-    background-color: var(--main-black);
+  display: grid;
+  row-gap: 200px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 24px;
+  font-family: "FreePixel", monospace;
+  color: white;
+  background-color: var(--main-black);
 }
 main {
-    display: grid;
-    justify-self: center;
-    row-gap: 400px;
-    width: 80%;
-    max-width: 600px;
-    margin-top: 200px; /* Needed for sticky navbar */
+  display: grid;
+  justify-self: center;
+  row-gap: 400px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 100px; /* Needed for sticky navbar */
 }
-    main p {
-        padding-bottom: 30px;
-    }
-#nav, #cabecera, section > h2 {
-    font-family: "Endless_Boss_Battle", monospace;
+main p {
+  padding-bottom: 30px;
+}
+#nav,
+#cabecera,
+section > h2 {
+  font-family: "Endless_Boss_Battle", monospace;
 }
 nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 16px;
-    background-color: var(--main-black);
-    border-bottom: 2px solid white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--main-black);
+  border-bottom: 2px solid white;
 }
-.darkmode-btn {
-    right: 0;
-    position: fixed;
-    padding-right:  16px;
-    cursor: pointer; 
-    text-decoration: underline;
+section {
+  padding-top: 100px;
 }
 footer {
-    font-size: 16px;
-    padding: 0 0 32px 32px;
+  font-size: 16px;
+  padding: 0 0 32px 32px;
 }
 h1 {
-    font-size: 80px;
+  font-size: 80px;
 }
-h1, h2, h3 {
-    padding-bottom: 18px;
+h1,
+h2,
+h3 {
+  padding-bottom: 18px;
 }
-ul, ol {
-    margin-left: 40px;
-    margin-bottom: 60px;
-    list-style-type: none;
+ul,
+ol {
+  margin-left: 40px;
+  margin-bottom: 60px;
+  list-style-type: none;
 }
-a, span {
-    color: gold;
+a,
+span {
+  color: gold;
 }
 
 #who img {
-    width: 35px;
+  width: 35px;
 }
 #who > div {
-    text-align: center;
-    padding-bottom: 26px;
-    line-height: 0;
+  text-align: center;
+  padding-bottom: 26px;
+  line-height: 0;
 }
 
 #cabecera img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 40px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
 }
 
-#experience p{
-    font-weight: bold;
+#experience p {
+  font-weight: bold;
 }
 
 #contact img {
-    width: 50px;
+  width: 50px;
 }
 #contact form {
-    text-align: left;
+  text-align: left;
 }
 #contact input {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 6px;
 }
 #contact textarea {
-    width: 100%;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    resize: none;
-    overflow: auto;
-    outline: none;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  resize: none;
+  overflow: auto;
+  outline: none;
 }
-#contact input[type=submit]{
-    background-color: var(--main-black);
-    border: 4px solid white;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: inherit;
-    margin-top: 12px;
+#contact input[type="submit"] {
+  background-color: var(--main-black);
+  border: 4px solid white;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  margin-top: 12px;
 }
 .logos {
-    text-align: center;
-    fill: black;
+  text-align: center;
+  fill: black;
+}
+.darkmode-btn {
+  right: 0;
+  position: fixed;
+  padding-right: 16px;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 480px) {
-    nav {
-        font-size: 18px;
-    }
-    main {
-        width: 90%;
-    }
+  nav {
+    font-size: 18px;
+  }
+  main {
+    width: 90%;
+  }
 }
