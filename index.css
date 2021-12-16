@@ -1,10 +1,14 @@
 @font-face {
-  font-family: "Endless_Boss_Battle";
+  font-family: "Endless";
   src: url(ttf/EndlessBossBattle.ttf);
 }
 @font-face {
   font-family: "FreePixel";
   src: url(ttf/FreePixel.ttf);
+}
+@font-face {
+  font-family: "Terminal";
+  src: url(ttf/Terminal.ttf);
 }
 
 :root {
@@ -19,8 +23,8 @@ body {
   row-gap: 200px;
   margin: 0 auto;
   padding: 0;
-  font-size: 24px;
-  font-family: "FreePixel", monospace;
+  font-size: 28px;
+  font-family: "Terminal", monospace;
   color: white;
   background-color: var(--main-black);
 }
@@ -36,9 +40,10 @@ main p {
   padding-bottom: 30px;
 }
 #nav,
+nav,
 #cabecera,
 section > h2 {
-  font-family: "Endless_Boss_Battle", monospace;
+  font-family: "Endless", monospace;
 }
 nav {
   position: fixed;
@@ -80,7 +85,6 @@ span {
 #who > div {
   text-align: center;
   padding-bottom: 26px;
-  line-height: 0;
 }
 
 #cabecera img {
