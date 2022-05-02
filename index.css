@@ -1,14 +1,6 @@
 @font-face {
   font-family: "Endless";
-  src: url(ttf/EndlessBossBattle.ttf);
-}
-@font-face {
-  font-family: "FreePixel";
-  src: url(ttf/FreePixel.ttf);
-}
-@font-face {
-  font-family: "Terminal";
-  src: url(ttf/Terminal.ttf);
+  src: url(fonts/EndlessBossBattle.ttf);
 }
 
 :root {
@@ -37,12 +29,10 @@ main {
   margin-top: 100px; /* Needed for sticky navbar */
 }
 main p {
-  padding-bottom: 30px;
+  padding-bottom: 8px;
 }
-#nav,
-nav,
-#cabecera,
-section > h2 {
+section > h1,
+h2 {
   font-family: "Endless", monospace;
 }
 nav {
@@ -53,20 +43,22 @@ nav {
   background-color: var(--main-black);
   border-bottom: 2px solid white;
 }
+nav a {
+  padding-right: 8px;
+}
 section {
   padding-top: 100px;
 }
 footer {
-  font-size: 16px;
-  padding: 0 0 32px 32px;
+  font-size: 14px;
+  padding: 0 0 16px 16px;
 }
 h1 {
   font-size: 80px;
-}
-h1,
-h2,
-h3 {
   padding-bottom: 18px;
+}
+h2 {
+  padding-bottom: 32px;
 }
 ul,
 ol {
@@ -79,9 +71,6 @@ span {
   color: gold;
 }
 
-#who img {
-  width: 35px;
-}
 #who > div {
   text-align: center;
   padding-bottom: 26px;
@@ -99,10 +88,6 @@ span {
 
 #contact img {
   width: 50px;
-}
-.logos {
-  text-align: center;
-  fill: black;
 }
 .darkmode-btn {
   right: 0;

@@ -18,11 +18,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Santi Bello Web</title>
+    <title>Santi Bello</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
     <nav>
+      <a href="#">Home</a>
       <a href="#who">Who</a>
       <a href="#experience">EXP</a>
       <a href="#contact">Where</a>
@@ -38,27 +41,28 @@
 
       <section id="who">
         <h2>Who</h2>
+        <p>Hi! Nice to meet you. My name's Santi Bello.</p>
+        <br />
         <p>
           I'm a developer from Galicia (Spain) who began as a
           <span>self-taught</span> student in 2018, currently holding a
           <span>higher tecnician</span> certification with month of job
           experience and years of voluteering.
         </p>
+        <br />
         <p>
           I like working both <span>Front</span> and <span>Backend</span>, being
           Backend my preferred choice for its vast abstraction level. Also I
           enjoy studying and applying good practices and metodologies.
         </p>
+        <br />
+        <br />
         <p>
           As as hobby, aside of staying up-to-date with tecnologies I arrange
           social gaming events since 2014, having performed more than
           <span>140 events</span> within our organisation.
         </p>
-        <div>
-          <img src=img/heart_green.svg /> <img src=img/heart_yellow.svg /> <img
-          src=img/heart_red.svg /> <img src=img/heart_violet.svg /> <img
-          src=img/heart_blue.svg />
-        </div>
+        <br />
         <p>Don't hesitate to <a href="#contact">contact</a> me!</p>
       </section>
 
@@ -77,10 +81,10 @@
           Dec 2021 - 6 months now.
         </p>
         <ul>
-          <li>> XXX.</li>
-          <li>> YYY.</li>
-          <li>> ZZZ.</li>
-          <li>> Xamarin, Android, C#.</li>
+          <li>XXX.</li>
+          <li>YYY.</li>
+          <li>ZZZ.</li>
+          <li>Xamarin, Android, C#.</li>
         </ul>
 
         <p>
@@ -93,13 +97,13 @@
             >Nunegal</a
           >
           <br />
-          Oct 2021 - 3 months Internship.
+          Oct 2021 - 3 months internship.
         </p>
         <ul>
-          <li>> Full-Cycle App Development from scratch..</li>
-          <li>> Planning of requirements and interface.</li>
-          <li>> Implementating front, backend and database.</li>
-          <li>> Spring Boot, React, Java, Javascript, PostgresQL.</li>
+          <li>Full-Cycle App Development from scratch..</li>
+          <li>Planning of requirements and interface.</li>
+          <li>Implementating front, backend and database.</li>
+          <li>Spring Boot, React, Java, Javascript, PostgresQL.</li>
         </ul>
 
         <p>
@@ -114,10 +118,10 @@
           Nov 2019 - 3 months.
         </p>
         <ul>
-          <li>> Developed in a high traffic web.</li>
-          <li>> Tuned up good practices and refactoring.</li>
-          <li>> Coded detailed web layout.</li>
-          <li>> React, Frontity, CSS, Gitbucket.</li>
+          <li>Developed in a high traffic web.</li>
+          <li>Tuned up good practices and refactoring.</li>
+          <li>Coded detailed web layout.</li>
+          <li>React, Frontity, CSS.</li>
         </ul>
 
         <p>
@@ -128,13 +132,13 @@
             rel="noopener noreferrer"
             >Galiza Verde</a
           ><br />
-          Jan 2021 - 2 months Freelanced.
+          Jan 2021 - 2 months freelanced.
         </p>
         <ul>
-          <li>> Freelanced a website from scratch alone</li>
-          <li>> Customer and engineer/design communication.</li>
-          <li>> Worked with deadlines, prototypes and feedback.</li>
-          <li>> React, CSS.</li>
+          <li>Freelanced a website from scratch alone</li>
+          <li>Customer and engineer/design communication.</li>
+          <li>Deadlines, prototypes and feedback.</li>
+          <li>React, CSS.</li>
         </ul>
 
         <h2>Volunteering & Projects</h2>
@@ -147,13 +151,13 @@
             >SmashBrosSpain</a
           >
           <br />
-          Jun 2019 - 3 years Volunteering
+          Jun 2019 - 3 years volunteering
         </p>
         <ul>
-          <li>> FullStack from top html to deployment on Gitlab.</li>
-          <li>> Implementing features as 'notification panel'.</li>
-          <li>> CSS Layout from a given design.</li>
-          <li>> PHP, Codeigniter, MySQL, JS, JQuery.</li>
+          <li>FullStack from top html to deployment on Gitlab.</li>
+          <li>Implementing features as 'notification panel'.</li>
+          <li>CSS Layout from a given design.</li>
+          <li>PHP, Codeigniter, MySQL, Javascript.</li>
         </ul>
 
         <p>
@@ -165,13 +169,13 @@
             >Animal Browsing</a
           >
           <br />
-          Mar 2020 - 4 months Created for fun.
+          Mar 2020 - 4 months creating for fun.
         </p>
         <ul>
-          <li>> Design and coded from scratch alone.</li>
-          <li>> Managed data from JSONs.</li>
-          <li>> Clean Code. APIs, Design, UX, SEO.</li>
-          <li>> React, Node.js, Tweepy, ReactHelmet.</li>
+          <li>Design and coded from scratch alone.</li>
+          <li>Managed data from JSONs.</li>
+          <li>Clean Code. APIs, Design, UX, SEO.</li>
+          <li>React, Node.js, APIs.</li>
         </ul>
         <p>
           <a
@@ -217,62 +221,5 @@
       <p>© Santi Bello 2018 - 2022</p>
     </footer>
   </body>
-  <script>
-    let darkmodeCount = 0;
-    let darkmode_btn = document.getElementsByClassName("darkmode-btn")[0];
-    darkmode_btn.addEventListener("click", function setDarkmode() {
-      let bodyEl = document.getElementsByTagName("body")[0];
-      let navEl = document.getElementsByTagName("nav")[0];
-      let contact_logos = document.getElementsByClassName("logos");
-      let submit = document.querySelectorAll("input[type=submit]")[0];
-      let color_black = "rgb(24, 24, 24)";
-      let color_white = "floralwhite";
-
-      if (darkmodeCount < 5) {
-        darkmodeCount < 1
-          ? (darkmode_btn.innerHTML = "No please :(")
-          : darkmodeCount < 2
-          ? (darkmode_btn.innerHTML = "Oh no...")
-          : darkmodeCount < 3
-          ? (darkmode_btn.innerHTML = "No, no, no...")
-          : darkmodeCount < 4
-          ? (darkmode_btn.innerHTML = "Don't do this!")
-          : (darkmode_btn.innerHTML = "!!!!");
-
-        setTimeout(() => (darkmode_btn.innerHTML = "LightMode"), 1000);
-        darkmodeCount++;
-      } else {
-        if (darkmode_btn.innerHTML === "LightMode") {
-          darkmode_btn.innerHTML = "DarkMode";
-          bodyEl.style.backgroundColor = color_white;
-          bodyEl.style.color = color_black;
-          bodyEl.style.fontWeight = "bold";
-          navEl.style.backgroundColor = "white";
-          navEl.style.color = color_black;
-          navEl.style.borderBottom = "2px solid " + color_black;
-          contact_logos[0].src = "/img/twitter_black.svg";
-          contact_logos[1].src = "/img/github_black.svg";
-          contact_logos[2].src = "/img/linkedin_black.svg";
-          contact_logos[3].src = "/img/mail_black.svg";
-          submit.style.color = color_black;
-          submit.style.border = "2px solid " + color_black;
-          submit.style.backgroundColor = "white";
-        } else if (darkmode_btn.innerHTML === "DarkMode") {
-          darkmode_btn.innerHTML = "LightMode";
-          bodyEl.style.backgroundColor = color_black;
-          bodyEl.style.color = color_white;
-          bodyEl.style.fontWeight = "normal";
-          navEl.style.backgroundColor = color_black;
-          navEl.style.borderBottom = "2px solid " + color_white;
-          contact_logos[0].src = "/img/twitter.svg";
-          contact_logos[1].src = "/img/github.svg";
-          contact_logos[2].src = "/img/linkedin.svg";
-          contact_logos[3].src = "/img/mail.svg";
-          submit.style.color = "white";
-          submit.style.border = "4px solid white";
-          submit.style.backgroundColor = color_black;
-        }
-      }
-    });
-  </script>
+  <script src="lightmode.js"></script>
 </html>
