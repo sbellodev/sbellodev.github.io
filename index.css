@@ -31,6 +31,7 @@ main {
 main p {
   padding-bottom: 8px;
 }
+nav,
 section > h1,
 h2 {
   font-family: "Endless", monospace;
