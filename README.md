@@ -1,5 +1,3 @@
-# debello.main.github.io
-
-My portfolio. I'm a Software Developer with PHP, React, CSS, Node.js experience looking for remote job with interesting projects.
+I'm a Software Developer from Galicia, Spain with Java, React etc and more experience looking for remote job with interesting projects.
 
 @sbellodev
