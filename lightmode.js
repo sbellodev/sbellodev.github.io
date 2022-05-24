@@ -8,19 +8,15 @@ darkmode_btn.addEventListener("click", function setDarkmode() {
   let colorBlack = "rgb(24, 24, 24)";
   let colorWhite = "floralwhite";
 
-  if (darkmodeCount < 5) {
+  darkmodeCount++;
+  if (darkmodeCount < 3) {
     darkmodeCount < 1
       ? (darkmode_btn.innerHTML = "No please :(")
       : darkmodeCount < 2
       ? (darkmode_btn.innerHTML = "Oh no...")
-      : darkmodeCount < 3
-      ? (darkmode_btn.innerHTML = "No, no, no...")
-      : darkmodeCount < 4
-      ? (darkmode_btn.innerHTML = "Don't do this!")
-      : (darkmode_btn.innerHTML = "!!!!");
+      : (darkmode_btn.innerHTML = "Don't!");
 
-    setTimeout(() => (darkmode_btn.innerHTML = "LightMode"), 1000);
-    darkmodeCount++;
+    setTimeout(() => (darkmode_btn.innerHTML = "LightMode"), 800);
   } else {
     if (darkmode_btn.innerHTML === "LightMode") {
       darkmode_btn.innerHTML = "DarkMode";

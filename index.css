@@ -20,6 +20,12 @@ body {
   color: white;
   background-color: var(--main-black);
 }
+a:link {
+  color: gold;
+}
+a:visited {
+  color: darkorange;
+}
 main {
   display: grid;
   justify-self: center;
@@ -65,7 +71,7 @@ ul,
 ol {
   margin-left: 40px;
   margin-bottom: 60px;
-  list-style-type: none;
+  list-style-type: decimal;
 }
 a,
 span {
