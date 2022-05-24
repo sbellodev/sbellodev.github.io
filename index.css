@@ -111,4 +111,7 @@ span {
   main {
     width: 90%;
   }
+  li {
+    padding-bottom: 8px;
+  }
 }
