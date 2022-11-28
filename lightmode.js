@@ -5,6 +5,7 @@ let navEl = document.getElementsByTagName("nav")[0];
 let contactLogos = document.getElementsByClassName("logos");
 let colorBlack = "rgb(24, 24, 24)";
 let colorWhite = "floralwhite";
+let lastExp = document.getElementById("last-exp");
 
 darkmode_btn.addEventListener("click", function setDarkmode() {
   if (darkmodeCount < 2) {
@@ -53,3 +54,14 @@ function changeSecondaryColor(color) {
     allSpan[i].style.color = color;
   }
 }
+
+function getLastExpTime() {
+  var from = new Date("2021-12-10");
+  var today = new Date();
+  var totalMiliseconds = Math.abs(today - from);
+  result = Math.ceil(totalMiliseconds / (1000 * 60 * 60 * 24 * 30));
+  lastExp.style.color = "white";
+  lastExp.innerHTML = result;
+}
+
+getLastExpTime();
