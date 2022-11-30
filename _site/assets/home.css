@@ -104,6 +104,11 @@ span {
   text-decoration: underline;
 }
 
+time {
+  display: block;
+  text-align: right;
+}
+
 @media only screen and (max-width: 480px) {
   nav {
     font-size: 18px;

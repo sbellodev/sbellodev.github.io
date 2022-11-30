@@ -26,6 +26,7 @@
   <body>
     <nav>
       <a href="#">HOME
+      <a href="#blog">BLOG</a>
       <a href="#who">WHO</a>
       <a href="#experience">EXPERIENCE</a>
       <a href="#contact">WHERE</a>
@@ -37,6 +38,20 @@
         <h1>SANTI BELLO</h1>
         <h2><span>SOFTWARE DEVELOPER</span></h2>
         <h2>PHP</h2>
+      </section>
+
+      <section id="blog">
+        <h2>BLOG</h2>
+        {% for post in site.posts %}
+          <div>
+            <h3>
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+            <time>{{ post.date | date: "%D" }}</time>
+          </div>
+        {% endfor %}
       </section>
 
       <section id="who">

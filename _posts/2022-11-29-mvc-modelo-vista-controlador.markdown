@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "MVC - Modelo Vista Controlador"
+title: "MVC: Modelo. Vista. Controlador."
 date: 2022-11-28 01:19:50 +0100
 categories: patrones
 ---
+
+![image tooltip here](/assets/img/perfil.jpg)
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
