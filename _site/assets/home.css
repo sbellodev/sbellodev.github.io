@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Endless";
+  src: url(fonts/EndlessBossBattle.ttf);
+}
+
+:root {
+  --main-black: rgb(24, 24, 24);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  row-gap: 200px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 22px;
+  font-family: monospace;
+  color: white;
+  background-color: var(--main-black);
+}
+a:link {
+  color: gold;
+}
+a:visited {
+  color: darkorange;
+}
+main {
+  display: grid;
+  justify-self: center;
+  row-gap: 400px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 100px; /* Needed for sticky navbar */
+}
+main p {
+  padding-bottom: 8px;
+}
+nav,
+section > h1,
+h2 {
+  font-family: "Endless", monospace;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--main-black);
+  border-bottom: 2px solid white;
+}
+nav a {
+  padding-right: 8px;
+}
+section {
+  padding-top: 100px;
+}
+footer {
+  font-size: 14px;
+  padding: 0 0 16px 16px;
+}
+h1 {
+  font-size: 80px;
+  padding-bottom: 18px;
+}
+h2 {
+  padding-bottom: 32px;
+}
+ul,
+ol {
+  margin-left: 40px;
+  margin-bottom: 60px;
+  list-style-type: decimal;
+}
+a,
+span {
+  color: gold;
+}
+
+#who > div {
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+#cabecera img {
+  width: 150px;
+  border-radius: 1rem;
+  margin-bottom: 40px;
+}
+
+#experience p {
+  font-weight: bold;
+}
+
+#contact img {
+  width: 50px;
+}
+.darkmode-btn {
+  right: 0;
+  position: fixed;
+  padding-right: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    font-size: 18px;
+  }
+  main {
+    width: 90%;
+  }
+  li {
+    padding-bottom: 8px;
+  }
+}
