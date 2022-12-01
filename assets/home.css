@@ -20,6 +20,16 @@ body {
   color: white;
   background-color: var(--main-black);
 }
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.date {
+  font-size: 16px;
+  font-style: italic;
+}
 a:link {
   color: gold;
 }
@@ -29,7 +39,6 @@ a:visited {
 main {
   display: grid;
   justify-self: center;
-  row-gap: 400px;
   width: 80%;
   max-width: 600px;
   margin-top: 100px; /* Needed for sticky navbar */
@@ -58,7 +67,12 @@ section {
 }
 footer {
   font-size: 14px;
-  padding: 0 0 16px 16px;
+  padding: 16px 0 16px 16px;
+  border-top: 1px solid #2e2e2e;
+  background-color: #1d1d1d;
+}
+footer p {
+  padding-bottom: 96px;
 }
 h1 {
   font-size: 80px;
@@ -93,7 +107,7 @@ span {
   font-weight: bold;
 }
 
-#contact img {
+#contact img, .icon {
   width: 50px;
 }
 .darkmode-btn {
@@ -107,6 +121,10 @@ span {
 time {
   display: block;
   text-align: right;
+}
+
+strong {
+  color: gold;
 }
 
 @media only screen and (max-width: 480px) {
