@@ -92,6 +92,9 @@ span {
   color: gold;
 }
 
+#who, #blog, #experience, #contact {
+  padding-top: 100px;
+}
 #who > div {
   text-align: center;
   padding-bottom: 26px;
