@@ -47,7 +47,7 @@ main p {
   padding-bottom: 8px;
 }
 nav,
-#cabecera {
+#home {
   font-family: "Endless", monospace;
 }
 nav {
@@ -91,6 +91,10 @@ span {
   color: gold;
 }
 
+.blog-subtitle {
+  font-style: italic;
+}
+
 #who, #blog, #experience, #contact, .blog h2 {
   padding-top: 100px;
 }
@@ -99,7 +103,7 @@ span {
   padding-bottom: 26px;
 }
 
-#cabecera img, .profile-img {
+#home img, .profile-img {
   width: 150px;
   border-radius: 1rem;
   margin-bottom: 40px;

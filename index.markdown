@@ -15,13 +15,12 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## BLOG [EN CONSTRUCCION]
-{: #blog}
+## [BLOG [EN CONSTRUCCION]][home]
 
 {% for post in site.posts %}
 [{{ post.title }}]({{ post.url }})
 
-{{ post.date | date: "%D" }} 
+{{ post.content | reading_time }} - {{ post.date | date: "%D" }}
 {: .date}
 {% endfor %}
 
@@ -33,8 +32,7 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## WHO 
-{: #who}
+## [WHO][home]
 
 Nice to meet you. I'm Santi Bello.  
 I'm a developer from Galicia, Spain who began as a self-taught, currently working remote as a Software Developer in PHP and JavaScript.
@@ -55,8 +53,7 @@ As as hobby, aside of staying up-to-date with tecnologies I arrange social gamin
 <br/>
 <br/>
   
-## EXPERIENCE
-{: #experience}
+## [EXPERIENCE][home]
 
 [current] **Software Developer** at [Nunegal][exp1]  
 Dec 2021 - 12 months  
@@ -88,7 +85,7 @@ Nov 2019 - 3 months
   
 <br/>
   
-## VOLUNTEERING AND PROJECTS
+## [VOLUNTEERING AND PROJECTS][home]
 **Software Developer** at [SmashBrosSpain][exp4]  
 Jun 2019 - 2 years
 * Volunteering FullStack.
@@ -113,8 +110,7 @@ Mar 2020 - 4 months
 <br/>
 <br/>
   
-## WHERE
-{: #contact}
+## [WHERE][home]
 
 [![iconTwitter](/assets/img/twitter.svg){:.icon}][rrssTwitter]
 [![iconGithub](/assets/img/github.svg){:.icon}][rrssGithub]

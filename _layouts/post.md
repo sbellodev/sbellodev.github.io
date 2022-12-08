@@ -21,15 +21,18 @@
     </nav>
     <main class="blog">
       <header >
-        <date>{{ page.date | date_to_long_string }}</date>
-        <h2>{{ page.title }}</h2>
+        <date>{{ page.date | date_to_long_string }} - {{ content | reading_time }}</date>
+        <h2 class="blog-title">{{ page.title }}</h2>
+        <h5 class="blog-subtitle">{{ page.subtitle }}</h5>
       </header>
       <article >
         {{ content | new_line_to_br }}
       </article>
     </main>
     <footer>
-      <p>© Santi Bello {{ "now" | date: "%Y" }}</p>
+      <p>
+        <a href="{{ site.baseurl }}/" >© Santi Bello {{ "now" | date: "%Y" }}</a>
+      </p>
      <div>_</div>
     </footer>
   </body>

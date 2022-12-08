@@ -25,14 +25,14 @@
   </head>
   <body>
     <nav>
-      <a href="#">HOME
+      <a href="#home">HOME
       <a href="#blog">BLOG</a>
       <a href="#who">WHO</a>
       <a href="#experience">EXPERIENCE</a>
       <a href="#contact">WHERE</a>
     </nav>
     <main>
-      <section id="cabecera">
+      <section id="home">
         <img src="{{ site.baseurl }}/assets/img/perfil.jpg" />
         <h1>SANTI BELLO</h1>
         <h2><span>SOFTWARE DEVELOPER</span></h2>
@@ -41,7 +41,9 @@
       {{ content | new_line_to_br }}
     </main>
     <footer>
-      <p>© Santi Bello {{ "now" | date: "%Y" }}</p>
+      <p>
+        <a href="{{ site.baseurl }}/" >© Santi Bello {{ "now" | date: "%Y" }}</a>
+      </p>
      <div>_</div>
     </footer>
   </body>

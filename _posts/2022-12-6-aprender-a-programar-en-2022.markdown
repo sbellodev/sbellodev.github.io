@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Aprender a programar en 2022"
+---
+
+## Tabla de contenidos
+
+1. [Introducción](#introduccion)
+2. [Paso 1: Elige un lenguaje de programación](#paso-1-elige-un-lenguaje-de-programación)
+3. [Paso 2: Familiarízate con los conceptos básicos](#paso-2-familiarízate-con-los-conceptos-básicos)
+4. [Paso 3: Practica escribiendo código](#paso-3-practica-escribiendo-código)
+5. [Paso 4: Encuentra una comunidad](#paso-4-encuentra-una-comunidad)
+6. [Paso 5: Sigue aprendiendo y mejorando tus habilidades](#paso-5-sigue-aprendiendo-y-mejorando-tus-habilidades)
+
+
+## [Introducción][index]
+Aprender a programar puede parecer muy lioso con los miles de lenguajes, frameworks y tipos de aplicaciones que existen. Pero los fundamentos de la programación son siempre los mismos. 
+Cada persona puede aprender a programar de diferentes maneras, vamos a repasar qué opciones tenemos y personalmente cuál ha sido mi propio camino.
+
+## [Paso 1: Elige un lenguaje de programación][index]
+Elije un lenguaje de programación para aprender. Algunas opciones populares son Python, Java, C++ y JavaScript.
+
+## [Paso 2: Familiarízate con los conceptos básicos][index]
+Familiarízate con los conceptos básicos del lenguaje de programación elegido. Puedes hacerlo leyendo tutoriales y documentación, o tomando un curso en línea. Khan Academy y FreeCodeCamp ofrecen tutoriales y cursos gratuitos sobre una variedad de lenguajes de programación.
+
+## [Paso 3: Practica escribiendo código][index]
+Practica escribiendo código. La mejor forma de aprender programación es escribiendo código y trabajando en pequeños proyectos. Esto te ayudará a adquirir experiencia práctica y mejorar sus habilidades. Khan Academy y FreeCodeCamp también ofrecen ejercicios y proyectos para ayudarle a practicar.
+
+## [Paso 4: Encuentra una comunidad][index]
+Encuentra una comunidad de otros estudiantes y programadores experimentados. Los foros y comunidades en línea, como Stack Overflow y Reddit, pueden ser recursos valiosos para obtener comentarios, encontrar inspiración y mantenerse motivado.
+
+## [Paso 5: Sigue aprendiendo y mejorando tus habilidades][index]
+Continua aprendiendo y ampliando sus habilidades. Para mantenerse al día y mejorar sus habilidades, es importante continuar aprendiendo y practicando regularmente.
+
+
+[index]: #tabla-de-contenidos
