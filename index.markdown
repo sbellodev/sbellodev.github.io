@@ -15,7 +15,7 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## [BLOG [EN CONSTRUCCION]][home]
+## [BLOG][home]
 
 {% for post in site.posts %}
 [{{ post.title }}]({{ post.url }})

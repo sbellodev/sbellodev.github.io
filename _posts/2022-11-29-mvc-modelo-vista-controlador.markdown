@@ -8,7 +8,7 @@ date: 2022-11-28 01:19:50 +0100
 ## Tabla de contenidos
 
 1. [Introducción](#introducción)
-2. [¿Qué es el patrón MVC?](#que-es-el-patrón-mvc)
+2. [¿Qué es el patrón MVC?](#qué-es-el-patrón-mvc)
 3. [¿Cómo funciona el patrón MVC en una pokedex?](#cómo-funciona-el-patrón-mvc-en-una-pokedex)
 4. [Conclusión](#conclusión)
 
