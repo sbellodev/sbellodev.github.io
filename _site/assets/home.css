@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-size: 22px;
-  font-family: monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
   color: white;
   background-color: var(--main-black);
 }
@@ -47,8 +47,7 @@ main p {
   padding-bottom: 8px;
 }
 nav,
-section > h1,
-h2 {
+#cabecera {
   font-family: "Endless", monospace;
 }
 nav {
@@ -92,7 +91,7 @@ span {
   color: gold;
 }
 
-#who, #blog, #experience, #contact {
+#who, #blog, #experience, #contact, .blog h2 {
   padding-top: 100px;
 }
 #who > div {
@@ -100,7 +99,7 @@ span {
   padding-bottom: 26px;
 }
 
-#cabecera img {
+#cabecera img, .profile-img {
   width: 150px;
   border-radius: 1rem;
   margin-bottom: 40px;

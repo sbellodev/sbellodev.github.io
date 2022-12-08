@@ -19,9 +19,9 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Santi Bello</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <link rel="icon" href="assets/img/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="assets/home.css" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/home.css" />
   </head>
   <body>
     <nav>
@@ -33,17 +33,15 @@
     </nav>
     <main>
       <section id="cabecera">
-        <img src="assets/img/perfil.jpg" />
+        <img src="{{ site.baseurl }}/assets/img/perfil.jpg" />
         <h1>SANTI BELLO</h1>
         <h2><span>SOFTWARE DEVELOPER</span></h2>
         <h2>PHP - JAVA - REACT</h2>
       </section>
-
       {{ content | new_line_to_br }}
-   
     </main>
     <footer>
-      <p>© Santi Bello 2018-20XX</p>
+      <p>© Santi Bello {{ "now" | date: "%Y" }}</p>
      <div>_</div>
     </footer>
   </body>

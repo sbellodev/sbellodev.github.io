@@ -15,11 +15,11 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## BLOG
+## BLOG [EN CONSTRUCCION]
 {: #blog}
 
 {% for post in site.posts %}
-**[{{ post.title }}][{{ post.url }}]**
+[{{ post.title }}]({{ post.url }})
 
 {{ post.date | date: "%D" }} 
 {: .date}
@@ -133,9 +133,6 @@ Mar 2020 - 4 months
 [exp4]: https://smashbrosspain.com
 [exp5]: https://animalbrowsing.com
 [projects]: https://github.com/sbellodev?tab=repositories
-
-[/patrones/2022/11/28/mvc-modelo-vista-controlador.html]: /patrones/2022/11/28/mvc-modelo-vista-controlador.html
-[/jekyll/update/2022/11/25/welcome-to-jekyll.html]: /jekyll/update/2022/11/25/welcome-to-jekyll.html
 
 [rrssTwitter]: https://twitter.com/sbellodev       
 [rrssGithub]: https://github.com/sbellodev/
