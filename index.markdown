@@ -77,7 +77,7 @@ Oct 2021 - 3 months
 * Implementating front, backend and database.
 * Java, Javascript, Springboot, React.
 
-**Frontend Developer** at [Galiza Verde][exp2]  
+**Frontend Developer** at [Empresa Privada][exp2]  
 Jan 2021 - 2 months
 * Freelanced a website from scratch alone
 * Customer and engineer/design communication.
@@ -132,7 +132,7 @@ Mar 2020 - 4 months
 [where]: #where
 
 [exp1]: https://www.nunegal.com/web
-[exp2]: https://galizaverde.com
+[exp2]: https://santibello.es
 [exp3]: https://diariomotor.com
 [exp4]: https://smashbrosspain.com
 [exp5]: https://animalbrowsing.com
