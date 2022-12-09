@@ -41,7 +41,7 @@ main {
   justify-self: center;
   width: 80%;
   max-width: 600px;
-  margin-top: 100px; /* Needed for sticky navbar */
+  padding-top: 100px; /* Needed for sticky navbar */
 }
 main p {
   padding-bottom: 8px;
@@ -61,8 +61,8 @@ nav {
 nav a {
   padding-right: 8px;
 }
-section {
-  padding-top: 100px;
+#index {
+  margin-top: 100px;
 }
 footer {
   font-size: 14px;

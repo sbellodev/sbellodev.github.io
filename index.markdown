@@ -5,8 +5,8 @@
 layout: portfolio
 title: "Santi Bello"
 ---
-
-![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img}
+  
+![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img #index}
 
 # SANTI BELLO
 {: .font-endless}
@@ -23,7 +23,7 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## [BLOG][home]
+## [BLOG][main]
 
 {% for post in site.posts %}
 [{{ post.title }}]({{ post.url }})
@@ -125,6 +125,7 @@ Mar 2020 - 4 months
 [![iconLinkedin](/assets/img/linkedin.svg){:.icon}][rrssLinkedin]
 [![iconMail](/assets/img/mail.svg){:.icon}][rrssEmail]
 
+[main]: #main
 [home]: #home
 [who]: #who
 [blog]: #blog
