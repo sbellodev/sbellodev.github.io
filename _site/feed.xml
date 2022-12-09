@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T00:29:52+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Santi Bello - Desarrollador de Software.</title><subtitle>Programador desde 2018. Estudio e investigo acerca del desarrollo de Software.  Intento indagar en los fundamentos más simples de la programación.</subtitle><entry><title type="html">Aprender a programar en 2022</title><link href="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html" rel="alternate" type="text/html" title="Aprender a programar en 2022" /><published>2022-12-06T00:00:00+01:00</published><updated>2022-12-06T00:00:00+01:00</updated><id>http://localhost:4000/2022/12/06/aprender-a-programar-en-2022</id><content type="html" xml:base="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html"><![CDATA[<h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T19:04:13+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Santi Bello - Desarrollador de Software.</title><subtitle>Estudio e investigo acerca del desarrollo de Software.  Intento indagar en los fundamentos más simples de la programación.</subtitle><entry><title type="html">Aprender a programar en 2022</title><link href="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html" rel="alternate" type="text/html" title="Aprender a programar en 2022" /><published>2022-12-06T00:00:00+01:00</published><updated>2022-12-06T00:00:00+01:00</updated><id>http://localhost:4000/2022/12/06/aprender-a-programar-en-2022</id><content type="html" xml:base="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html"><![CDATA[<h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
 
 <ol>
   <li><a href="#introduccion">Introducción</a></li>
@@ -7,7 +7,7 @@
   <li><a href="#paso-3-practica-escribiendo-código">Paso 3: Practica escribiendo código</a></li>
   <li><a href="#paso-4-encuentra-una-comunidad">Paso 4: Encuentra una comunidad</a></li>
   <li><a href="#paso-5-sigue-aprendiendo-y-mejorando-tus-habilidades">Paso 5: Sigue aprendiendo y mejorando tus habilidades</a></li>
-  <li>[Conclusión][#conclusión]</li>
+  <li><a href="#conclusión">Conclusión</a></li>
 </ol>
 
 <h2 id="introducción"><a href="#tabla-de-contenidos">Introducción</a></h2>
@@ -84,8 +84,10 @@ xdebug.remote_port=9000
 
 <p>Ahora que Xdebug está instalado y configurado, puedes comenzar a usarlo para depurar su código PHP. Para hacerlo, abre el proyecto que desea depurar en Visual Studio Code y crea una nueva configuración de lanzamiento para Xdebug. Para hacerlo, abre la pestaña Depurar (Ctrl+Shift+D) y haz clic en el icono de engranaje para crear una nueva configuración de lanzamiento. Selecciona “PHP” de la lista de opciones y, a continuación, agregua las siguientes lineas a su configuración de lanzamiento</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"serverSourceRoot": "/ruta/hacia/tu/directorio",
-"localSourceRoot": "${workspaceRoot}",
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"serverSourceRoot": 
+    "/ruta/hacia/tu/directorio",
+"localSourceRoot": 
+    "${workspaceRoot}",
 </code></pre></div></div>
 
 <h2 id="paso-6-establece-un-punto-de-interrupción-en-tu-código-php"><a href="#tabla-de-contenidos">Paso 6: Establece un punto de interrupción en tu código PHP</a></h2>

@@ -52,11 +52,14 @@ Después de configurar Xdebug, deberas reiniciar su servidor PHP para aplicar lo
 
 ## [Paso 5: Crea una nueva configuración de lanzamiento para Xdebug][index]
 
-Ahora que Xdebug está instalado y configurado, puedes comenzar a usarlo para depurar su código PHP. Para hacerlo, abre el proyecto que desea depurar en Visual Studio Code y crea una nueva configuración de lanzamiento para Xdebug. Para hacerlo, abre la pestaña Depurar (Ctrl+Shift+D) y haz clic en el icono de engranaje para crear una nueva configuración de lanzamiento. Selecciona "PHP" de la lista de opciones y, a continuación, agregua las siguientes lineas a su configuración de lanzamiento
-
+Ahora que Xdebug está instalado y configurado, puedes comenzar a usarlo para depurar su código PHP. Para hacerlo, abre el proyecto que desea depurar en Visual Studio Code y crea una nueva configuración de lanzamiento para Xdebug. Para hacerlo, abre la pestaña Depurar (Ctrl+Shift+D) y haz clic en el icono de engranaje para crear una nueva configuración de lanzamiento. Selecciona "PHP" de la lista de opciones y, a continuación, agregua las siguientes lineas a su configuración de lanzamiento  
+  
+  
 ```
-"serverSourceRoot": "/ruta/hacia/tu/directorio",
-"localSourceRoot": "${workspaceRoot}",
+"serverSourceRoot": 
+    "/ruta/hacia/tu/directorio",
+"localSourceRoot": 
+    "${workspaceRoot}",
 ```
 
 ## [Paso 6: Establece un punto de interrupción en tu código PHP][index]

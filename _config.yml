@@ -21,7 +21,7 @@
 title: Santi Bello - Desarrollador de Software.
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Programador desde 2018. Estudio e investigo acerca del desarrollo de Software. 
+  Estudio e investigo acerca del desarrollo de Software. 
   Intento indagar en los fundamentos más simples de la programación.
 
 baseurl: "" # the subpath of your site, e.g. /blog

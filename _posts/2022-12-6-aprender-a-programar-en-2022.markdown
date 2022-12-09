@@ -12,7 +12,7 @@ subtitle: "Ahórrate buscar 99 lugares y lenguajes distintos para aprender a pro
 4. [Paso 3: Practica escribiendo código](#paso-3-practica-escribiendo-código)
 5. [Paso 4: Encuentra una comunidad](#paso-4-encuentra-una-comunidad)
 6. [Paso 5: Sigue aprendiendo y mejorando tus habilidades](#paso-5-sigue-aprendiendo-y-mejorando-tus-habilidades)
-7. [Conclusión][#conclusión]
+7. [Conclusión](#conclusión)
 
 
 ## [Introducción][index]
