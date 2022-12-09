@@ -28,35 +28,42 @@
       <article >
         <h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
 
-<ol>
-  <li><a href="#introducción">Introducción</a></li>
-  <li><a href="#paso-1-instala-la-extensión-xdebug-para-visual-studio-code">Paso 1: Instala la extensión Xdebug para Visual Studio Code</a></li>
-  <li><a href="#paso-2-instala-xdebug-en-tu-servidor-php">Paso 2: Instala Xdebug en tu servidor PHP</a></li>
-  <li><a href="#paso-3-configura-xdebug-en-tu-archivo-phpini">Paso 3: Configura Xdebug en tu archivo <code class="language-plaintext highlighter-rouge">php.ini</code></a></li>
-  <li><a href="#paso-4-reinicia-tu-servidor-php">Paso 4: Reinicia tu servidor PHP</a></li>
-  <li><a href="#paso-5-crea-una-nueva-configuración-de-lanzamiento-para-xdebug">Paso 5: Crea una nueva configuración de lanzamiento para Xdebug</a></li>
-  <li><a href="#paso-6-establece-un-punto-de-interrupción-en-tu-código-php">Paso 6: Establece un punto de interrupción en tu código PHP</a></li>
-  <li><a href="#paso-7-inicia-el-depurador">Paso 7: Inicia el depurador</a></li>
-  <li><a href="#paso-8-activa-el-punto-de-interrupción">Paso 8: Activa el punto de interrupción</a></li>
-  <li><a href="#paso-9-utiliza-los-controles-del-depurador">Paso 9: Utiliza los controles del depurador</a></li>
-</ol>
+<p><a href="#1-introducción">1. Introducción</a></p>
 
-<h2 id="introducción"><a href="#tabla-de-contenidos">Introducción</a></h2>
+<p><a href="#2-instala-la-extensión-xdebug-para-visual-studio-code">2. Instala la extensión Xdebug para Visual Studio Code</a></p>
+
+<p><a href="#3-instala-xdebug-en-tu-servidor-php">3. Instala Xdebug en tu servidor PHP</a></p>
+
+<p><a href="#4-configura-xdebug-en-tu-archivo-phpini">4. Configura Xdebug en tu archivo <code class="language-plaintext highlighter-rouge">php.ini</code></a></p>
+
+<p><a href="#5-reinicia-tu-servidor-php">5. Reinicia tu servidor PHP</a></p>
+
+<p><a href="#6-crea-una-nueva-configuración-de-lanzamiento-para-xdebug">6. Crea una nueva configuración de lanzamiento para Xdebug</a></p>
+
+<p><a href="#7-establece-un-punto-de-interrupción-en-tu-código-php">7. Establece un punto de interrupción en tu código PHP</a></p>
+
+<p><a href="#8-inicia-el-depurador">8. Inicia el depurador</a></p>
+
+<p><a href="#9-activa-el-punto-de-interrupción">9. Activa el punto de interrupción</a></p>
+
+<p><a href="#10-utiliza-los-controles-del-depurador">10. Utiliza los controles del depurador</a></p>
+
+<h2 id="1-introducción"><a href="#tabla-de-contenidos">1. Introducción</a></h2>
 
 <p>Xdebug es una poderosa extensión de PHP que proporciona capacidades de depuración y perfilado para aplicaciones PHP. En este tutorial, aprenderemos cómo instalar y usar Xdebug para depurar código PHP en Visual Studio Code.</p>
 
-<h2 id="paso-1-instala-la-extensión-xdebug-para-visual-studio-code"><a href="#tabla-de-contenidos">Paso 1: Instala la extensión Xdebug para Visual Studio Code</a></h2>
+<h2 id="2-instala-la-extensión-xdebug-para-visual-studio-code"><a href="#tabla-de-contenidos">2. Instala la extensión Xdebug para Visual Studio Code</a></h2>
 
 <p>Para usar Xdebug para depurar en Visual Studio Code, primero deberas instalar la extensión Xdebug. Para hacerlo, abre Visual Studio Code y ve a la pestaña Extensiones (Ctrl+Shift+X). En el cuadro de búsqueda, escribe “Xdebug” e instala la extensión “PHP Debug” de Felix Becker.</p>
 
-<h2 id="paso-2-instala-xdebug-en-tu-servidor-php"><a href="#tabla-de-contenidos">Paso 2: Instala Xdebug en tu servidor PHP</a></h2>
+<h2 id="3-instala-xdebug-en-tu-servidor-php"><a href="#tabla-de-contenidos">3. Instala Xdebug en tu servidor PHP</a></h2>
 
 <p>A continuación, deberas instalar Xdebug en su servidor PHP. Este proceso variará según su entorno de servidor, pero en la mayoría de los casos, puedes utilizar el siguiente comando para instalar Xdebug:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pecl install xdebug
 </code></pre></div></div>
 
-<h2 id="paso-3-configura-xdebug-en-tu-archivo-phpini"><a href="#tabla-de-contenidos">Paso 3: Configura Xdebug en tu archivo php.ini</a></h2>
+<h2 id="4-configura-xdebug-en-tu-archivo-phpini"><a href="#tabla-de-contenidos">4. Configura Xdebug en tu archivo php.ini</a></h2>
 
 <p>Después de instalar Xdebug en su servidor, deberas configurarlo editando su archivo <code class="language-plaintext highlighter-rouge">php.ini</code>. Este archivo suele estar ubicado en el directorio <code class="language-plaintext highlighter-rouge">php</code> en su servidor. Agregua las siguientes líneas a su archivo <code class="language-plaintext highlighter-rouge">php.ini</code> para habilitar Xdebug:</p>
 
@@ -66,11 +73,11 @@ xdebug.remote_host=localhost
 xdebug.remote_port=9000
 </code></pre></div></div>
 
-<h2 id="paso-4-reinicia-tu-servidor-php"><a href="#tabla-de-contenidos">Paso 4: Reinicia tu servidor PHP</a></h2>
+<h2 id="5-reinicia-tu-servidor-php"><a href="#tabla-de-contenidos">5. Reinicia tu servidor PHP</a></h2>
 
 <p>Después de configurar Xdebug, deberas reiniciar su servidor PHP para aplicar los cambios. Esto habilitará Xdebug y lo hará disponible para su uso.</p>
 
-<h2 id="paso-5-crea-una-nueva-configuración-de-lanzamiento-para-xdebug"><a href="#tabla-de-contenidos">Paso 5: Crea una nueva configuración de lanzamiento para Xdebug</a></h2>
+<h2 id="6-crea-una-nueva-configuración-de-lanzamiento-para-xdebug"><a href="#tabla-de-contenidos">6. Crea una nueva configuración de lanzamiento para Xdebug</a></h2>
 
 <p>Ahora que Xdebug está instalado y configurado, puedes comenzar a usarlo para depurar su código PHP. Para hacerlo, abre el proyecto que desea depurar en Visual Studio Code y crea una nueva configuración de lanzamiento para Xdebug. Para hacerlo, abre la pestaña Depurar (Ctrl+Shift+D) y haz clic en el icono de engranaje para crear una nueva configuración de lanzamiento. Selecciona “PHP” de la lista de opciones y, a continuación, agregua las siguientes lineas a su configuración de lanzamiento</p>
 
@@ -80,19 +87,19 @@ xdebug.remote_port=9000
     "${workspaceRoot}",
 </code></pre></div></div>
 
-<h2 id="paso-6-establece-un-punto-de-interrupción-en-tu-código-php"><a href="#tabla-de-contenidos">Paso 6: Establece un punto de interrupción en tu código PHP</a></h2>
+<h2 id="7-establece-un-punto-de-interrupción-en-tu-código-php"><a href="#tabla-de-contenidos">7. Establece un punto de interrupción en tu código PHP</a></h2>
 
 <p>A continuación, establece un punto de interrupción en su código PHP haciendo clic en el lado izquierdo del número de línea donde desea detener la ejecución. Esto le indicará al depurador que detenga la ejecución en ese punto, lo que te permitirá inspeccionar el estado de su código y variables.</p>
 
-<h2 id="paso-7-inicia-el-depurador"><a href="#tabla-de-contenidos">Paso 7: Inicia el depurador</a></h2>
+<h2 id="8-inicia-el-depurador"><a href="#tabla-de-contenidos">8. Inicia el depurador</a></h2>
 
 <p>Para iniciar el depurador, haz clic en el botón “Iniciar depuración” en la pestaña Depurar. Esto iniciará su servidor PHP y conectará Xdebug a Visual Studio Code.</p>
 
-<h2 id="paso-8-activa-el-punto-de-interrupción"><a href="#tabla-de-contenidos">Paso 8: Activa el punto de interrupción</a></h2>
+<h2 id="9-activa-el-punto-de-interrupción"><a href="#tabla-de-contenidos">9. Activa el punto de interrupción</a></h2>
 
 <p>Ahora que el depurador está en ejecución, abre tu proyecto PHP en un navegador web y vaya a la página donde desea comenzar a depurar. Esto activará el punto de interrupción que estableció en el paso 6 y el depurador detendrá la ejecución en ese punto.</p>
 
-<h2 id="paso-9-utiliza-los-controles-del-depurador"><a href="#tabla-de-contenidos">Paso 9: Utiliza los controles del depurador</a></h2>
+<h2 id="10-utiliza-los-controles-del-depurador"><a href="#tabla-de-contenidos">10. Utiliza los controles del depurador</a></h2>
 
 <p>En este punto, puedes utilizar los controles del depurador en Visual Studio Code para avanzar paso a paso en su código y examinar el estado de sus variables. También puedes usar la consola del depurador para evaluar expresiones y ejecutar comandos en tiempo de ejecución.</p>
 

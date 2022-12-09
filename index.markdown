@@ -43,7 +43,7 @@ I like working both Front and Backend, being Backend my preferred choice for its
 <br/>  
 <center>< \ ></center>  
 <br/>
-As as hobby, aside of staying up-to-date with tecnologies I arrange social gaming events since 2014, having performed more than 140 events within our organisation. Don't hesitate to [contact][contact] me!
+As as hobby, aside of staying up-to-date with tecnologies I arrange social gaming events since 2014, having performed more than 140 events within our organisation. Don't hesitate to [contact][where] me!
   
 <br/>
 <br/>
@@ -121,7 +121,7 @@ Mar 2020 - 4 months
 [who]: #who
 [blog]: #blog
 [experience]: #experience
-[contact]: #contact
+[where]: #where
 
 [exp1]: https://www.nunegal.com/web
 [exp2]: https://galizaverde.com
