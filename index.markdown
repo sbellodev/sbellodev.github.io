@@ -6,6 +6,14 @@ layout: portfolio
 title: "Santi Bello"
 ---
 
+![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img}
+
+# SANTI BELLO
+{: .font-endless}
+## SOFTWARE DEVELOPER
+{: .font-endless .span}
+## JAVA - REACT
+{: .font-endless}
 
 <br/>
 <br/>
@@ -35,7 +43,7 @@ title: "Santi Bello"
 ## [WHO][home]
 
 Nice to meet you. I'm Santi Bello.  
-I'm a developer from Galicia, Spain who began as a self-taught, currently working remote as a Software Developer in PHP and JavaScript.
+I'm a developer from Galicia, Spain who began as a self-taught, currently working remote as a Software Developer in Java, PHP and JavaScript, having worked with React.
 <br/>  
 <center>< \ ></center>  
 <br/>
@@ -55,8 +63,8 @@ As as hobby, aside of staying up-to-date with tecnologies I arrange social gamin
   
 ## [EXPERIENCE][home]
 
-[current] **Software Developer** at [Nunegal][exp1]  
-Dec 2021 - 12 months  
+**Software Developer** at [Nunegal][exp1]   
+Dec 2021 - 12 months... 👩‍💻 
 * Developing internal software and tools.
 * CD/CI Testing and deployment.
 * Mentoring interns and assigning tasks.

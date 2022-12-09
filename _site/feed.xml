@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T19:43:18+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Santi Bello - Desarrollador de Software.</title><subtitle>Estudio e investigo acerca del desarrollo de Software.  Intento indagar en los fundamentos más simples de la programación.</subtitle><entry><title type="html">Aprender a programar en 2022</title><link href="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html" rel="alternate" type="text/html" title="Aprender a programar en 2022" /><published>2022-12-06T00:00:00+01:00</published><updated>2022-12-06T00:00:00+01:00</updated><id>http://localhost:4000/2022/12/06/aprender-a-programar-en-2022</id><content type="html" xml:base="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html"><![CDATA[<h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T23:03:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Santi Bello - Desarrollador de Software.</title><subtitle>Estudio e investigo acerca del desarrollo de Software.  Intento indagar en los fundamentos más simples de la programación.</subtitle><entry><title type="html">Aprender a programar en 2022</title><link href="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html" rel="alternate" type="text/html" title="Aprender a programar en 2022" /><published>2022-12-06T00:00:00+01:00</published><updated>2022-12-06T00:00:00+01:00</updated><id>http://localhost:4000/2022/12/06/aprender-a-programar-en-2022</id><content type="html" xml:base="http://localhost:4000/2022/12/06/aprender-a-programar-en-2022.html"><![CDATA[<h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
 
 <p><a href="#1-introducción">1. Introducción</a></p>
 
@@ -126,13 +126,20 @@ xdebug.remote_port=9000
 
 <p>En este punto, puedes utilizar los controles del depurador en Visual Studio Code para avanzar paso a paso en su código y examinar el estado de sus variables. También puedes usar la consola del depurador para evaluar expresiones y ejecutar comandos en tiempo de ejecución.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tabla de contenidos]]></summary></entry><entry><title type="html">Comprendiendo el patrón Model-View-Controller (MVC) con una analogía de Pokedex</title><link href="http://localhost:4000/2022/11/28/mvc-modelo-vista-controlador.html" rel="alternate" type="text/html" title="Comprendiendo el patrón Model-View-Controller (MVC) con una analogía de Pokedex" /><published>2022-11-28T01:19:50+01:00</published><updated>2022-11-28T01:19:50+01:00</updated><id>http://localhost:4000/2022/11/28/mvc-modelo-vista-controlador</id><content type="html" xml:base="http://localhost:4000/2022/11/28/mvc-modelo-vista-controlador.html"><![CDATA[<h2 id="tabla-de-contenidos">Tabla de contenidos</h2>
 
-<p><a href="#1-introducción">1. Introducción</a></p>
-
-<p><a href="#2-qué-es-el-patrón-mvc">2. ¿Qué es el patrón MVC?</a></p>
-
-<p><a href="#3-cómo-funciona-el-patrón-mvc-en-una-pokedex">3. ¿Cómo funciona el patrón MVC en una pokedex?</a></p>
-
-<p><a href="#4-conclusión">4. Conclusión</a></p>
+<ol>
+  <li>
+    <p><a href="#1-introducción">Introducción</a></p>
+  </li>
+  <li>
+    <p><a href="#2-qué-es-el-patrón-mvc">¿Qué es el patrón MVC?</a></p>
+  </li>
+  <li>
+    <p><a href="#3-cómo-funciona-el-patrón-mvc-en-una-pokedex">¿Cómo funciona el patrón MVC en una pokedex?</a></p>
+  </li>
+  <li>
+    <p><a href="#4-conclusión">Conclusión</a></p>
+  </li>
+</ol>
 
 <h2 id="1-introducción"><a href="#tabla-de-contenidos">1. Introducción</a></h2>
 

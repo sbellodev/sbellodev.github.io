@@ -47,7 +47,7 @@ main p {
   padding-bottom: 8px;
 }
 nav,
-#home {
+#home, .font-endless {
   font-family: "Endless", monospace;
 }
 nav {
@@ -87,7 +87,7 @@ ol {
   list-style-type: decimal;
 }
 a,
-span {
+span, .span {
   color: gold;
 }
 
