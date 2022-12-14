@@ -19,11 +19,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
   color: white;
   background-color: var(--main-black);
+
 }
-.left {
+.text-center {
+  text-align: center;
+}
+.text-left {
   text-align: left;
 }
-.right {
+.text-right {
   text-align: right;
 }
 .date {
@@ -57,12 +61,11 @@ nav {
   padding: 16px;
   background-color: var(--main-black);
   border-bottom: 2px solid white;
+  display: flex;
+  justify-items: center;
 }
 nav a {
-  padding-right: 8px;
-}
-#index {
-  margin-top: 100px;
+  padding-right: 16px;
 }
 footer {
   font-size: 14px;
@@ -76,6 +79,7 @@ footer p {
 h1 {
   font-size: 80px;
   padding-bottom: 18px;
+  text-align: center;
 }
 h2 {
   padding-bottom: 32px;
@@ -104,9 +108,11 @@ span, .span {
 }
 
 #home img, .profile-img {
-  width: 150px;
-  border-radius: 1rem;
-  margin-bottom: 40px;
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin: 0 auto 40px auto;
+  border-radius: 0.5rem;
 }
 
 #experience p {

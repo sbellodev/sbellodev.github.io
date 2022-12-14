@@ -6,13 +6,13 @@ layout: portfolio
 title: "Santi Bello"
 ---
   
-![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img #index}
+![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img .text-center #index}
 
-# SANTI BELLO
-{: .font-endless}
-## SOFTWARE DEVELOPER
-{: .font-endless .span}
 ## JAVA - REACT
+{: .font-endless .text-center}
+## SOFTWARE DEVELOPER
+{: .font-endless .span .text-center}
+# SANTI BELLO
 {: .font-endless}
 
 <br/>
