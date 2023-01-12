@@ -8,12 +8,12 @@ title: "Santi Bello"
   
 ![profile image]({{ site.baseurl }}/assets/img/perfil.jpg){: .profile-img .text-center #index}
 
-## JAVA - REACT
-{: .font-endless .text-center}
+## SANTI BELLO
+{: .font-endless .text-right}
+## JAVA - PHP - REACT
+{: .font-endless .span .text-right}
 ## SOFTWARE DEVELOPER
-{: .font-endless .span .text-center}
-# SANTI BELLO
-{: .font-endless}
+{: .font-endless .text-right}
 
 <br/>
 <br/>
@@ -43,11 +43,11 @@ title: "Santi Bello"
 ## [WHO][home]
 
 Nice to meet you. I'm Santi Bello.  
-I'm a developer from Galicia, Spain who began as a self-taught, currently working remote as a Software Developer in Java, PHP and JavaScript, having worked with React.
+I'm a developer from Galicia, Spain, currently working remote as a Software Developer in <span>Java<span>, <span>PHP</span> and JavaScript, having worked with <span>React</span>.
 <br/>  
 <center>< \ ></center>  
 <br/>
-I like working both Front and Backend, being Backend my preferred choice for its vast abstraction level. Also I enjoy studying and applying good practices and metodologies.  
+I like working both Front and Backend, studying and applying good practices and metodologies.  
 <br/>  
 <center>< \ ></center>  
 <br/>
@@ -64,32 +64,32 @@ As as hobby, aside of staying up-to-date with tecnologies I arrange social gamin
 ## [EXPERIENCE][home]
 
 **Software Developer** at [Nunegal][exp1]   
-Dec 2021 - 12 months... 👩‍💻 
+Dec 2021 - 1 year 1 month... 👩‍💻 
 * Developing internal software and tools.
 * CD/CI Testing and deployment.
 * Mentoring interns and assigning tasks.
-* PHP, JavaScript, C#.
+* PHP, Java, JavaScript, Xamarin, C#.
 
 **Software Developer** at [Nunegal][exp1]  
 Oct 2021 - 3 months
 * Full-Cycle App Development from scratch.
 * Planning of requirements and interface.
 * Implementating front, backend and database.
-* Java, Javascript, Springboot, React.
+* Spring Boot, Java, React, Javascript.
 
 **Frontend Developer** at [Empresa Privada][exp2]  
 Jan 2021 - 2 months
 * Freelanced a website from scratch alone
 * Customer and engineer/design communication.
 * Deadlines, prototypes and feedback.
-* Javascript, React.
+* React, JavaScript.
 
 **Frontend Developer** at [Diariomotor][exp3]  
 Nov 2019 - 3 months
 * Developed in a high traffic web.
 * Tuned up good practices and refactoring.
 * Coded detailed web layout.
-* Javascript, React.
+* React, JavaScript.
   
 <br/>
   
@@ -106,7 +106,7 @@ Mar 2020 - 4 months
 * Designed and created from scratch alone.
 * Managed data from JSONs.
 * Clean Code. APIs, Design, UX, SEO.
-* React, Node.
+* React, Node.js.
   
 [More projects][projects]  
   
