@@ -10,7 +10,7 @@ title: "Santi Bello"
 
 ## SANTI BELLO
 {: .font-endless .text-right}
-## JAVA - PHP - REACT
+## REACT
 {: .font-endless .span .text-right}
 ## SOFTWARE DEVELOPER
 {: .font-endless .text-right}
@@ -44,10 +44,7 @@ title: "Santi Bello"
 
 Nice to meet you. I'm Santi Bello.  
 I'm a developer from Galicia, Spain, currently working remote as a Software Developer in <span>Java<span>, <span>PHP</span> and JavaScript, having worked with <span>React</span>.
-<br/>  
-<center>< \ ></center>  
-<br/>
-I like working both Front and Backend, studying and applying good practices and metodologies.  
+  
 <br/>  
 <center>< \ ></center>  
 <br/>
@@ -64,18 +61,11 @@ As as hobby, aside of staying up-to-date with tecnologies I arrange social gamin
 ## [EXPERIENCE][home]
 
 **Software Developer** at [Nunegal][exp1]   
-Dec 2021 - 1 year 1 month... 👩‍💻 
+Dec 2021 - 1 year 5 month... 👩‍💻 
 * Developing internal software and tools.
 * CD/CI Testing and deployment.
 * Mentoring interns and assigning tasks.
-* PHP, Java, JavaScript, Xamarin, C#.
-
-**Software Developer** at [Nunegal][exp1]  
-Oct 2021 - 3 months
-* Full-Cycle App Development from scratch.
-* Planning of requirements and interface.
-* Implementating front, backend and database.
-* Spring Boot, Java, React, Javascript.
+* PHP, Java (Spring boot), JavaScript, Xamarin, C#.
 
 **Frontend Developer** at [Empresa Privada][exp2]  
 Jan 2021 - 2 months
