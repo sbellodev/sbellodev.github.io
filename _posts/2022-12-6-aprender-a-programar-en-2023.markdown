@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aprender a programar en 2022"
+title: "Aprender a programar en 2023"
 subtitle: "Ahórrate buscar 99 lugares y lenguajes distintos para aprender a programar."
 ---
 

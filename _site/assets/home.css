@@ -30,6 +30,14 @@ body {
 .text-right {
   text-align: right;
 }
+.exp-tech {
+  font-style: normal;
+  font-size: 18px;
+}
+.exp-title {
+  font-weight: normal;
+  font-style: normal;
+}
 .date {
   font-size: 16px;
   font-style: italic;

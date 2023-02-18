@@ -50,7 +50,7 @@ With my experience as a <span>Full Stack</span> developer, I particularly enjoy 
 <br/>  
 <center>< \ ></center>  
 <br/>
-I am always open to new opportunities, so please feel free to contact me through the [information][where] provided below."  
+I am always open to new opportunities, so please feel free to contact me through the [information][where] provided below"  
 <br/>
 <br/>
 <br/>
@@ -62,43 +62,53 @@ I am always open to new opportunities, so please feel free to contact me through
 ## [EXPERIENCE][home]
 
 **Software Developer** at [Nunegal][exp1]   
+{:.exp-title}
 Sep 2021 - 1 year 5 months... 👩‍💻 
-<br><br>
-PHP, CodeIgniter, MySQL, Java, Spring boot, JavaScript, React, C#, Xamarin.
-<br><br>
+<br>
+PHP, CodeIgniter, MySQL, Java, Spring boot, JavaScript, React, C#, Xamarin
+{:.exp-tech}
+
 Maintaining and developing multiple internal projects for the company. Lead temporally a new project with a team of 5 developers.
 Migrated a legacy PHP app to a new one with Java.
 Worked on a mobile cross-platform app in the media sector.
 Developed my own full-stack app from scratch.
-<br><br><br><br>
-**Frontend Developer** at [Empresa Privada][exp2]  
+<br><br>
+
+**Frontend Developer** at [Empresa Privada][exp2] 
+{:.exp-title}
 Dec 2020 - 2 months
-<br><br>
-React, JavaScript, CSS.
-<br><br>
+<br>
+React, JavaScript, CSS
+{:.exp-tech}
+
 Developed a web from scratch as a freelance.
 Communicated with the client as a designer an developer.
 Met the deadline and delivered a good product.
-<br><br><br><br>
+<br><br>
+
 **Frontend Developer** at [Diariomotor][exp3]  
+{:.exp-title}
 Nov 2019 - 3 months
-<br><br>
-React, JavaScript.
-<br><br>
+<br>
+React, JavaScript
+{:.exp-tech}
+
 Migrated the old website to a new one with React.
 Implemented new features and fixed bugs.
 Developed detailed layouts from a given design.
-<br><br><br><br>
+<br><br>
   
-## [VOLUNTEERING][home]
 **Software Developer** at [SmashBrosSpain][exp4]  
+{:.exp-title}
 Jun 2019 - 2 years
-<br><br>
-PHP, Codeigniter, Javascript, MySQL.
-<br><br>
+<br>
+PHP, Codeigniter, Javascript, MySQL
+{:.exp-tech}
+
+Volunteered as a developer for a fighting game community on a national level.
 Maintaining and implementing new features for the website such as 'notification panel'.
 Developed part of the layout of the website from a given design.  
-<br><br><br><br>
+<br><br>
 [More projects][projects]  
   
 <br/>
