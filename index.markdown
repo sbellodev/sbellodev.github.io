@@ -10,7 +10,7 @@ title: "Santi Bello"
 
 ## SANTI BELLO
 {: .font-endless .text-right}
-## REACT
+## PHP MYSQL
 {: .font-endless .span .text-right}
 ## SOFTWARE DEVELOPER
 {: .font-endless .text-right}
@@ -43,12 +43,13 @@ title: "Santi Bello"
 ## [WHO][home]
 
 Nice to meet you. I'm Santi Bello.  
-I'm a developer from Galicia, Spain, currently working remote as a Software Developer in <span>Java<span>, <span>PHP</span> and JavaScript, having worked with <span>React</span>.
-  
+I'm a developer from Galicia, Spain, from self-taught to currently working remote as a Software Developer with <span>PHP (CodeIgniter)</span> and <span>JavaScript</span>.
+<br/>  
+Having worked as FullStack, I love doing <span>Backend</span> applying all the good practices that I learned in the past years.
 <br/>  
 <center>< \ ></center>  
 <br/>
-As as hobby, aside of staying up-to-date with tecnologies I arrange social gaming events since 2014, having performed more than 140 events within our organisation. Don't hesitate to [contact][where] me!
+I'm open to new opportunities, so if you want to contact me, you can do it through the [contacts][where] below.
   
 <br/>
 <br/>
@@ -61,43 +62,43 @@ As as hobby, aside of staying up-to-date with tecnologies I arrange social gamin
 ## [EXPERIENCE][home]
 
 **Software Developer** at [Nunegal][exp1]   
-Dec 2021 - 1 year 5 month... 👩‍💻 
-* Developing internal software and tools.
-* CD/CI Testing and deployment.
-* Mentoring interns and assigning tasks.
-* PHP, Java (Spring boot), JavaScript, Xamarin, C#.
-
+Sep 2021 - 1 year 5 months... 👩‍💻 
+<br><br>
+PHP, CodeIgniter, MySQL, Java, Spring boot, JavaScript, React, C#, Xamarin.
+<br><br>
+Maintaining and developing multiple internal projects for the company.
+Migrated a legacy PHP app to a new one with Java.
+Worked on a mobile cross-platform app in the media sector.
+Developed my own full-stack app from scratch.
+<br><br><br><br>
 **Frontend Developer** at [Empresa Privada][exp2]  
-Jan 2021 - 2 months
-* Freelanced a website from scratch alone
-* Customer and engineer/design communication.
-* Deadlines, prototypes and feedback.
-* React, JavaScript.
-
+Dec 2020 - 2 months
+<br><br>
+React, JavaScript, CSS.
+<br><br>
+Developed a web from scratch as a freelance.
+Communicated with the client as a designer an developer.
+Met the deadline and delivered a good product.
+<br><br><br><br>
 **Frontend Developer** at [Diariomotor][exp3]  
 Nov 2019 - 3 months
-* Developed in a high traffic web.
-* Tuned up good practices and refactoring.
-* Coded detailed web layout.
-* React, JavaScript.
+<br><br>
+React, JavaScript.
+<br><br>
+Migrated the old website to a new one with React.
+Implemented new features and fixed bugs.
+Developed detailed layouts from a given design.
+<br><br><br><br>
   
-<br/>
-  
-## [VOLUNTEERING AND PROJECTS][home]
+## [VOLUNTEERING][home]
 **Software Developer** at [SmashBrosSpain][exp4]  
 Jun 2019 - 2 years
-* Volunteering FullStack.
-* Implemented features as 'notification panel'.
-* CSS Layout from a given design.
-* PHP, Javascript, Codeigniter.
-  
-**Software Developer** at [Animal Browsing][exp5]  
-Mar 2020 - 4 months
-* Designed and created from scratch alone.
-* Managed data from JSONs.
-* Clean Code. APIs, Design, UX, SEO.
-* React, Node.js.
-  
+<br><br>
+PHP, Codeigniter, Javascript, MySQL.
+<br><br>
+Maintaining and implementing new features for the website such as 'notification panel'.
+Developed part of the layout of the website from a given design.  
+<br><br><br><br>
 [More projects][projects]  
   
 <br/>
