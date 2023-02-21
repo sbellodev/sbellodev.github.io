@@ -42,15 +42,15 @@ title: "Santi Bello"
   
 ## [WHO][home]
 
-Nice to meet you! My name is Santi Bello and I am a self-taught developer from Galicia, Spain. Currently, I work remotely as a software developer with expertise in <span>PHP</span> (CodeIgniter) and JavaScript.
+Hello, I'm Santi Bello, a software developer specialized in <span>PHP</span> (CodeIgniter) and JavaScript and currently work remotely from Galicia, Spain.
 <br/>  
 <center>< \ ></center>  
 <br/>
-With my experience as a <span>Full Stack</span> developer, I particularly enjoy applying best practices to <span>Backend</span> development.
+With my extensive experience as a Full Stack developer, I enjoy optimizing <span>backend</span> software architecture to ensure high performance and scalability.
 <br/>  
 <center>< \ ></center>  
 <br/>
-I am always open to new opportunities, so please feel free to contact me through the [information][where] provided below"  
+I am always seeking new opportunities to work on challenging projects and collaborate with like-minded professionals. Please don't hesitate to contact me via the [information][where] provided. Let's connect and explore new possibilities.
 <br/>
 <br/>
 <br/>
