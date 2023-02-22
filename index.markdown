@@ -23,24 +23,7 @@ title: "Santi Bello"
 <br/>
 <br/>
   
-## [BLOG][main]
-
-{% for post in site.posts %}
-[{{ post.title }}]({{ post.url }})
-
-{{ post.content | reading_time }} - {{ post.date | date: "%D" }}
-{: .date}
-{% endfor %}
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-  
-## [WHO][home]
+## [WHO][main]
 
 Hello, I'm Santi Bello, a software developer specialized in <span>PHP</span> (CodeIgniter) and JavaScript and currently work remotely from Galicia, Spain.
 <br/>  
@@ -59,58 +42,55 @@ I am always seeking new opportunities to work on challenging projects and collab
 <br/>
 <br/>
   
-## [EXPERIENCE][home]
+## [EXPERIENCE][main]
 
 **Software Developer** at [Nunegal][exp1]   
 {:.exp-title}
 Sep 2021 - 1 year 5 months... 👩‍💻 
 <br>
-PHP, CodeIgniter, MySQL, Java, Spring boot, JavaScript, React, C#, Xamarin
+PHP _ CodeIgniter _ SQL _ JavaScript
 {:.exp-tech}
+<br>
 
-Maintaining and developing multiple internal projects for the company. Lead temporally a new project with a team of 5 developers.
-Migrated a legacy PHP app to a new one with Java.
-Worked on a mobile cross-platform app in the media sector.
-Developed my own full-stack app from scratch.
-<br><br>
-
-**Frontend Developer** at [Empresa Privada][exp2] 
+**Freelance Web Developer** at [Empresa Privada][exp2] 
 {:.exp-title}
 Dec 2020 - 2 months
 <br>
-React, JavaScript, CSS
+React _ JavaScript _ CSS
 {:.exp-tech}
-
-Developed a web from scratch as a freelance.
-Communicated with the client as a designer an developer.
-Met the deadline and delivered a good product.
-<br><br>
+<br>
 
 **Frontend Developer** at [Diariomotor][exp3]  
 {:.exp-title}
 Nov 2019 - 3 months
 <br>
-React, JavaScript
+React _ JavaScript _ CSS
 {:.exp-tech}
-
-Migrated the old website to a new one with React.
-Implemented new features and fixed bugs.
-Developed detailed layouts from a given design.
-<br><br>
+<br>
   
 **Software Developer** at [SmashBrosSpain][exp4]  
 {:.exp-title}
-Jun 2019 - 2 years
+May 2019 - 7 months
 <br>
-PHP, Codeigniter, Javascript, MySQL
+PHP _ Codeigniter _ SQL _ Javascript 
 {:.exp-tech}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+  
+## [BLOG][main]
 
-Volunteered as a developer for a fighting game community on a national level.
-Maintaining and implementing new features for the website such as 'notification panel'.
-Developed part of the layout of the website from a given design.  
-<br><br>
-[More projects][projects]  
-  
+{% for post in site.posts %}
+[{{ post.title }}]({{ post.url }})
+
+{{ post.content | reading_time }} - {{ post.date | date: "%D" }}
+{: .date}
+{% endfor %}
+
 <br/>
 <br/>
 <br/>
@@ -118,8 +98,8 @@ Developed part of the layout of the website from a given design.
 <br/>
 <br/>
 <br/>
-  
-## [WHERE][home]
+
+## [WHERE][main]
 
 [![iconTwitter](/assets/img/twitter.svg){:.icon}][rrssTwitter]
 [![iconGithub](/assets/img/github.svg){:.icon}][rrssGithub]
@@ -138,7 +118,6 @@ Developed part of the layout of the website from a given design.
 [exp3]: https://diariomotor.com
 [exp4]: https://smashbrosspain.com
 [exp5]: https://animalbrowsing.com
-[projects]: https://github.com/sbellodev?tab=repositories
 
 [rrssTwitter]: https://twitter.com/sbellodev       
 [rrssGithub]: https://github.com/sbellodev/

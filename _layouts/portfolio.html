@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-135545927-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-135545927-1");
-    </script>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Santi Bello</title>
-    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
-    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/home.css" />
-  </head>
-  <body>
-    <nav>
-      <a href="#home">HOME
-      <a href="#blog">BLOG</a>
-      <a href="#who">WHO</a>
-      <a href="#experience">EXPERIENCE</a>
-      <a href="#where">WHERE</a>
-    </nav>
-    <main id="main">
-      {{ content | new_line_to_br }}
-    </main>
-    <footer>
-      <p>
-        <a href="{{ site.baseurl }}/" >© Santi Bello {{ "now" | date: "%Y" }}</a>
-      </p>
-     <div>_</div>
-    </footer>
-  </body>
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545927-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-135545927-1");
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Santi Bello</title>
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/home.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#who">WHO</a>
+    <a href="#experience">EXPERIENCE</a>
+    <a href="#blog">BLOG</a>
+    <a href="#where">WHERE</a>
+  </nav>
+  <main id="main">
+    {{ content | new_line_to_br }}
+  </main>
+  <footer>
+    <p>
+      <a href="{{ site.baseurl }}/">© Santi Bello {{ "now" | date: "%Y" }}</a>
+    </p>
+    <div>_</div>
+  </footer>
+</body>
+
 </html>
