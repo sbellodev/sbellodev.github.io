@@ -10,79 +10,29 @@ title: "Santi Bello"
 
 ## SANTI BELLO
 {: .font-endless .text-right}
-## PHP MYSQL
-{: .font-endless .span .text-right}
-## SOFTWARE DEVELOPER
-{: .font-endless .text-right}
+## SOFTWARE DEVELOPER 
+{: .font-endless .text-right .span}
+## AT [NEWTONLAB SPACE][exp6] 
+{: .font-endless .text-right .size-medium}
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+Hi there, I'm a full-stack developer with over 2 years of experience. My passion lies in <span>creating platforms</span> and being a <span>caretaker</span>, ensuring that everything runs smoothly behind the scenes.  
   
-## [WHO][main]
+Whether it's over a cup of coffee or just exchanging ideas and stories, I'm looking forward to making <span>meaningful connections</span> with everyone.
 
-Hello, I'm Santi Bello, a software developer specialized in <span>PHP</span> (CodeIgniter) and JavaScript and currently work remotely from Galicia, Spain.
-<br/>  
-<center>< \ ></center>  
-<br/>
-With my extensive experience as a Full Stack developer, I enjoy optimizing <span>backend</span> software architecture to ensure high performance and scalability.
-<br/>  
-<center>< \ ></center>  
-<br/>
-I am always seeking new opportunities to work on challenging projects and collaborate with like-minded professionals. Please don't hesitate to contact me via the [information][where] provided. Let's connect and explore new possibilities.
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-  
-## [EXPERIENCE][main]
 
-**Software Developer** at [Nunegal][exp1]   
-{:.exp-title}
-Sep 2021 - 1 year 5 months... 👩‍💻 
-<br>
-PHP _ CodeIgniter _ SQL _ JavaScript
-{:.exp-tech}
-<br>
+[![iconTwitter](/assets/img/twitter.svg){:.icon}][rrssTwitter]
+[![iconGithub](/assets/img/github.svg){:.icon}][rrssGithub]
+[![iconLinkedin](/assets/img/linkedin.svg){:.icon}][rrssLinkedin]
+[![iconMail](/assets/img/mail.svg){:.icon}][rrssEmail]
+{: .text-center}
 
-**Freelance Web Developer** at [Empresa Privada][exp2] 
-{:.exp-title}
-Dec 2020 - 2 months
-<br>
-React _ JavaScript _ CSS
-{:.exp-tech}
-<br>
-
-**Frontend Developer** at [Diariomotor][exp3]  
-{:.exp-title}
-Nov 2019 - 3 months
-<br>
-React _ JavaScript _ CSS
-{:.exp-tech}
-<br>
-  
-**Software Developer** at [SmashBrosSpain][exp4]  
-{:.exp-title}
-May 2019 - 7 months
-<br>
-PHP _ Codeigniter _ SQL _ Javascript 
-{:.exp-tech}
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-  
-## [BLOG][main]
 
 {% for post in site.posts %}
 [{{ post.title }}]({{ post.url }})
@@ -93,18 +43,6 @@ PHP _ Codeigniter _ SQL _ Javascript
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## [WHERE][main]
-
-[![iconTwitter](/assets/img/twitter.svg){:.icon}][rrssTwitter]
-[![iconGithub](/assets/img/github.svg){:.icon}][rrssGithub]
-[![iconLinkedin](/assets/img/linkedin.svg){:.icon}][rrssLinkedin]
-[![iconMail](/assets/img/mail.svg){:.icon}][rrssEmail]
 
 [main]: #main
 [home]: #home
@@ -113,11 +51,12 @@ PHP _ Codeigniter _ SQL _ Javascript
 [experience]: #experience
 [where]: #where
 
-[exp1]: https://www.nunegal.com/web
-[exp2]: https://santibello-empresa1.netlify.app/
+[exp6]: https://newtonlabspace.com/
+[exp5]: https://www.nunegal.com/web
+[exp4]: https://santibello-empresa1.netlify.app/
 [exp3]: https://diariomotor.com
-[exp4]: https://smashbrosspain.com
-[exp5]: https://animalbrowsing.com
+[exp2]: https://smashbrosspain.com
+[exp1]: https://animalbrowsing.com
 
 [rrssTwitter]: https://twitter.com/sbellodev       
 [rrssGithub]: https://github.com/sbellodev/

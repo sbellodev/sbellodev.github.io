@@ -6,7 +6,7 @@
 :root {
   --main-black: rgb(24, 24, 24);
 }
-* {
+*, p {
   margin: 0;
   padding: 0;
 }
@@ -21,6 +21,7 @@ body {
   background-color: var(--main-black);
 
 }
+
 .text-center {
   text-align: center;
 }
@@ -36,6 +37,9 @@ body {
 .exp-title {
   font-weight: normal;
   font-style: normal;
+}
+.size-medium {
+  font-size: 24px;
 }
 .date {
   font-size: 16px;
