@@ -22,7 +22,7 @@ Hi there, I'm a full-stack developer with over 2 years of experience. My passion
   
 Whether it's over a cup of coffee or just exchanging ideas and stories, I'm looking forward to making <span>meaningful connections</span> with everyone.
 
-<br/>
+<br/> 
 <br/>
 
 [![iconTwitter](/assets/img/twitter.svg){:.icon}][rrssTwitter]
