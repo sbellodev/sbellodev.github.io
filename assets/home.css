@@ -31,21 +31,13 @@ body {
 .text-right {
   text-align: right;
 }
-.exp-tech {
-  font-size: 18px;
-}
-.exp-title {
-  font-weight: normal;
-  font-style: normal;
+.size-big {
+  font-size: 38px;
 }
 .size-medium {
-  font-size: 24px;
+  font-size: 28px;
 }
-.date {
-  font-size: 16px;
-  font-style: italic;
-}
-a:link {
+a:link, a, span,  strong, .span {
   color: gold;
 }
 a:visited {
@@ -56,27 +48,13 @@ main {
   justify-self: center;
   width: 80%;
   max-width: 600px;
-  padding-top: 100px; /* Needed for sticky navbar */
+  padding-top: 50px;
 }
 main p {
   padding-bottom: 8px;
 }
-nav,
-#home, .font-endless {
+.font-endless {
   font-family: "Endless", monospace;
-}
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 16px;
-  background-color: var(--main-black);
-  border-bottom: 2px solid white;
-  display: flex;
-  justify-items: center;
-}
-nav a {
-  padding-right: 16px;
 }
 footer {
   font-size: 14px;
@@ -87,13 +65,8 @@ footer {
 footer p {
   padding-bottom: 96px;
 }
-h1 {
-  font-size: 80px;
-  padding-bottom: 18px;
-  text-align: center;
-}
 h2 {
-  padding-bottom: 32px;
+  padding-bottom: 26px;
 }
 ul,
 ol {
@@ -101,73 +74,27 @@ ol {
   margin-bottom: 60px;
   list-style-type: decimal;
 }
-a,
-span, .span {
-  color: gold;
-}
-
-.blog-subtitle {
-  font-style: italic;
-}
-
-#who, #blog, #experience, #contact, .blog h2 {
-  padding-top: 100px;
-}
-#who > div {
-  text-align: center;
-  padding-bottom: 26px;
-}
-
-#home img, .profile-img {
+.profile-img {
   max-width: 150px;
   max-height: 150px;
   display: block;
   margin: 0 auto 40px auto;
   border-radius: 0.5rem;
 }
-
-#experience p {
-  font-weight: bold;
+.icons a {
+ display:inline-block;
 }
-
-#contact img, .icon {
+.icon {
   width: 50px;
+  vertical-align: middle;
 }
-.darkmode-btn {
-  right: 0;
-  position: fixed;
-  padding-right: 16px;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 time {
   display: block;
   text-align: right;
 }
-
-strong {
-  color: gold;
-}
-
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
 .PageNavigation .next {
   text-align: right;
 }
-
 
 @media only screen and (max-width: 480px) {
   nav {
