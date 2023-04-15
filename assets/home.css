@@ -63,7 +63,7 @@ footer {
   background-color: #1d1d1d;
 }
 footer p {
-  padding-bottom: 96px;
+  padding: 0 40px;
 }
 h2 {
   padding-bottom: 26px;
@@ -72,7 +72,7 @@ ul,
 ol {
   margin-left: 40px;
   margin-bottom: 60px;
-  list-style-type: decimal;
+  list-style-type: japanese-formal;
 }
 .profile-img {
   max-width: 150px;
