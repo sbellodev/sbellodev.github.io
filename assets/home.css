@@ -6,20 +6,28 @@
 :root {
   --main-black: rgb(24, 24, 24);
 }
-*, p {
+
+* {
   margin: 0;
-  padding: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
 }
+
 body {
+  line-height: 1;
   display: grid;
-  row-gap: 200px;
   margin: 0 auto;
   padding: 0;
   font-size: 22px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
   color: white;
   background-color: var(--main-black);
-
 }
 
 .text-center {
@@ -48,7 +56,6 @@ main {
   justify-self: center;
   width: 80%;
   max-width: 600px;
-  padding-top: 50px;
 }
 main p {
   padding-bottom: 8px;
@@ -65,24 +72,17 @@ footer {
 footer p {
   padding: 0 40px;
 }
-h2 {
-  padding-bottom: 26px;
-}
 ul,
 ol {
   margin-left: 40px;
   margin-bottom: 60px;
   list-style-type: japanese-formal;
 }
-.profile-img {
-  max-width: 150px;
-  max-height: 150px;
-  display: block;
-  margin: 0 auto 40px auto;
-  border-radius: 0.5rem;
+.icons {
+  padding: 32px 0;
 }
 .icons a {
- display:inline-block;
+  display:inline-block;
 }
 .icon {
   width: 50px;
@@ -94,6 +94,32 @@ time {
 }
 .PageNavigation .next {
   text-align: right;
+}
+
+.intro-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
+  margin: 32px 0;
+}
+
+.intro-desc {
+  display: grid;
+  align-content: space-around;
+}
+
+.blog, .desc {
+  padding: 32px 0;
+}
+
+.profile-img {
+  max-width: 150px;
+  max-height: 100vh;
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -108,5 +134,11 @@ time {
   }
   code {
     font-size: 16px;
+  }
+  .size-big {
+    font-size: 32px;
+  }
+  .size-medium {
+    font-size: 22px;
   }
 }
