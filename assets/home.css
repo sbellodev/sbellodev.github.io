@@ -18,61 +18,28 @@
 	font-family: inherit;
 	vertical-align: baseline;
 }
-
+/* Tags */
 body {
   line-height: 1;
   min-height: 100vh;
   display: grid;
-  margin: 0 auto;
-  padding: 0;
   font-size: 22px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
   color: white;
   background-color: var(--main-black);
 }
-
-footer{
-  margin-top: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-.size-big {
-  font-size: 38px;
-}
-.size-medium {
-  font-size: 28px;
-}
-a:link, a, span,  strong, .span {
-  color: gold;
-}
-a:visited {
-  color: darkorange;
-}
 main {
   display: grid;
   justify-self: center;
-  width: 80%;
+  padding: 0 20px;
   max-width: 600px;
-}
-main p {
-  padding-bottom: 8px;
-}
-.font-endless {
-  font-family: "Endless", monospace;
 }
 footer {
   font-size: 14px;
   padding: 16px 0 16px 16px;
   border-top: 1px solid #2e2e2e;
   background-color: #1d1d1d;
+  margin-top: auto;
 }
 footer p {
   padding: 0 40px;
@@ -83,24 +50,41 @@ ol {
   margin-bottom: 60px;
   list-style-type: japanese-formal;
 }
+a:link, a, span,  strong, .span {
+  color: gold;
+}
+a:visited {
+  color: darkorange;
+}
+/* Classes */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.size-big {
+  font-size: calc(38px + 0.390625vw);
+}
+.size-medium {
+  font-size: calc(28px + 0.390625vw);
+}
+.font-endless {
+  font-family: "Endless", monospace;
+}
 .icons {
   padding: 32px 0;
 }
 .icons a {
-  display:inline-block;
+  display: inline-block;
 }
 .icon {
   width: 50px;
   vertical-align: middle;
 }
-time {
-  display: block;
-  text-align: right;
-}
-.PageNavigation .next {
-  text-align: right;
-}
-
 .intro-card {
   display: grid;
   grid-template-columns: auto auto;
@@ -109,41 +93,24 @@ time {
   gap: 20px;
   margin: 32px 0;
 }
-
 .intro-desc {
   display: grid;
   align-content: space-around;
 }
-
-.blog, .desc {
-  padding: 32px 0;
-}
-
 .profile-img {
   max-width: 130px;
-  max-height: 100vh;
+  max-height: 130px;
   display: block;
   margin: 0 auto 0 auto;
   border-radius: 0.5rem;
 }
 
+/* Media */
 @media only screen and (max-width: 480px) {
-  nav {
-    font-size: 18px;
+  .intro-card {
+    grid-template-columns: none;
   }
-  main {
-    width: 90%;
-  }
-  li {
-    padding-bottom: 8px;
-  }
-  code {
-    font-size: 16px;
-  }
-  .size-big {
-    font-size: 32px;
-  }
-  .size-medium {
-    font-size: 22px;
+  .profile-img {
+    margin: 0 auto 0 0;
   }
 }
