@@ -72,8 +72,15 @@ a:visited {
 .size-medium {
   font-size: calc(28px + 0.390625vw);
 }
+.size-small {
+  font-size: calc(18px + 0.390625vw);
+}
 .font-endless {
   font-family: "Endless", monospace;
+}
+.date {
+  font-size: 16px;
+  font-style: italic;
 }
 .icons {
   padding: 32px 0;
