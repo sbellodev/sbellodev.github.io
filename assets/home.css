@@ -5,6 +5,8 @@
 
 :root {
   --main-black: rgb(24, 24, 24);
+  --defaultCalc: calc(7% + 0.390625vw);
+  --smallCalc: calc(4% + 0.390625vw);
 }
 
 * {
@@ -21,28 +23,22 @@
 /* Tags */
 body {
   line-height: 1;
-  min-height: 100vh;
-  display: grid;
   font-size: 22px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
   color: white;
   background-color: var(--main-black);
+  margin-left: var(--smallCalc);
+  margin-right: var(--smallCalc);
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 main {
-  display: grid;
-  justify-self: center;
-  padding: 100px 20px 0 0;
+  margin: 0 auto;
+  margin-top: var(--defaultCalc);
   max-width: 600px;
-}
-footer {
-  font-size: 14px;
-  padding: 16px 0 16px 16px;
-  border-top: 1px solid #2e2e2e;
-  background-color: #1d1d1d;
-  margin-top: auto;
-}
-footer p {
-  padding: 0 40px;
+  display: grid;
+  justify-content: center;
+  row-gap: 60px;
 }
 ul,
 ol {
@@ -82,9 +78,6 @@ a:visited {
   font-size: 16px;
   font-style: italic;
 }
-.icons {
-  padding: 32px 0;
-}
 .icons a {
   display: inline-block;
 }
@@ -92,13 +85,12 @@ a:visited {
   width: 50px;
   vertical-align: middle;
 }
-.intro-card {
+.intro {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
   align-content: center;
   gap: 20px;
-  margin: 32px 0;
 }
 .intro-desc {
   display: grid;
@@ -111,10 +103,13 @@ a:visited {
   margin: 0 auto 0 auto;
   border-radius: 0.5rem;
 }
+.articles p {
+  margin: 12px 0;
+}
 
 /* Media */
 @media only screen and (max-width: 480px) {
-  .intro-card {
+  .intro {
     grid-template-columns: none;
   }
   .profile-img {
