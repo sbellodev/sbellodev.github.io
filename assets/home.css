@@ -32,7 +32,7 @@ body {
   padding-top: 40px;
   padding-bottom: 80px;
 }
-main {
+main, footer {
   margin: 0 auto;
   margin-top: var(--defaultCalc);
   max-width: 600px;
