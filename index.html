@@ -31,19 +31,26 @@
         <h2 class="size-big">SANTI BELLO</h2>
         <h2 class="span size-medium">SOFTWARE DEVELOPER</h2>
         <h2 class="size-medium">AT <a href="https://newtonlabspace.com/">NEWTONLAB SPACE</a></h2>
+        <h2 class="size-small">JAVASCRIPT</h2>
+        <h2 class="size-small">REACT</h2>
+        <h2 class="size-small">.NET </h2>
       </div>
     </header>
 
     <div class="desc">
-<p>
-   Hola, soy un desarrollador software con más de 2 años de experiencia. 
-  Mi pasión es <span>crear plataformas</span> y ser su <span>responsable</span>, asegurando que todo funcione sin problemas detrás del escenario.
-</p>
-<br />
-<p>Ya sea tomando un café juntos o simplemente intercambiando ideas e historias, espero poder <span>conocer y conectar</span> con todos y todas.
-</p>
-
+      <div>
+        <button id="btn_es" class="language-button size-small" lang="es" onclick="toggleLanguage('es')">ESP</button>
+        <button id="btn_en" class="language-button size-small" lang="en" onclick="toggleLanguage('en')">ENG</button>
+      </div>
+      <br/>
+      <div id="desc">
+        <p>Hola, soy un desarrollador de software web de España, versátil y orientado a resultados, con una sólida base en tecnologías frontend y backend.</p>
+      <br />
+      <p>Con 3 años de experiencia práctica, disfruto creando interfaces de usuario elegantes e interactivas en <span>React</span> e integrándolas perfectamente con lógica en el lado del servidor, como C# o PHP.</p>
+      </div>
     </div>
+      
+
 
     <div class="articles">
       <h2 class="font-endless size-medium">BLOG</h2>
@@ -80,6 +87,37 @@
       </a>
     </div>
   </footer>
+  <script>
+    let currentLanguage = 'es';
+
+    function toggleLanguage(language) {
+      
+      
+      if (language === currentLanguage) {
+        return; // No need to change language if it's already selected.
+      }
+      const descriptionEn = document.getElementById('description-en');
+      const descriptionEs = document.getElementById('description-es');
+      const btnEs = document.getElementById('btn_es');
+      const btnEn = document.getElementById('btn_en');
+      const desc = document.getElementById('desc');
+      
+
+      if (language == "en") {
+        console.log("isenglish")
+        desc.innerHTML = '<p id="description-en">Hello, Im a web software developer from Spain, versatile and results-driven developer with a strong foundation in both frontend and backend technologies.</p>  <br /><p>With 3 years of hands-on experience, I enjoy crafting elegant and responsive user interfaces in <span>React</span> while seamlessly integrating them with a server-side logic like C# or PHP.</p>'
+        btnEs.style.border = "1px solid ghostwhite"
+        btnEn.style.border = "1px solid gold"
+
+      } else if (language == "es") {
+        desc.innerHTML = '<p id="description-es"> Hola, soy un desarrollador de software web de España, versátil y orientado a resultados, con una sólida base en tecnologías frontend y backend.</p><br /><p>Con 3 años de experiencia práctica, disfruto creando interfaces de usuario elegantes e interactivas en <span>React</span> e integrándolas perfectamente con lógica en el lado del servidor, como C# o PHP.</p>'
+        btnEs.style.border = "1px solid gold"
+        btnEn.style.border = "1px solid ghostwhite"
+      }
+
+      currentLanguage = language;
+    }
+  </script>
 </body>
 
 </html>
