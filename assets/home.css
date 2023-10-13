@@ -76,7 +76,6 @@ a:visited {
 }
 .date {
   font-size: 16px;
-  font-style: italic;
 }
 .icons a {
   display: inline-block;
@@ -103,8 +102,25 @@ a:visited {
   margin: 0 auto 0 auto;
   border-radius: 0.5rem;
 }
-.articles p {
+
+.articles p, .experiences p {
   margin: 12px 0;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns, evenly distributed */
+}
+.timeline span {
+  margin-bottom: 6px;
+}
+
+.timeline > div:nth-child(odd) {
+  text-align: right;
+  border-right: 1px solid gold;
+}
+
+.experience {
+  padding: 20px; /* Optional: Add spacing within each experience */
 }
 
 #btn_es {
