@@ -31,10 +31,8 @@
         <h2 class="size-big">SANTI BELLO</h2>
         <h2 class="span size-medium">SOFTWARE DEVELOPER</h2>
         <h2 class="size-medium">AT <a href="https://newtonlabspace.com/">NEWTONLAB SPACE</a></h2>
-        <h2 class="size-small">JAVASCRIPT</h2>
-        <h2 class="size-small">REACT</h2>
-        <h2 class="size-small">JAVA</h2>
         <h2 class="size-small">.NET</h2>
+        <h2 class="size-small">C#</h2>
       </div>
     </header>
 
@@ -45,9 +43,10 @@
       </div>
       <br/>
       <div id="desc">
-        <p>Hola, soy un desarrollador de software web de España, versátil y orientado a resultados, con una sólida base en tecnologías frontend y backend.</p>
-      <br />
-      <p>Con 3 años de experiencia práctica, disfruto creando interfaces de usuario elegantes e interactivas en React e integrándolas perfectamente con lógica en el lado del servidor, como C# o PHP.</p>
+        <p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>.NET</span> y <span>C#</span>. 
+          <br/>
+          <br/>
+          Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>
       </div>
     </div>
       
@@ -56,9 +55,11 @@
     <div class="timeline">
       <div class="experience">
         <p>
-          <span>Senior Full-stack Software Developer</span>
+          <span>Backend Software Developer</span>
           <br/>
            at <a href="https://en.newtonlabspace.com/">Newtonlab Space</a>
+           <br/>
+           <date class="date">.NET, C#, ASP.NET, Firebase</date>
            <br/>
           <date class="date">2023-Now</date>
         </p>
@@ -71,16 +72,20 @@
           <br/>
            at <a href="https://www.nunegal.com/web/">Nunegal Consulting SL</a>
            <br/>
-          <date class="date">2021-2023 (1 year 7 months)</date>
+           <date class="date">C#, .NET, Java, Spring Boot, PHP, SQL</date>
+           <br/>
+           <date class="date">2021 | 1 year 7 months</date>
         </p>
       </div>
       <div class="experience">
         <p>
-          <span>Frontend Software Developer</span>
+          <span>Software Developer</span>
           <br/>
            at <a href="https://www.diariomotor.com/">Diariomotor</a>
            <br/>
-          <date class="date">2019-2020 (8 months)</date> 
+           <date class="date">React, JavaScript, CSS</date>
+           <br/>
+          <date class="date">2019 | 3 months</date> 
         </p>
       </div>
       <div class="experience"></div>
@@ -91,16 +96,20 @@
           <br/>
            at <a href="https://smashbrosspain.com/">SmashBrosSpain</a>
            <br/>
-          <date class="date">2018-2019 (3 months)</date>
+           <date class="date">PHP, Codeigniter, SQL</date>
+           <br/>
+          <date class="date">2019 | 7 months</date>
         </p>
       </div>
       <div class="experience">
         <p>
-          <span>My coding journey begins</span>
+          <span>Self-taught programming</span>
           <br/>
-           at <a href="https://www.iessanclemente.net/">IES San Clemente</a>
+           at <a href="www.google.com/">Internet</a>
            <br/>
-          <date class="date">2018</date>
+           <date class="date">PHP, SQL, JavaScript, CSS</date>
+           <br/>
+           <date class="date">2018</date>
         </p>
       </div>
     </div>
@@ -155,12 +164,12 @@
 
       if (language == "en") {
         console.log("isenglish")
-        desc.innerHTML = '<p id="description-en">Hello, Im a web software developer from Spain, versatile and results-driven developer with a strong foundation in both frontend and backend technologies.</p>  <br /><p>With 3 years of hands-on experience, I enjoy crafting elegant and responsive user interfaces in <span>React</span> while seamlessly integrating them with a server-side logic like C# or PHP.</p>'
+        desc.innerHTML = '<p>Hello, I\'m a developer with 3 years of experience, versatile with a strong foundation in backend technologies, currently working with <span>.NET</span> and <span>C#</span>.<br/><br>Once, I helped grow a local community that enjoys playing video games; now, I develop technological solutions.</p>';
         btnEs.style.border = "1px solid ghostwhite"
         btnEn.style.border = "1px solid gold"
 
       } else if (language == "es") {
-        desc.innerHTML = '<p id="description-es"> Hola, soy un desarrollador de software web de España, versátil y orientado a resultados, con una sólida base en tecnologías frontend y backend.</p><br /><p>Con 3 años de experiencia práctica, disfruto creando interfaces de usuario elegantes e interactivas en <span>React</span> e integrándolas perfectamente con lógica en el lado del servidor, como C# o PHP.</p>'
+        desc.innerHTML = '<p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>.NET</span> y <span>C#</span>.<br/><br/>Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>';
         btnEs.style.border = "1px solid gold"
         btnEn.style.border = "1px solid ghostwhite"
       }
