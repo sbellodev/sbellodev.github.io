@@ -110,7 +110,7 @@ a:visited {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns, evenly distributed */
 }
-.timeline span {
+.timeline span, .experience span {
   margin-bottom: 6px;
 }
 
@@ -119,8 +119,12 @@ a:visited {
   border-right: 1px solid gold;
 }
 
-.experience {
-  padding: 20px; /* Optional: Add spacing within each experience */
+
+.experience-left {
+  padding-right: 20px;
+}
+.experience-right {
+  padding-left: 20px;
 }
 
 #btn_es {
