@@ -103,14 +103,14 @@ a:visited {
   border-radius: 0.5rem;
 }
 
-.articles p, .experiences p {
+.articles p, .experiences p, .projects p {
   margin: 12px 0;
 }
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns, evenly distributed */
 }
-.timeline span, .experience span {
+.timeline span, .experience span, .projects span {
   margin-bottom: 6px;
 }
 
