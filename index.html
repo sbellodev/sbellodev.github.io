@@ -23,16 +23,16 @@
 
 <body>
   <main>
-    <header class="font-endless text-right intro">
+    <header class="font-endless text-left intro">
       <div>
         <img src="/assets/img/perfil.jpg" alt="profile image" class="profile-img text-center">
       </div>
-      <div class="text-left intro-desc">
+      <div class="text-right intro-desc">
         <h2 class="size-big">SANTI BELLO</h2>
         <h2 class="span size-medium">SOFTWARE DEVELOPER</h2>
-        <h2 class="size-medium">AT <a href="https://newtonlabspace.com/">NEWTONLAB SPACE</a></h2>
-        <h2 class="size-small">.NET</h2>
-        <h2 class="size-small">C#</h2>
+        <h2 class="size-medium">AT <a href="https://www.nunegal.com/web/">NUNEGAL</a></h2>
+        <h2 class="size-small">SPRING BOOT</h2>
+        <h2 class="size-small">JAVA</h2>
       </div>
     </header>
 
@@ -43,7 +43,7 @@
       </div>
       <br/>
       <div id="desc">
-        <p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>.NET</span> y <span>C#</span>. 
+        <p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>. 
           <br/>
           <br/>
           Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>
@@ -55,18 +55,29 @@
     <div class="timeline">
       <div class="experience experience-left">
         <p>
-          <span>Software Developer</span>
+          <span>Senior Software Developer</span>
           <br/>
-           at <a href="https://en.newtonlabspace.com/">Newtonlab Space</a>
+           at <a href="https://www.nunegal.com/web/">Nunegal Consulting SL</a>
            <br/>
-           <date class="date">.NET, C#, ASP.NET, React, JavaScript, CSS, HTML, Firebase</date>
+           <date class="date">Java, Spring Boot, JavaScript, CSS, HTML, SQL</date>
            <br/>
-          <date class="date">2023-Now</date>
+           <date class="date">2023 | Now</date>
         </p>
       </div>
       <div class="experience"></div>
       <div class="experience"></div>
       <div class="experience experience-right">
+        <p>
+          <span>Software Developer (temporary)</span>
+          <br/>
+           at <a href="https://en.newtonlabspace.com/">Newtonlab Space</a>
+           <br/>
+           <date class="date">.NET, C#, ASP.NET, React, JavaScript, CSS, HTML, Firebase</date>
+           <br/>
+          <date class="date">2023 | 10 months</date>
+        </p>
+      </div>
+      <div class="experience experience-left">
         <p>
           <span>Software Developer</span>
           <br/>
@@ -77,7 +88,9 @@
            <date class="date">2021 | 1 year 7 months</date>
         </p>
       </div>
-      <div class="experience experience-left">
+      <div class="experience"></div>
+      <div class="experience"></div>
+      <div class="experience experience-right">
         <p>
           <span>Software Developer</span>
           <br/>
@@ -88,9 +101,8 @@
           <date class="date">2019 | 3 months</date> 
         </p>
       </div>
-      <div class="experience"></div>
-      <div class="experience"></div>
-      <div class="experience experience-right">
+      
+      <div class="experience experience-left">
         <p>
           <span>Volunteer Software Developer</span>
           <br/>
@@ -101,7 +113,9 @@
           <date class="date">2019 | 7 months</date>
         </p>
       </div>
-      <div class="experience experience-left">
+      <div class="experience"></div>
+      <div class="experience"></div>
+      <div class="experience experience-right">
         <p>
           <span>Self-taught programming</span>
           <br/>
@@ -200,12 +214,12 @@
 
       if (language == "en") {
         console.log("isenglish")
-        desc.innerHTML = '<p>Hello, I\'m a developer with 3 years of experience, versatile with a strong foundation in backend technologies, currently working with <span>.NET</span> and <span>C#</span>.<br/><br>Once, I helped grow a local community that enjoys playing video games; now, I develop technological solutions.</p>';
+        desc.innerHTML = '<p>Hello, I\'m a developer with 3 years of experience, versatile with a strong foundation in backend technologies, currently working with <span>Spring Boot</span> and <span>Java</span>.<br/><br>Once, I helped grow a local community that enjoys playing video games; now, I develop technological solutions.</p>';
         btnEs.style.border = "1px solid ghostwhite"
         btnEn.style.border = "1px solid gold"
 
       } else if (language == "es") {
-        desc.innerHTML = '<p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>.NET</span> y <span>C#</span>.<br/><br/>Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>';
+        desc.innerHTML = '<p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>.<br/><br/>Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>';
         btnEs.style.border = "1px solid gold"
         btnEn.style.border = "1px solid ghostwhite"
       }
