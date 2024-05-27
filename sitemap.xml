@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://santibello.es</loc>
+    <loc>https://santibello.dev</loc>
     <lastmod>2023-08-27</lastmod>
   </url>
   <url>
-    <loc>https://santibello.es/blog</loc>
+    <loc>https://santibello.dev/blog</loc>
     <lastmod>2023-08-27</lastmod>
   </url>
 </urlset>
