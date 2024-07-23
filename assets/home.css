@@ -106,25 +106,12 @@ a:visited {
 .articles p, .experiences p, .projects p {
   margin: 12px 0;
 }
+
 .timeline {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns, evenly distributed */
 }
+
 .timeline span, .experience span, .projects span {
   margin-bottom: 6px;
-}
-
-.timeline > div:nth-child(odd) {
-  text-align: right;
-  border-right: 1px solid gold;
-}
-
-
-.experience-left {
-  padding-right: 20px;
-}
-.experience-right {
-  padding-left: 20px;
 }
 
 #btn_es {
@@ -151,8 +138,6 @@ a:visited {
   position: relative;
   right: -56px;
   background: rgb(24, 24, 24);
-  border: 1px solid gold;
-  border-radius: 1px;
   padding: 4px 16px;
 }
 
@@ -160,8 +145,6 @@ a:visited {
   position: relative;
   right: 56px;
   background: rgb(24, 24, 24);
-  border: 1px solid gold;
-  border-radius: 1px;
   padding: 4px 16px;
 }
 
