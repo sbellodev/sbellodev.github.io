@@ -43,7 +43,7 @@
       </div>
       <br/>
       <div id="desc">
-        <p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>. 
+        <p>Hola, soy desarrollador con <span id="years-of-exp">3</span> años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>. 
           <br/>
           <br/>
           Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>
@@ -176,6 +176,23 @@
   <script>
     let currentLanguage = 'es';
 
+    function getYearsOfExperience() {
+      const currentDate = new Date();
+      const initialDate = new Date('2021-09-30');
+      
+      const diffMs = currentDate - initialDate;
+      const msPerYear = 1000 * 60 * 60 * 24 * 365.25;
+      const exactYears = diffMs / msPerYear;
+      
+      const rounded = Math.floor(exactYears * 2) / 2;
+      
+      return rounded;
+    }
+
+      const yearsElement = document.getElementById('years-of-exp');
+      yearsElement.textContent = getYearsOfExperience();
+      yearsElement.style.color = 'ghostwhite';
+
     function toggleLanguage(language) {
       
       
@@ -191,12 +208,12 @@
 
       if (language == "en") {
         console.log("isenglish")
-        desc.innerHTML = '<p>Hello, I\'m a developer with 3 years of experience, versatile with a strong foundation in backend technologies, currently working with <span>Spring Boot</span> and <span>Java</span>.<br/><br>Once, I helped grow a local community that enjoys playing video games; now, I develop technological solutions.</p>';
+        desc.innerHTML = '<p>Hello, I\'m a developer with '+getYearsOfExperience()+' years of experience, versatile with a strong foundation in backend technologies, currently working with <span>Spring Boot</span> and <span>Java</span>.<br/><br>Once, I helped grow a local community that enjoys playing video games; now, I develop technological solutions.</p>';
         btnEs.style.border = "1px solid ghostwhite"
         btnEn.style.border = "1px solid gold"
 
       } else if (language == "es") {
-        desc.innerHTML = '<p>Hola, soy desarrollador con 3 años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>.<br/><br/>Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>';
+        desc.innerHTML = '<p>Hola, soy desarrollador con '+getYearsOfExperience()+' años de experiencia, versátil con una sólida base en tecnologías de backend y actualmente trabajando con <span>Spring Boot</span> y <span>Java</span>.<br/><br/>Una vez ayudé a hacer crecer una comunidad local a la que le gusta jugar a videojuegos, ahora desarrollo soluciones tecnológicas.</p>';
         btnEs.style.border = "1px solid gold"
         btnEn.style.border = "1px solid ghostwhite"
       }
