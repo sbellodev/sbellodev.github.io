@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://santibello.dev/sitemap.xml
+Sitemap: https://santibello.com/sitemap.xml
 User-agent: *
 Disallow:

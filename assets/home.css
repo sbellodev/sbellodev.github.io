@@ -134,20 +134,6 @@ a:visited {
   transition: background-color 0.3s;
 }
 
-.center-r {
-  position: relative;
-  right: -56px;
-  background: rgb(24, 24, 24);
-  padding: 4px 16px;
-}
-
-.center-l {
-  position: relative;
-  right: 56px;
-  background: rgb(24, 24, 24);
-  padding: 4px 16px;
-}
-
 /* Media */
 @media only screen and (max-width: 480px) {
   .intro {

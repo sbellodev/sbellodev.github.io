@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.santibello\.dev$ [NC]
-RewriteRule ^(.*)$ https://santibello.dev/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.santibello\.com$ [NC]
+RewriteRule ^(.*)$ https://santibello.com/$1 [L,R=301]
